@@ -1,0 +1,685 @@
+msgid ""
+msgstr ""
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: PhraseApp (phraseapp.com)\n"
+
+msgid "alipay_crossborder"
+msgstr ""
+
+msgid "alipay_crossborder_desc"
+msgstr ""
+
+msgid "amount"
+msgstr ""
+
+msgid "back_button"
+msgstr ""
+
+msgid "bic"
+msgstr ""
+
+msgid "bic_input"
+msgstr ""
+
+msgid "birthdate_input"
+msgstr ""
+
+msgid "cancel"
+msgstr ""
+
+msgid "canceled_payment_process"
+msgstr ""
+
+msgid "config_additional_info"
+msgstr ""
+
+msgid "config_additional_info_desc"
+msgstr ""
+
+msgid "config_allowed_currencies"
+msgstr ""
+
+msgid "config_allowed_currencies_desc"
+msgstr ""
+
+msgid "config_base_url"
+msgstr ""
+
+msgid "config_base_url_desc"
+msgstr ""
+
+msgid "config_basket_max"
+msgstr ""
+
+msgid "config_basket_max_desc"
+msgstr ""
+
+msgid "config_basket_min"
+msgstr ""
+
+msgid "config_basket_min_desc"
+msgstr ""
+
+msgid "config_billing_countries"
+msgstr ""
+
+msgid "config_billing_countries_desc"
+msgstr ""
+
+msgid "config_billing_shipping"
+msgstr ""
+
+msgid "config_billing_shipping_desc"
+msgstr ""
+
+msgid "config_challenge_challenge_threed"
+msgstr ""
+
+msgid "config_challenge_indicator"
+msgstr ""
+
+msgid "config_challenge_indicator_desc"
+msgstr ""
+
+msgid "config_challenge_no_challenge"
+msgstr ""
+
+msgid "config_challenge_no_preference"
+msgstr ""
+
+msgid "config_creditor_city"
+msgstr ""
+
+msgid "config_creditor_city_desc"
+msgstr ""
+
+msgid "config_creditor_id"
+msgstr ""
+
+msgid "config_creditor_id_desc"
+msgstr ""
+
+msgid "config_creditor_name"
+msgstr ""
+
+msgid "config_creditor_name_desc"
+msgstr ""
+
+msgid "config_descriptor"
+msgstr ""
+
+msgid "config_descriptor_desc"
+msgstr ""
+
+msgid "config_email"
+msgstr ""
+
+msgid "config_enable_bic"
+msgstr ""
+
+msgid "config_enable_bic_desc"
+msgstr ""
+
+msgid "config_http_password"
+msgstr ""
+
+msgid "config_http_password_desc"
+msgstr ""
+
+msgid "config_http_user"
+msgstr ""
+
+msgid "config_http_user_desc"
+msgstr ""
+
+msgid "config_limit_desc"
+msgstr ""
+
+msgid "config_mandate_text"
+msgstr ""
+
+msgid "config_mandate_text_desc"
+msgstr ""
+
+msgid "config_merchant_account_id"
+msgstr ""
+
+msgid "config_merchant_account_id_desc"
+msgstr ""
+
+msgid "config_merchant_secret"
+msgstr ""
+
+msgid "config_merchant_secret_desc"
+msgstr ""
+
+msgid "config_message"
+msgstr ""
+
+msgid "config_payment_action"
+msgstr ""
+
+msgid "config_payment_action_desc"
+msgstr ""
+
+msgid "config_payment_type"
+msgstr ""
+
+msgid "config_payment_type_desc"
+msgstr ""
+
+msgid "config_shipping_countries"
+msgstr ""
+
+msgid "config_shipping_countries_desc"
+msgstr ""
+
+msgid "config_shopping_basket"
+msgstr ""
+
+msgid "config_shopping_basket_desc"
+msgstr ""
+
+msgid "config_ssl_max_limit"
+msgstr ""
+
+msgid "config_status_desc_alipay_crossborder"
+msgstr ""
+
+msgid "config_status_desc_creditcard"
+msgstr ""
+
+msgid "config_status_desc_eps"
+msgstr ""
+
+msgid "config_status_desc_ideal"
+msgstr ""
+
+msgid "config_status_desc_masterpass"
+msgstr ""
+
+msgid "config_status_desc_paybybankapp"
+msgstr ""
+
+msgid "config_status_desc_paypal"
+msgstr ""
+
+msgid "config_status_desc_poi_pia"
+msgstr ""
+
+msgid "config_status_desc_ratepayinvoice"
+msgstr ""
+
+msgid "config_status_desc_sepact"
+msgstr ""
+
+msgid "config_status_desc_sepadd"
+msgstr ""
+
+msgid "config_status_desc_sofortbanking"
+msgstr ""
+
+msgid "config_three_d_merchant_account_id"
+msgstr ""
+
+msgid "config_three_d_merchant_account_id_desc"
+msgstr ""
+
+msgid "config_three_d_merchant_secret"
+msgstr ""
+
+msgid "config_three_d_merchant_secret_desc"
+msgstr ""
+
+msgid "config_three_d_min_limit"
+msgstr ""
+
+msgid "config_title"
+msgstr ""
+
+msgid "config_title_desc"
+msgstr ""
+
+msgid "config_vault_desc"
+msgstr ""
+
+msgid "config_wpp_url"
+msgstr ""
+
+msgid "config_wpp_url_desc"
+msgstr ""
+
+msgid "config_zapp_merchant_return_string"
+msgstr ""
+
+msgid "config_zapp_merchant_return_string_desc"
+msgstr ""
+
+msgid "creditcard"
+msgstr ""
+
+msgid "creditcard_desc"
+msgstr ""
+
+msgid "creditor"
+msgstr ""
+
+msgid "creditor_id_input"
+msgstr ""
+
+msgid "debtor"
+msgstr ""
+
+msgid "debtor_acc_owner"
+msgstr ""
+
+msgid "enable_heading_title_alipay_crossborder"
+msgstr ""
+
+msgid "enable_heading_title_creditcard"
+msgstr ""
+
+msgid "enable_heading_title_eps"
+msgstr ""
+
+msgid "enable_heading_title_ideal"
+msgstr ""
+
+msgid "enable_heading_title_masterpass"
+msgstr ""
+
+msgid "enable_heading_title_paybybankapp"
+msgstr ""
+
+msgid "enable_heading_title_paypal"
+msgstr ""
+
+msgid "enable_heading_title_poi_pia"
+msgstr ""
+
+msgid "enable_heading_title_ratepayinvoice"
+msgstr ""
+
+msgid "enable_heading_title_sepact"
+msgstr ""
+
+msgid "enable_heading_title_sepadd"
+msgstr ""
+
+msgid "enable_heading_title_sofortbanking"
+msgstr ""
+
+msgid "enable_vault"
+msgstr ""
+
+msgid "eps"
+msgstr ""
+
+msgid "eps_desc"
+msgstr ""
+
+msgid "error_credentials"
+msgstr ""
+
+msgid "error_email"
+msgstr ""
+
+msgid "error_malformed_creditcard_request"
+msgstr ""
+
+msgid "error_no_post_processing_operations"
+msgstr ""
+
+msgid "error_no_post_processing_operations_unconfirmed"
+msgstr ""
+
+msgid "error_no_transaction"
+msgstr ""
+
+msgid "error_woocommerce_missing"
+msgstr ""
+
+msgid "first-name"
+msgstr ""
+
+msgid "heading_creditcard_form"
+msgstr ""
+
+msgid "heading_title_alipay_crossborder"
+msgstr ""
+
+msgid "heading_title_creditcard"
+msgstr ""
+
+msgid "heading_title_eps"
+msgstr ""
+
+msgid "heading_title_ideal"
+msgstr ""
+
+msgid "heading_title_masterpass"
+msgstr ""
+
+msgid "heading_title_paybybankapp"
+msgstr ""
+
+msgid "heading_title_paypal"
+msgstr ""
+
+msgid "heading_title_poi_pia"
+msgstr ""
+
+msgid "heading_title_ratepayinvoice"
+msgstr ""
+
+msgid "heading_title_sepact"
+msgstr ""
+
+msgid "heading_title_sepadd"
+msgstr ""
+
+msgid "heading_title_sofortbanking"
+msgstr ""
+
+msgid "heading_title_support"
+msgstr ""
+
+msgid "https://github.com/epaiement-up2pay/woocommerce"
+msgstr ""
+
+msgid "https://www.credit-agricole.fr/"
+msgstr ""
+
+msgid "iban"
+msgstr ""
+
+msgid "iban_input"
+msgstr ""
+
+msgid "ideal"
+msgstr ""
+
+msgid "ideal_desc"
+msgstr ""
+
+msgid "last-name"
+msgstr ""
+
+msgid "masterpass"
+msgstr ""
+
+msgid "masterpass_desc"
+msgstr ""
+
+msgid "order_error"
+msgstr ""
+
+msgid "order_status_authorized"
+msgstr ""
+
+msgid "order_status_authorized_count_plural"
+msgstr ""
+
+msgid "order_status_authorized_count_single"
+msgid_plural "order_status_authorized_count_plural"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "order_status_gateway_update"
+msgstr ""
+
+msgid "pagination_back"
+msgstr ""
+
+msgid "pagination_next"
+msgstr ""
+
+msgid "panel_action"
+msgstr ""
+
+msgid "panel_amount"
+msgstr ""
+
+msgid "panel_currency"
+msgstr ""
+
+msgid "panel_order_number"
+msgstr ""
+
+msgid "panel_parent_transaction_id"
+msgstr ""
+
+msgid "panel_payment_method"
+msgstr ""
+
+msgid "panel_transaction"
+msgstr ""
+
+msgid "panel_transaction_state"
+msgstr ""
+
+msgid "panel_transcation_id"
+msgstr ""
+
+msgid "paybybankapp"
+msgstr ""
+
+msgid "paybybankapp_desc"
+msgstr ""
+
+msgid "Payment Gateway for WooCommerce"
+msgstr ""
+
+msgid "payment_awaiting"
+msgstr ""
+
+msgid "payment_suffix"
+msgstr ""
+
+msgid "paypal"
+msgstr ""
+
+msgid "paypal_desc"
+msgstr ""
+
+msgid "poi_pia"
+msgstr ""
+
+msgid "poi_pia_desc"
+msgstr ""
+
+msgid "ptrid"
+msgstr ""
+
+msgid "ratepayinvoice"
+msgstr ""
+
+msgid "ratepayinvoice_desc"
+msgstr ""
+
+msgid "ratepayinvoice_fields_error"
+msgstr ""
+
+msgid "redirect_text"
+msgstr ""
+
+msgid "refund_gateway_error"
+msgstr ""
+
+msgid "refund_online_error"
+msgstr ""
+
+msgid "refund_partial_shipping_error"
+msgstr ""
+
+msgid "refund_processing_error"
+msgstr ""
+
+msgid "sepact"
+msgstr ""
+
+msgid "sepact_desc"
+msgstr ""
+
+msgid "sepadd"
+msgstr ""
+
+msgid "sepadd_desc"
+msgstr ""
+
+msgid "sepa_cancel"
+msgstr ""
+
+msgid "sepa_fields_error"
+msgstr ""
+
+msgid "sepa_text_1"
+msgstr ""
+
+msgid "sepa_text_2"
+msgstr ""
+
+msgid "sepa_text_2b"
+msgstr ""
+
+msgid "sepa_text_3"
+msgstr ""
+
+msgid "sepa_text_4"
+msgstr ""
+
+msgid "sepa_text_5"
+msgstr ""
+
+msgid "sepa_text_6"
+msgstr ""
+
+msgid "sofortbanking"
+msgstr ""
+
+msgid "sofortbanking_desc"
+msgstr ""
+
+msgid "submit_button"
+msgstr ""
+
+msgid "success_credentials"
+msgstr ""
+
+msgid "success_email"
+msgstr ""
+
+msgid "success_new_transaction"
+msgstr ""
+
+msgid "test_config"
+msgstr ""
+
+msgid "test_credentials"
+msgstr ""
+
+msgid "text_advanced"
+msgstr ""
+
+msgid "text_cancel_transaction"
+msgstr ""
+
+msgid "text_capture_transaction"
+msgstr ""
+
+msgid "text_confirm"
+msgstr ""
+
+msgid "text_credentials"
+msgstr ""
+
+msgid "text_credentials_desc"
+msgstr ""
+
+msgid "text_delete"
+msgstr ""
+
+msgid "text_enable_disable"
+msgstr ""
+
+msgid "text_go_to_plugins"
+msgstr ""
+
+msgid "text_payment_action_pay"
+msgstr ""
+
+msgid "text_payment_action_reserve"
+msgstr ""
+
+msgid "text_payment_type_pia"
+msgstr ""
+
+msgid "text_payment_type_poi"
+msgstr ""
+
+msgid "text_refund_transaction"
+msgstr ""
+
+msgid "text_response_data"
+msgstr ""
+
+msgid "text_sepadd_config_desc"
+msgstr ""
+
+msgid "text_sepa_config"
+msgstr ""
+
+msgid "text_support"
+msgstr ""
+
+msgid "text_terms_accept"
+msgstr ""
+
+msgid "text_terms_notice"
+msgstr ""
+
+msgid "text_total"
+msgstr ""
+
+msgid "text_transaction"
+msgstr ""
+
+msgid "text_transaction_details_1"
+msgstr ""
+
+msgid "text_transaction_details_2"
+msgstr ""
+
+msgid "title_payment_gateway"
+msgstr ""
+
+msgid "transfer_notice"
+msgstr ""
+
+msgid "vault_account_number"
+msgstr ""
+
+msgid "vault_delete_card_text"
+msgstr ""
+
+msgid "vault_save_text"
+msgstr ""
+
+msgid "vault_use_existing_text"
+msgstr ""
+
+msgid "vault_use_new_text"
+msgstr ""
+
+msgid "warning_credit_card_url_mismatch"
+msgstr ""
+
+msgid "Crédit Agricole"
+msgstr ""
+
+msgid "Crédit Agricole WooCommerce Extension"
+msgstr ""
