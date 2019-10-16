@@ -197,6 +197,9 @@ msgstr "Activer le mode de paiement Carte de crédit pour qu’il soit disponibl
 msgid "config_status_desc_eps"
 msgstr "Activer le mode de paiement Virement eps pour qu’il soit disponible pour vos clients."
 
+msgid "config_status_desc_giropay"
+msgstr "Activate payment method giropay to make it available for your consumers."
+
 msgid "config_status_desc_ideal"
 msgstr "Activer le mode de paiement iDEAL pour qu’il soit disponible pour vos clients."
 
@@ -252,7 +255,7 @@ msgid "config_wpp_url"
 msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2)"
 
 msgid "config_wpp_url_desc"
-msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2) (ex. https://wpp.wirecard.com)."
+msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2) (ex. https://api.secure.epaiement-up2pay.fr)."
 
 msgid "config_zapp_merchant_return_string"
 msgstr "Merchant Return URL"
@@ -287,6 +290,9 @@ msgstr "Activer Crédit Agricole Carte de crédit"
 
 msgid "enable_heading_title_eps"
 msgstr "Activer Crédit Agricole Virement eps"
+
+msgid "enable_heading_title_giropay"
+msgstr "Enable Crédit Agricole giropay"
 
 msgid "enable_heading_title_ideal"
 msgstr "Activer Crédit Agricole iDEAL"
@@ -349,6 +355,12 @@ msgstr "Désolé, mais il faut d’abord installer et activer l’extension WooC
 msgid "first-name"
 msgstr "Prénom"
 
+msgid "giropay"
+msgstr "giropay"
+
+msgid "giropay_desc"
+msgstr "giropay transactions via Crédit Agricole Payment Gateway."
+
 msgid "heading_creditcard_form"
 msgstr "Entrer les détails de la carte"
 
@@ -360,6 +372,9 @@ msgstr "Crédit Agricole Carte de crédit"
 
 msgid "heading_title_eps"
 msgstr "Crédit Agricole Virement eps"
+
+msgid "heading_title_giropay"
+msgstr "Crédit Agricole giropay"
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"

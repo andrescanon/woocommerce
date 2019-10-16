@@ -207,6 +207,9 @@ msgstr "신용카드 결제방법 활성화"
 msgid "config_status_desc_eps"
 msgstr "Activate payment method eps-Überweisung to make it available for your consumers."
 
+msgid "config_status_desc_giropay"
+msgstr "Activate payment method giropay to make it available for your consumers."
+
 msgid "config_status_desc_ideal"
 msgstr "iDEAL 결제방법 활성화"
 
@@ -263,7 +266,7 @@ msgid "config_wpp_url"
 msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2)"
 
 msgid "config_wpp_url_desc"
-msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2) (e.g. https://wpp.wirecard.com)."
+msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2) (e.g. https://api.secure.epaiement-up2pay.fr)."
 
 msgid "config_zapp_merchant_return_string"
 msgstr "Merchant Return URL"
@@ -298,6 +301,9 @@ msgstr "Crédit Agricole 신용카드 사용"
 
 msgid "enable_heading_title_eps"
 msgstr "Enable Crédit Agricole eps-Überweisung"
+
+msgid "enable_heading_title_giropay"
+msgstr "Enable Crédit Agricole giropay"
 
 msgid "enable_heading_title_ideal"
 msgstr "Crédit Agricole iDEAL 사용"
@@ -362,6 +368,12 @@ msgstr "죄송하지만 이 플러그인을 사용하려면 WooCommerce 플러�
 msgid "first-name"
 msgstr "이름"
 
+msgid "giropay"
+msgstr "giropay"
+
+msgid "giropay_desc"
+msgstr "giropay transactions via Crédit Agricole Payment Gateway."
+
 msgid "heading_creditcard_form"
 msgstr "Enter Card Details"
 
@@ -373,6 +385,9 @@ msgstr "Crédit Agricole 신용카드"
 
 msgid "heading_title_eps"
 msgstr "Crédit Agricole eps-Überweisung"
+
+msgid "heading_title_giropay"
+msgstr "Crédit Agricole Giropay"
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"

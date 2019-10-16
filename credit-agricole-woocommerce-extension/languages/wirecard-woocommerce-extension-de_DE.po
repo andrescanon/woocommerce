@@ -197,6 +197,9 @@ msgstr "Kreditkarte aktivieren, um dieses Zahlungsmittel beim Checkout anzubiete
 msgid "config_status_desc_eps"
 msgstr "eps-Überweisung aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
 
+msgid "config_status_desc_giropay"
+msgstr "Activate payment method giropay to make it available for your consumers."
+
 msgid "config_status_desc_ideal"
 msgstr "iDEAL aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
 
@@ -252,7 +255,7 @@ msgid "config_wpp_url"
 msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2)"
 
 msgid "config_wpp_url_desc"
-msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2) (z.B. https://wpp.wirecard.com)."
+msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2) (z.B. https://api.secure.epaiement-up2pay.fr)."
 
 msgid "config_zapp_merchant_return_string"
 msgstr "Merchant Return URL"
@@ -287,6 +290,9 @@ msgstr "Crédit Agricole Kreditkarte aktivieren"
 
 msgid "enable_heading_title_eps"
 msgstr "Crédit Agricole eps-Überweisung aktivieren"
+
+msgid "enable_heading_title_giropay"
+msgstr "Enable Crédit Agricole giropay"
 
 msgid "enable_heading_title_ideal"
 msgstr "Crédit Agricole iDEAL aktivieren"
@@ -349,6 +355,12 @@ msgstr "Für die Verwendung dieses Plugins müssen Sie zuerst die Crédit Agrico
 msgid "first-name"
 msgstr "Vorname"
 
+msgid "giropay"
+msgstr "giropay"
+
+msgid "giropay_desc"
+msgstr "giropay transactions via Crédit Agricole Payment Gateway."
+
 
 msgid "heading_creditcard_form"
 msgstr "Kartendetails eingeben"
@@ -361,6 +373,9 @@ msgstr "Crédit Agricole Kreditkarte"
 
 msgid "heading_title_eps"
 msgstr "Crédit Agricole eps-Überweisung"
+
+msgid "heading_title_giropay"
+msgstr "Crédit Agricole giropay"
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"

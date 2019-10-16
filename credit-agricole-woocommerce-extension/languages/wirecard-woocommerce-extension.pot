@@ -196,6 +196,9 @@ msgstr ""
 msgid "config_status_desc_eps"
 msgstr ""
 
+msgid "config_status_desc_giropay"
+msgstr ""
+
 msgid "config_status_desc_ideal"
 msgstr ""
 
@@ -286,6 +289,9 @@ msgstr ""
 msgid "enable_heading_title_eps"
 msgstr ""
 
+msgid "enable_heading_title_giropay"
+msgstr ""
+
 msgid "enable_heading_title_ideal"
 msgstr ""
 
@@ -346,6 +352,12 @@ msgstr ""
 msgid "first-name"
 msgstr ""
 
+msgid "giropay"
+msgstr ""
+
+msgid "giropay_desc"
+msgstr ""
+
 msgid "heading_creditcard_form"
 msgstr ""
 
@@ -356,6 +368,9 @@ msgid "heading_title_creditcard"
 msgstr ""
 
 msgid "heading_title_eps"
+msgstr ""
+
+msgid "heading_title_giropay"
 msgstr ""
 
 msgid "heading_title_ideal"

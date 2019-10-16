@@ -207,6 +207,9 @@ msgstr "クレジット カードの支払い方法を有効にします"
 msgid "config_status_desc_eps"
 msgstr "Activate payment method eps-Überweisung to make it available for your consumers."
 
+msgid "config_status_desc_giropay"
+msgstr "Activate payment method giropay to make it available for your consumers."
+
 msgid "config_status_desc_ideal"
 msgstr "支払い方法として iDEAL を有効にする"
 
@@ -263,7 +266,7 @@ msgid "config_wpp_url"
 msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2)"
 
 msgid "config_wpp_url_desc"
-msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2) (e.g. https://wpp.wirecard.com)."
+msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2) (e.g. https://api.secure.epaiement-up2pay.fr)."
 
 msgid "config_zapp_merchant_return_string"
 msgstr "Merchant Return URL"
@@ -298,6 +301,9 @@ msgstr "Crédit Agricole クレジットカードを有効にする"
 
 msgid "enable_heading_title_eps"
 msgstr "Enable Crédit Agricole eps-Überweisung"
+
+msgid "enable_heading_title_giropay"
+msgstr "Enable Crédit Agricole giropay"
 
 msgid "enable_heading_title_ideal"
 msgstr "Crédit Agricole iDEAL を有効にする"
@@ -362,6 +368,12 @@ msgstr "申し訳ありません。このプラグインには WooCommerce プ�
 msgid "first-name"
 msgstr "名"
 
+msgid "giropay"
+msgstr "giropay"
+
+msgid "giropay_desc"
+msgstr "giropay transactions via Crédit Agricole Payment Gateway."
+
 msgid "heading_creditcard_form"
 msgstr "Enter Card Details"
 
@@ -373,6 +385,9 @@ msgstr "Crédit Agricole クレジット カード"
 
 msgid "heading_title_eps"
 msgstr "Crédit Agricole eps-Überweisung"
+
+msgid "heading_title_giropay"
+msgstr "Crédit Agricole Giropay"
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"
