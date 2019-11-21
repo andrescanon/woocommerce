@@ -202,9 +202,6 @@ msgstr ""
 msgid "config_status_desc_ideal"
 msgstr ""
 
-msgid "config_status_desc_masterpass"
-msgstr ""
-
 msgid "config_status_desc_paybybankapp"
 msgstr ""
 
@@ -295,9 +292,6 @@ msgstr ""
 msgid "enable_heading_title_ideal"
 msgstr ""
 
-msgid "enable_heading_title_masterpass"
-msgstr ""
-
 msgid "enable_heading_title_paybybankapp"
 msgstr ""
 
@@ -376,9 +370,6 @@ msgstr ""
 msgid "heading_title_ideal"
 msgstr ""
 
-msgid "heading_title_masterpass"
-msgstr ""
-
 msgid "heading_title_paybybankapp"
 msgstr ""
 
@@ -422,12 +413,6 @@ msgid "ideal_desc"
 msgstr ""
 
 msgid "last-name"
-msgstr ""
-
-msgid "masterpass"
-msgstr ""
-
-msgid "masterpass_desc"
 msgstr ""
 
 msgid "order_error"

@@ -202,9 +202,6 @@ msgstr "Activate payment method giropay to make it available for your consumers.
 msgid "config_status_desc_ideal"
 msgstr "Activate payment method iDEAL to make it available for your consumers."
 
-msgid "config_status_desc_masterpass"
-msgstr "Activate payment method Masterpass to make it available for your consumers."
-
 msgid "config_status_desc_paybybankapp"
 msgstr "Activate payment method Pay by Bank app to make it available for your consumers."
 
@@ -295,9 +292,6 @@ msgstr "Enable Crédit Agricole giropay"
 msgid "enable_heading_title_ideal"
 msgstr "Uaktywnić Crédit Agricole iDEAL"
 
-msgid "enable_heading_title_masterpass"
-msgstr "Uaktywnić Crédit Agricole Masterpass"
-
 msgid "enable_heading_title_paybybankapp"
 msgstr "Enable Crédit Agricole Pay by Bank app"
 
@@ -347,7 +341,7 @@ msgid "error_no_transaction"
 msgstr "No transaction found."
 
 msgid "error_woocommerce_missing"
-msgstr "Sorry, but this plugin requires the Crédit Agricole WooCommerce Extension to be installed and active."
+msgstr "Sorry, but this plugin requires the WooCommerce Extension to be installed and active."
 
 msgid "first-name"
 msgstr "First Name"
@@ -375,9 +369,6 @@ msgstr "Crédit Agricole giropay"
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"
-
-msgid "heading_title_masterpass"
-msgstr "Crédit Agricole Masterpass"
 
 msgid "heading_title_paybybankapp"
 msgstr "Crédit Agricole Pay by Bank app"
@@ -423,12 +414,6 @@ msgstr "iDEAL transactions via Crédit Agricole Payment Gateway."
 
 msgid "last-name"
 msgstr "Last Name"
-
-msgid "masterpass"
-msgstr "Masterpass"
-
-msgid "masterpass_desc"
-msgstr "Masterpass transactions via Crédit Agricole Payment Gateway."
 
 msgid "order_error"
 msgstr "Wystąpił błąd podczas procesu płatności."

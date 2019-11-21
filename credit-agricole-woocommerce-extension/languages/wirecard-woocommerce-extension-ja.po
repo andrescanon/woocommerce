@@ -85,19 +85,19 @@ msgid "config_billing_shipping_desc"
 msgstr "有効にすると、請求先/発送先の住所が同一の場合、保証付きインボイスの支払い方法だけが表示されます"
 
 msgid "config_challenge_challenge_threed"
-msgstr "Challenge requested"
+msgstr "リクエストされたチャレンジ"
 
 msgid "config_challenge_indicator"
-msgstr "Challenge Indicator"
+msgstr "チャレンジ指標"
 
 msgid "config_challenge_indicator_desc"
-msgstr "Indicates whether a challenge is  requested for this transaction."
+msgstr "この取引でチャレンジがリクエストされているかを示します。"
 
 msgid "config_challenge_no_challenge"
-msgstr "No challenge requested"
+msgstr "チャレンジがリクエストされていない"
 
 msgid "config_challenge_no_preference"
-msgstr "No preference"
+msgstr "どちらでもよい"
 
 msgid "config_creditor_city"
 msgstr "債権者の居住する市"
@@ -180,7 +180,7 @@ msgid "config_payment_type"
 msgstr "支払いの種類"
 
 msgid "config_payment_type_desc"
-msgstr "Choose \"Payment In Advance\" to display bank data after the checkout process, or \"Payment On Invoice\" to send bank data with the invoice."
+msgstr "「前払い」を選択して注文処理の後に銀行データを表示する、または「請求書払い」を選択して請求書とともに銀行データを送信します。"
 
 
 msgid "config_shipping_countries"
@@ -205,7 +205,7 @@ msgid "config_status_desc_creditcard"
 msgstr "クレジット カードの支払い方法を有効にします"
 
 msgid "config_status_desc_eps"
-msgstr "Activate payment method eps-Überweisung to make it available for your consumers."
+msgstr "購入者が使用できるように支払方法のeps-Überweisungを有効にします。"
 
 msgid "config_status_desc_giropay"
 msgstr "Activate payment method giropay to make it available for your consumers."
@@ -213,11 +213,8 @@ msgstr "Activate payment method giropay to make it available for your consumers.
 msgid "config_status_desc_ideal"
 msgstr "支払い方法として iDEAL を有効にする"
 
-msgid "config_status_desc_masterpass"
-msgstr "支払い方法として Masterpass を有効にする"
-
 msgid "config_status_desc_paybybankapp"
-msgstr "Activate payment method Pay by Bank app to make it available for your consumers."
+msgstr "購入者が使用できるように支払方法のPay by Bank appを有効にします。"
 
 msgid "config_status_desc_paypal"
 msgstr "支払い方法として PayPal を有効にします"
@@ -263,16 +260,16 @@ msgid "config_vault_desc"
 msgstr "クレジット カードを保存しておけば、次回からはクレジット カードの詳細を入力しなくても使用できるようになります。"
 
 msgid "config_wpp_url"
-msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2)"
+msgstr "Crédit AgricoleのPayment Page v2アドレス（URL WPP v2）"
 
 msgid "config_wpp_url_desc"
-msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2) (e.g. https://api.secure.epaiement-up2pay.fr)."
+msgstr "Crédit AgricoleのPayment Page v2アドレス（URL WPP v2）（https://api.secure.epaiement-up2pay.frなど）。"
 
 msgid "config_zapp_merchant_return_string"
-msgstr "Merchant Return URL"
+msgstr "マーチャントリターンURL"
 
 msgid "config_zapp_merchant_return_string_desc"
-msgstr "Merchant Return URL to redirect consumers from their mobile banking apps to your shop."
+msgstr "モバイルバンキングアプリから自分のショップに購入者をリダイレクトするマーチャントリターンURL。"
 
 msgid "creditcard"
 msgstr "Credit Card"
@@ -300,7 +297,7 @@ msgid "enable_heading_title_creditcard"
 msgstr "Crédit Agricole クレジットカードを有効にする"
 
 msgid "enable_heading_title_eps"
-msgstr "Enable Crédit Agricole eps-Überweisung"
+msgstr "Crédit Agricole eps-Überweisungを有効化する"
 
 msgid "enable_heading_title_giropay"
 msgstr "Enable Crédit Agricole giropay"
@@ -308,11 +305,8 @@ msgstr "Enable Crédit Agricole giropay"
 msgid "enable_heading_title_ideal"
 msgstr "Crédit Agricole iDEAL を有効にする"
 
-msgid "enable_heading_title_masterpass"
-msgstr "Crédit Agricole Masterpass を有効にする"
-
 msgid "enable_heading_title_paybybankapp"
-msgstr "Enable Crédit Agricole Pay by Bank app"
+msgstr "Crédit Agricole Pay by Bank appを有効化する"
 
 msgid "enable_heading_title_paypal"
 msgstr "Crédit Agricole PayPal を有効にする"
@@ -340,7 +334,7 @@ msgid "eps"
 msgstr "eps-Überweisung"
 
 msgid "eps_desc"
-msgstr "eps-Überweisung transactions via Crédit Agricole Payment Gateway."
+msgstr "Crédit Agricole決済ゲートウェイによるeps-Überweisung取引"
 
 msgid "error_credentials"
 msgstr "テストが失敗しました。信用証明を確認してください。"
@@ -350,7 +344,7 @@ msgid "error_email"
 msgstr "メールの配信中にエラーが発生しました"
 
 msgid "error_malformed_creditcard_request"
-msgstr "Oops! Something went wrong. Please check your credit card data and try again."
+msgstr "申し訳ありません。問題があります。クレジットカードのデータを確認して再試行してください。"
 
 msgid "error_no_post_processing_operations"
 msgstr "このトランザクションで利用可能なバックエンド操作がありません"
@@ -361,6 +355,7 @@ msgstr "このトランザクションで利用可能なバックエンド操作
 
 msgid "error_no_transaction"
 msgstr "トランザクションが見つかりません"
+
 
 msgid "error_woocommerce_missing"
 msgstr "申し訳ありません。このプラグインには WooCommerce プラグインが必要です。"
@@ -375,7 +370,7 @@ msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
 msgid "heading_creditcard_form"
-msgstr "Enter Card Details"
+msgstr "カードの詳細を入力する"
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Crédit Agricole Alipay Cross-border"
@@ -391,9 +386,6 @@ msgstr "Crédit Agricole Giropay"
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"
-
-msgid "heading_title_masterpass"
-msgstr "Crédit Agricole Masterpass"
 
 msgid "heading_title_paybybankapp"
 msgstr "Crédit Agricole Pay by Bank app"
@@ -443,13 +435,6 @@ msgstr "Crédit Agricole 支払い処理ゲートウェイ経由での iDEAL ト
 msgid "last-name"
 msgstr "氏"
 
-msgid "masterpass"
-msgstr "Masterpass"
-
-
-msgid "masterpass_desc"
-msgstr "Crédit Agricole 支払い処理ゲートウェイ経由での Masterpass トランザクション"
-
 msgid "order_error"
 msgstr "支払い処理中にエラーが発生しました。もう一度実行してください。"
 
@@ -457,7 +442,11 @@ msgid "order_status_authorized"
 msgstr "承認済み"
 
 msgid "order_status_authorized_count_plural"
-msgstr "Authorized <span class=\"count\">(%s)</span>"
+msgstr "承認済み <span class=\"count\">(%s)</span>"
+
+msgid "order_status_authorized_count_single"
+msgid_plural "order_status_authorized_count_plural"
+msgstr[0] ""
 
 
 msgid "order_status_gateway_update"
@@ -502,7 +491,7 @@ msgid "paybybankapp"
 msgstr "Pay by Bank app"
 
 msgid "paybybankapp_desc"
-msgstr "Pay by Bank app transactions via Crédit Agricole Payment Gateway."
+msgstr "Crédit Agricole決済ゲートウェイによるPay by Bank app取引"
 
 msgid "Payment Gateway for WooCommerce"
 msgstr "WooCommerce 用支払いゲートウェイ"
@@ -552,7 +541,7 @@ msgid "refund_online_error"
 msgstr "現在、オンラインでの返金はできません。"
 
 msgid "refund_partial_shipping_error"
-msgstr "You can refund shipping fees only in full; partial refund of shipping fees is not possible."
+msgstr "送料の一部を返金することはできないため、送料は全額でのみ返金できます。"
 
 msgid "refund_processing_error"
 msgstr "返金処理に失敗しました。"
@@ -685,7 +674,7 @@ msgid "text_terms_accept"
 msgstr "I herewith confirm that I have read the <a href=\"#\" target=\"_blank\">privacy notice</a> and <a target=\"_blank\" href=\"#\">additional terms and conditions</a> for Crédit Agricole payment types and that I accept their validity."
 
 msgid "text_terms_notice"
-msgstr "You must agree to the privacy notice and additional terms of Crédit Agricole payment methods."
+msgstr "プライバシー通知に同意し、Crédit Agricole支払方法に関する追加の条件に同意する必要があります。"
 
 msgid "text_total"
 msgstr "合計"
@@ -724,7 +713,7 @@ msgid "vault_use_new_text"
 msgstr "新しいクレジット カードを使用する"
 
 msgid "warning_credit_card_url_mismatch"
-msgstr "Attention: Please check your credentials within the URL setting fields. You might have configured/combined a productive account with a test account."
+msgstr "注意：URLの設定フィールドにある資格証明書を確認してください。利用アカウントにテスト用アカウントを設定している、または組み合わせている可能性があります。"
 
 msgid "Crédit Agricole"
 msgstr "Crédit Agricole"

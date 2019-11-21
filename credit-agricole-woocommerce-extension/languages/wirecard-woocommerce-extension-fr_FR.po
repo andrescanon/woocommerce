@@ -78,19 +78,19 @@ msgid "config_billing_shipping_desc"
 msgstr "Si ce champ est activé, l’écran Mode de paiement Facture avec garantie de paiement n’est affiché que si l’adresse de facturation est identique à l’adresse de livraison."
 
 msgid "config_challenge_challenge_threed"
-msgstr "Challenge requested"
+msgstr "Défi demandé"
 
 msgid "config_challenge_indicator"
-msgstr "Challenge Indicator"
+msgstr "Indicateur de défi"
 
 msgid "config_challenge_indicator_desc"
-msgstr "Indicates whether a challenge is  requested for this transaction."
+msgstr "Indique si un défi est demandé pour cette transaction."
 
 msgid "config_challenge_no_challenge"
-msgstr "No challenge requested"
+msgstr "Aucun défi demandé"
 
 msgid "config_challenge_no_preference"
-msgstr "No preference"
+msgstr "Pas de préférence"
 
 msgid "config_creditor_city"
 msgstr "Ville du créancier"
@@ -203,11 +203,8 @@ msgstr "Activate payment method giropay to make it available for your consumers.
 msgid "config_status_desc_ideal"
 msgstr "Activer le mode de paiement iDEAL pour qu’il soit disponible pour vos clients."
 
-msgid "config_status_desc_masterpass"
-msgstr "Activer le mode de paiement Masterpass pour qu’il soit disponible pour vos clients."
-
 msgid "config_status_desc_paybybankapp"
-msgstr "Activate payment method Pay by Bank app to make it available for your consumers."
+msgstr "Activer le mode de paiement Pay by Bank app pour qu’il soit disponible pour vos consommateurs."
 
 msgid "config_status_desc_paypal"
 msgstr "Activer le mode de paiement PayPal pour qu’il soit disponible pour vos clients."
@@ -258,10 +255,10 @@ msgid "config_wpp_url_desc"
 msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2) (ex. https://api.secure.epaiement-up2pay.fr)."
 
 msgid "config_zapp_merchant_return_string"
-msgstr "Merchant Return URL"
+msgstr "URL de retour du site marchand"
 
 msgid "config_zapp_merchant_return_string_desc"
-msgstr "Merchant Return URL to redirect consumers from their mobile banking apps to your shop."
+msgstr "L’URL de retour du site marchand redirige les consommateurs vers votre boutique à partir de leurs applications de services bancaires mobiles."
 
 msgid "creditcard"
 msgstr "Carte de crédit"
@@ -297,11 +294,8 @@ msgstr "Enable Crédit Agricole giropay"
 msgid "enable_heading_title_ideal"
 msgstr "Activer Crédit Agricole iDEAL"
 
-msgid "enable_heading_title_masterpass"
-msgstr "Activer Crédit Agricole Masterpass"
-
 msgid "enable_heading_title_paybybankapp"
-msgstr "Enable Crédit Agricole Pay by Bank app"
+msgstr "Activez Crédit Agricole Pay by Bank app"
 
 msgid "enable_heading_title_paypal"
 msgstr "Activer Crédit Agricole PayPal"
@@ -338,7 +332,7 @@ msgid "error_email"
 msgstr "Message d’erreur de distribution de l’e-mail."
 
 msgid "error_malformed_creditcard_request"
-msgstr "Oops! Something went wrong. Please check your credit card data and try again."
+msgstr "Oups ! Une erreur est survenue. Veuillez vérifier vos données de carte de crédit et réessayer."
 
 msgid "error_no_post_processing_operations"
 msgstr "Aucune opération de traitement ultérieur disponible pour cette transaction."
@@ -350,7 +344,7 @@ msgid "error_no_transaction"
 msgstr "Aucune transaction trouvée."
 
 msgid "error_woocommerce_missing"
-msgstr "Désolé, mais il faut d’abord installer et activer l’extension WooCommerce Crédit Agricole pour ce plugin."
+msgstr "Désolé, mais il faut d’abord installer et activer l’extension WooCommerce pour ce plugin."
 
 msgid "first-name"
 msgstr "Prénom"
@@ -378,9 +372,6 @@ msgstr "Crédit Agricole giropay"
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"
-
-msgid "heading_title_masterpass"
-msgstr "Crédit Agricole Masterpass"
 
 msgid "heading_title_paybybankapp"
 msgstr "Crédit Agricole Pay by Bank app"
@@ -428,13 +419,6 @@ msgstr "Transactions iDEAL via la passerelle de paiement Crédit Agricole."
 msgid "last-name"
 msgstr "Nom de famille"
 
-msgid "masterpass"
-msgstr "Masterpass"
-
-
-msgid "masterpass_desc"
-msgstr "Transactions Masterpass via la passerelle de paiement Crédit Agricole."
-
 msgid "order_error"
 msgstr "Une erreur est survenue durant le processus de paiement. Veuillez réessayer."
 
@@ -443,6 +427,11 @@ msgstr "Autorisé"
 
 msgid "order_status_authorized_count_plural"
 msgstr "Autorisé <span class=\"count\">(%s)</span>"
+
+msgid "order_status_authorized_count_single"
+msgid_plural "order_status_authorized_count_plural"
+msgstr[0] ""
+msgstr[1] ""
 
 
 msgid "order_status_gateway_update"
@@ -485,10 +474,10 @@ msgid "paybybankapp"
 msgstr "Pay by Bank app"
 
 msgid "paybybankapp_desc"
-msgstr "Pay by Bank app transactions via Crédit Agricole Payment Gateway."
+msgstr "Transactions Pay by Bank app via la passerelle de paiement Crédit Agricole."
 
 msgid "Payment Gateway for WooCommerce"
-msgstr "Payment Processing Gateway for WooCommerce"
+msgstr "Passerelle de paiement pour WooCommerce"
 
 msgid "payment_awaiting"
 msgstr "En attente du paiement à partir de Crédit Agricole."

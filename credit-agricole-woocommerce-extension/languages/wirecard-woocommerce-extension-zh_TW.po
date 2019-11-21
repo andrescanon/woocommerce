@@ -213,9 +213,6 @@ msgstr "Activate payment method giropay to make it available for your consumers.
 msgid "config_status_desc_ideal"
 msgstr "啟動 iDEAL 付款方式"
 
-msgid "config_status_desc_masterpass"
-msgstr "啟動 Masterpass 付款方式"
-
 msgid "config_status_desc_paybybankapp"
 msgstr "Activate payment method Pay by Bank app to make it available for your consumers."
 
@@ -308,9 +305,6 @@ msgstr "Enable Crédit Agricole giropay"
 msgid "enable_heading_title_ideal"
 msgstr "啟用 Crédit Agricole iDEAL"
 
-msgid "enable_heading_title_masterpass"
-msgstr "啟用 Crédit Agricole Masterpass"
-
 msgid "enable_heading_title_paybybankapp"
 msgstr "Enable Crédit Agricole Pay by Bank app"
 
@@ -362,6 +356,7 @@ msgstr "無後端操作可用於此交易，該交易尚未經確認。"
 msgid "error_no_transaction"
 msgstr "找不到交易"
 
+
 msgid "error_woocommerce_missing"
 msgstr "抱歉，但此外掛程式要求安裝並啟動 WooCommerce 外掛程式。"
 
@@ -391,9 +386,6 @@ msgstr "Crédit Agricole Giropay"
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"
-
-msgid "heading_title_masterpass"
-msgstr "Crédit Agricole Masterpass"
 
 msgid "heading_title_paybybankapp"
 msgstr "Crédit Agricole Pay by Bank app"
@@ -442,13 +434,6 @@ msgstr "透過 Crédit Agricole Payment Processing Gateway 進行 iDEAL 交易"
 
 msgid "last-name"
 msgstr "姓"
-
-msgid "masterpass"
-msgstr "Masterpass"
-
-
-msgid "masterpass_desc"
-msgstr "透過 Crédit Agricole Payment Processing Gateway 進行 Masterpass 交易"
 
 msgid "order_error"
 msgstr "付款過程中發生錯誤，請重試。"

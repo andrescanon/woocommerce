@@ -85,19 +85,19 @@ msgid "config_billing_shipping_desc"
 msgstr "如已激活，则仅在账单/收货地址相同时才会显示保证发票付款方式"
 
 msgid "config_challenge_challenge_threed"
-msgstr "Challenge requested"
+msgstr "请求质询"
 
 msgid "config_challenge_indicator"
-msgstr "Challenge Indicator"
+msgstr "质询指标"
 
 msgid "config_challenge_indicator_desc"
-msgstr "Indicates whether a challenge is  requested for this transaction."
+msgstr "指示是否为此交易请求质询。"
 
 msgid "config_challenge_no_challenge"
-msgstr "No challenge requested"
+msgstr "没有质询被请求"
 
 msgid "config_challenge_no_preference"
-msgstr "No preference"
+msgstr "没有首选项"
 
 msgid "config_creditor_city"
 msgstr "债权人所处城市"
@@ -180,7 +180,7 @@ msgid "config_payment_type"
 msgstr "付款方式"
 
 msgid "config_payment_type_desc"
-msgstr "Choose \"Payment In Advance\" to display bank data after the checkout process, or \"Payment On Invoice\" to send bank data with the invoice."
+msgstr "选择“预付货款”，在结账流程后显示银行数据，或选择“交货付款”，发送带有发票的银行数据。"
 
 
 msgid "config_shipping_countries"
@@ -205,7 +205,7 @@ msgid "config_status_desc_creditcard"
 msgstr "激活信用卡付款方式"
 
 msgid "config_status_desc_eps"
-msgstr "Activate payment method eps-Überweisung to make it available for your consumers."
+msgstr "激活 eps-Überweisung 支付方式以使客户可以支付。"
 
 msgid "config_status_desc_giropay"
 msgstr "Activate payment method giropay to make it available for your consumers."
@@ -213,11 +213,8 @@ msgstr "Activate payment method giropay to make it available for your consumers.
 msgid "config_status_desc_ideal"
 msgstr "激活 iDEAL 付款方式"
 
-msgid "config_status_desc_masterpass"
-msgstr "激活 Masterpass 付款方式"
-
 msgid "config_status_desc_paybybankapp"
-msgstr "Activate payment method Pay by Bank app to make it available for your consumers."
+msgstr "激活 Pay by Bank app 支付方式以使客户可以支付。"
 
 msgid "config_status_desc_paypal"
 msgstr "激活 PayPal 付款方式"
@@ -263,16 +260,16 @@ msgid "config_vault_desc"
 msgstr "可以保存信用卡以备后用"
 
 msgid "config_wpp_url"
-msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2)"
+msgstr "Crédit Agricole 支付页面v2 地址 (URL WPP v2)"
 
 msgid "config_wpp_url_desc"
-msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2) (e.g. https://api.secure.epaiement-up2pay.fr)."
+msgstr "Crédit Agricole 支付页面v2 地址 (URL WPP v2)"
 
 msgid "config_zapp_merchant_return_string"
-msgstr "Merchant Return URL"
+msgstr "商家返回 URL"
 
 msgid "config_zapp_merchant_return_string_desc"
-msgstr "Merchant Return URL to redirect consumers from their mobile banking apps to your shop."
+msgstr "商家返回 URL，用于将客户从其移动银行应用程序重定向到您的商店。"
 
 msgid "creditcard"
 msgstr "Credit Card"
@@ -300,7 +297,7 @@ msgid "enable_heading_title_creditcard"
 msgstr "启用 Crédit Agricole 信用卡"
 
 msgid "enable_heading_title_eps"
-msgstr "Enable Crédit Agricole eps-Überweisung"
+msgstr "启用 Crédit Agricole eps-Überweisung"
 
 msgid "enable_heading_title_giropay"
 msgstr "Enable Crédit Agricole giropay"
@@ -308,11 +305,8 @@ msgstr "Enable Crédit Agricole giropay"
 msgid "enable_heading_title_ideal"
 msgstr "启用 Crédit Agricole iDEAL"
 
-msgid "enable_heading_title_masterpass"
-msgstr "启用 Crédit Agricole Masterpass"
-
 msgid "enable_heading_title_paybybankapp"
-msgstr "Enable Crédit Agricole Pay by Bank app"
+msgstr "启用 Crédit Agricole Pay by Bank app"
 
 msgid "enable_heading_title_paypal"
 msgstr "启用 Crédit Agricole PayPal"
@@ -340,7 +334,7 @@ msgid "eps"
 msgstr "eps-Überweisung"
 
 msgid "eps_desc"
-msgstr "eps-Überweisung transactions via Crédit Agricole Payment Gateway."
+msgstr "通过 Crédit Agricole 支付网关进行 eps-Überweisung 交易。"
 
 msgid "error_credentials"
 msgstr "测试失败，请检查您的凭证。"
@@ -350,7 +344,7 @@ msgid "error_email"
 msgstr "电子邮件发送出现错误"
 
 msgid "error_malformed_creditcard_request"
-msgstr "Oops! Something went wrong. Please check your credit card data and try again."
+msgstr "哎呀！出现错误。请检查您的信用卡数据，然后重试。"
 
 msgid "error_no_post_processing_operations"
 msgstr "没有可用于此交易的后端操作"
@@ -361,6 +355,7 @@ msgstr "没有可用于此交易的后端操作，交易尚未确认。"
 
 msgid "error_no_transaction"
 msgstr "未找到交易"
+
 
 msgid "error_woocommerce_missing"
 msgstr "很抱歉，此插件需要安装和激活 WooCommerce 插件。"
@@ -375,7 +370,7 @@ msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
 msgid "heading_creditcard_form"
-msgstr "Enter Card Details"
+msgstr "输入卡详细信息"
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Crédit Agricole 支付宝跨境"
@@ -391,9 +386,6 @@ msgstr "Crédit Agricole giropay"
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"
-
-msgid "heading_title_masterpass"
-msgstr "Crédit Agricole Masterpass"
 
 msgid "heading_title_paybybankapp"
 msgstr "Crédit Agricole Pay by Bank app"
@@ -443,13 +435,6 @@ msgstr "通过 Crédit Agricole 支付处理网关进行 iDEAL 交易"
 msgid "last-name"
 msgstr "姓"
 
-msgid "masterpass"
-msgstr "Masterpass"
-
-
-msgid "masterpass_desc"
-msgstr "通过 Crédit Agricole 支付处理网关进行 Masterpass 交易"
-
 msgid "order_error"
 msgstr "付款过程发生错误。请重试。"
 
@@ -457,7 +442,11 @@ msgid "order_status_authorized"
 msgstr "已授权"
 
 msgid "order_status_authorized_count_plural"
-msgstr "Authorized <span class=\"count\">(%s)</span>"
+msgstr "授权 <span class=\"count\">(%s)</span>"
+
+msgid "order_status_authorized_count_single"
+msgid_plural "order_status_authorized_count_plural"
+msgstr[0] ""
 
 
 msgid "order_status_gateway_update"
@@ -503,7 +492,7 @@ msgid "paybybankapp"
 msgstr "Pay by Bank app"
 
 msgid "paybybankapp_desc"
-msgstr "Pay by Bank app transactions via Crédit Agricole Payment Gateway."
+msgstr "通过 Crédit Agricole 支付网关进行 Pay by Bank app 交易。"
 
 msgid "Payment Gateway for WooCommerce"
 msgstr "WooCommerce 支付网关"
@@ -553,7 +542,7 @@ msgid "refund_online_error"
 msgstr "此时无法进行在线退款。"
 
 msgid "refund_partial_shipping_error"
-msgstr "You can refund shipping fees only in full; partial refund of shipping fees is not possible."
+msgstr "您只能全额退还运费；不能部分退还运费。"
 
 msgid "refund_processing_error"
 msgstr "处理退款失败。"
@@ -686,7 +675,7 @@ msgid "text_terms_accept"
 msgstr "I herewith confirm that I have read the <a href=\"#\" target=\"_blank\">privacy notice</a> and <a target=\"_blank\" href=\"#\">additional terms and conditions</a> for Crédit Agricole payment types and that I accept their validity."
 
 msgid "text_terms_notice"
-msgstr "You must agree to the privacy notice and additional terms of Crédit Agricole payment methods."
+msgstr "您必须同意隐私声明和 Crédit Agricole 支付方式的附加条款。"
 
 msgid "text_total"
 msgstr "总计"
@@ -725,7 +714,7 @@ msgid "vault_use_new_text"
 msgstr "使用新信用卡"
 
 msgid "warning_credit_card_url_mismatch"
-msgstr "Attention: Please check your credentials within the URL setting fields. You might have configured/combined a productive account with a test account."
+msgstr "注意：请在 URL 设置字段中检查您的凭据。您可能已将生产账户配置/组合到测试帐户。"
 
 msgid "Crédit Agricole"
 msgstr "Crédit Agricole"
