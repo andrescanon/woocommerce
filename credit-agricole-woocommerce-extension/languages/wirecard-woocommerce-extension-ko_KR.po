@@ -56,7 +56,7 @@ msgstr "베이스 URL"
 
 
 msgid "config_base_url_desc"
-msgstr "Crédit Agricole 베이스 URL. (예: https://api.wirecard.com)"
+msgstr "Crédit Agricole 베이스 URL. (예: https://api.secure.epaiement-up2pay.fr)"
 
 msgid "config_basket_max"
 msgstr "최대 금액"
@@ -263,7 +263,7 @@ msgid "config_wpp_url"
 msgstr "Crédit Agricole Payment Page v2 주소(URL WPP v2)"
 
 msgid "config_wpp_url_desc"
-msgstr "Crédit Agricole Payment Page v2 주소(URL WPP v2) (예: https://api.secure.epaiement-up2pay.fr)."
+msgstr "Crédit Agricole Payment Page v2 주소(URL WPP v2) (예: https://page.secure.epaiement-up2pay.fr)."
 
 msgid "config_zapp_merchant_return_string"
 msgstr "머천트 복귀 URL"

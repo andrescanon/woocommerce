@@ -50,7 +50,7 @@ msgid "config_base_url"
 msgstr "Base URL"
 
 msgid "config_base_url_desc"
-msgstr "Elastic engine base url. (e.g. https://api.wirecard.com)"
+msgstr "Elastic engine base url. (e.g. https://api.secure.epaiement-up2pay.fr)"
 
 msgid "config_basket_max"
 msgstr "Maksymalna kwota"
@@ -251,7 +251,7 @@ msgid "config_wpp_url"
 msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2)"
 
 msgid "config_wpp_url_desc"
-msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2) (e.g. https://api.secure.epaiement-up2pay.fr)."
+msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2) (e.g. https://page.secure.epaiement-up2pay.fr)."
 
 msgid "config_zapp_merchant_return_string"
 msgstr "Merchant Return URL"

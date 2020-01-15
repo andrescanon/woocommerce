@@ -56,7 +56,7 @@ msgstr "URL Dasar"
 
 
 msgid "config_base_url_desc"
-msgstr "URL dasar Crédit Agricole. (misal, https://api.wirecard.com)"
+msgstr "URL dasar Crédit Agricole. (misal, https://api.secure.epaiement-up2pay.fr)"
 
 msgid "config_basket_max"
 msgstr "Jumlah Maksimum"
@@ -263,7 +263,7 @@ msgid "config_wpp_url"
 msgstr "Alamat Crédit Agricole Payment Page v2 (URL WPP v2)"
 
 msgid "config_wpp_url_desc"
-msgstr "Alamat Crédit Agricole Payment Page v2  (URL WPP v2) (misalnya https://api.secure.epaiement-up2pay.fr)."
+msgstr "Alamat Crédit Agricole Payment Page v2  (URL WPP v2) (misalnya https://page.secure.epaiement-up2pay.fr)."
 
 msgid "config_zapp_merchant_return_string"
 msgstr "URL Pengalihan Merchant"

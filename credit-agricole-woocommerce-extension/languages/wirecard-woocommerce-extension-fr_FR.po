@@ -51,7 +51,7 @@ msgid "config_base_url"
 msgstr "Adresse du serveur Crédit Agricole"
 
 msgid "config_base_url_desc"
-msgstr "L’adresse du serveur Crédit Agricole (par ex. https://api.wirecard.com)."
+msgstr "L’adresse du serveur Crédit Agricole (par ex. https://api.secure.epaiement-up2pay.fr)."
 
 msgid "config_basket_max"
 msgstr "Montant plafond"
@@ -252,7 +252,7 @@ msgid "config_wpp_url"
 msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2)"
 
 msgid "config_wpp_url_desc"
-msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2) (ex. https://api.secure.epaiement-up2pay.fr)."
+msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2) (ex. https://page.secure.epaiement-up2pay.fr)."
 
 msgid "config_zapp_merchant_return_string"
 msgstr "URL de retour du site marchand"

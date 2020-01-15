@@ -55,17 +55,17 @@
     },
     {
         "name": "guzzlehttp/guzzle",
-        "version": "6.4.1",
-        "version_normalized": "6.4.1.0",
+        "version": "6.5.2",
+        "version_normalized": "6.5.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/guzzle/guzzle.git",
-            "reference": "0895c932405407fd3a7368b6910c09a24d26db11"
+            "reference": "43ece0e75098b7ecd8d13918293029e555a50f82"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0895c932405407fd3a7368b6910c09a24d26db11",
-            "reference": "0895c932405407fd3a7368b6910c09a24d26db11",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/43ece0e75098b7ecd8d13918293029e555a50f82",
+            "reference": "43ece0e75098b7ecd8d13918293029e555a50f82",
             "shasum": ""
         },
         "require": {
@@ -80,13 +80,14 @@
             "psr/log": "^1.1"
         },
         "suggest": {
+            "ext-intl": "Required for Internationalized Domain Name (IDN) support",
             "psr/log": "Required for using the Log middleware"
         },
-        "time": "2019-10-23T15:58:00+00:00",
+        "time": "2019-12-23T11:57:10+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "6.3-dev"
+                "dev-master": "6.5-dev"
             }
         },
         "installation-source": "dist",
@@ -249,17 +250,17 @@
     },
     {
         "name": "monolog/monolog",
-        "version": "2.0.1",
-        "version_normalized": "2.0.1.0",
+        "version": "2.0.2",
+        "version_normalized": "2.0.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/Seldaek/monolog.git",
-            "reference": "f9d56fd2f5533322caccdfcddbb56aedd622ef1c"
+            "reference": "c861fcba2ca29404dc9e617eedd9eff4616986b8"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f9d56fd2f5533322caccdfcddbb56aedd622ef1c",
-            "reference": "f9d56fd2f5533322caccdfcddbb56aedd622ef1c",
+            "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c861fcba2ca29404dc9e617eedd9eff4616986b8",
+            "reference": "c861fcba2ca29404dc9e617eedd9eff4616986b8",
             "shasum": ""
         },
         "require": {
@@ -298,7 +299,7 @@
             "rollbar/rollbar": "Allow sending log messages to Rollbar",
             "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
         },
-        "time": "2019-11-13T10:27:43+00:00",
+        "time": "2019-12-20T14:22:59+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -442,17 +443,17 @@
     },
     {
         "name": "php-http/discovery",
-        "version": "1.7.0",
-        "version_normalized": "1.7.0.0",
+        "version": "1.7.4",
+        "version_normalized": "1.7.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/php-http/discovery.git",
-            "reference": "e822f86a6983790aa17ab13aa7e69631e86806b6"
+            "reference": "82dbef649ccffd8e4f22e1953c3a5265992b83c0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/php-http/discovery/zipball/e822f86a6983790aa17ab13aa7e69631e86806b6",
-            "reference": "e822f86a6983790aa17ab13aa7e69631e86806b6",
+            "url": "https://api.github.com/repos/php-http/discovery/zipball/82dbef649ccffd8e4f22e1953c3a5265992b83c0",
+            "reference": "82dbef649ccffd8e4f22e1953c3a5265992b83c0",
             "shasum": ""
         },
         "require": {
@@ -472,7 +473,7 @@
             "php-http/message": "Allow to use Guzzle, Diactoros or Slim Framework factories",
             "puli/composer-plugin": "Sets up Puli which is recommended for Discovery to work. Check http://docs.php-http.org/en/latest/discovery.html for more details."
         },
-        "time": "2019-06-30T09:04:27+00:00",
+        "time": "2020-01-03T11:25:47+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1038,8 +1039,8 @@
     },
     {
         "name": "symfony/options-resolver",
-        "version": "v3.4.35",
-        "version_normalized": "3.4.35.0",
+        "version": "v3.4.36",
+        "version_normalized": "3.4.36.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/options-resolver.git",
@@ -1094,17 +1095,17 @@
     },
     {
         "name": "whichbrowser/parser",
-        "version": "v2.0.37",
-        "version_normalized": "2.0.37.0",
+        "version": "v2.0.41",
+        "version_normalized": "2.0.41.0",
         "source": {
             "type": "git",
             "url": "https://github.com/WhichBrowser/Parser-PHP.git",
-            "reference": "9c6ad8eadc23294b1c66d92876c11f13c5d4cf48"
+            "reference": "c7b71a46f5f51b5b7284ed36a5b16c62b6f9dc8c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/WhichBrowser/Parser-PHP/zipball/9c6ad8eadc23294b1c66d92876c11f13c5d4cf48",
-            "reference": "9c6ad8eadc23294b1c66d92876c11f13c5d4cf48",
+            "url": "https://api.github.com/repos/WhichBrowser/Parser-PHP/zipball/c7b71a46f5f51b5b7284ed36a5b16c62b6f9dc8c",
+            "reference": "c7b71a46f5f51b5b7284ed36a5b16c62b6f9dc8c",
             "shasum": ""
         },
         "require": {
@@ -1113,16 +1114,16 @@
         },
         "require-dev": {
             "icomefromthenet/reverse-regex": "0.0.6.3",
-            "phpunit/php-code-coverage": "^2.2|^3.0",
-            "phpunit/phpunit": "^4.0|^5.0",
+            "phpunit/php-code-coverage": "^2.2 || ^3.0",
+            "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0",
             "satooshi/php-coveralls": "^1.0",
             "squizlabs/php_codesniffer": "2.5.*",
-            "symfony/yaml": ">=2.8"
+            "symfony/yaml": "~2.8 || ~3.4 || ~4.2 || ~5.0"
         },
         "suggest": {
             "cache/array-adapter": "Allows testing of the caching functionality"
         },
-        "time": "2018-10-02T09:26:41+00:00",
+        "time": "2020-01-02T14:36:46+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {

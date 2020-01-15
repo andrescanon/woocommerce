@@ -56,7 +56,7 @@ msgstr "基准 URL"
 
 
 msgid "config_base_url_desc"
-msgstr "Crédit Agricole 基准 URL。（例如 https://api.wirecard.com）"
+msgstr "Crédit Agricole 基准 URL。（例如 https://api.secure.epaiement-up2pay.fr）"
 
 msgid "config_basket_max"
 msgstr "最大金额"

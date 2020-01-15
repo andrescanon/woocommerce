@@ -56,7 +56,7 @@ msgstr "ベース URL"
 
 
 msgid "config_base_url_desc"
-msgstr "Crédit Agricole ベース URL。(例: https://api.wirecard.com)"
+msgstr "Crédit Agricole ベース URL。(例: https://api.secure.epaiement-up2pay.fr)"
 
 msgid "config_basket_max"
 msgstr "最高額"
@@ -263,7 +263,7 @@ msgid "config_wpp_url"
 msgstr "Crédit AgricoleのPayment Page v2アドレス（URL WPP v2）"
 
 msgid "config_wpp_url_desc"
-msgstr "Crédit AgricoleのPayment Page v2アドレス（URL WPP v2）（https://api.secure.epaiement-up2pay.frなど）。"
+msgstr "Crédit AgricoleのPayment Page v2アドレス（URL WPP v2）（https://page.secure.epaiement-up2pay.frなど）。"
 
 msgid "config_zapp_merchant_return_string"
 msgstr "マーチャントリターンURL"
