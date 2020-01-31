@@ -369,8 +369,8 @@ msgstr "giropay"
 msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
-msgid "heading_creditcard_form"
-msgstr "カードの詳細を入力する"
+msgid "heading_creditcard_payment_form"
+msgstr "Credit Card Payment"
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Crédit Agricole Alipay Cross-border"
@@ -492,6 +492,7 @@ msgstr "Pay by Bank app"
 
 msgid "paybybankapp_desc"
 msgstr "Crédit Agricole決済ゲートウェイによるPay by Bank app取引"
+
 
 msgid "Payment Gateway for WooCommerce"
 msgstr "WooCommerce 用支払いゲートウェイ"
@@ -695,22 +696,12 @@ msgstr "Crédit Agricole 支払いゲートウェイ"
 msgid "transfer_notice"
 msgstr "以下のデータを使用して金額を送金してください:"
 
-msgid "vault_account_number"
-msgstr "アカウント番号"
-
-msgid "vault_delete_card_text"
-msgstr "カードの削除"
-
 msgid "vault_save_text"
 msgstr "後で使用するために保存する"
 
 
 msgid "vault_use_existing_text"
 msgstr "保存済みのクレジット カードを使用する"
-
-
-msgid "vault_use_new_text"
-msgstr "新しいクレジット カードを使用する"
 
 msgid "warning_credit_card_url_mismatch"
 msgstr "注意：URLの設定フィールドにある資格証明書を確認してください。利用アカウントにテスト用アカウントを設定している、または組み合わせている可能性があります。"

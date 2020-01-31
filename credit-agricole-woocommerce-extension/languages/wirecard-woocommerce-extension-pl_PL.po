@@ -352,8 +352,8 @@ msgstr "giropay"
 msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
-msgid "heading_creditcard_form"
-msgstr "Enter Card Details"
+msgid "heading_creditcard_payment_form"
+msgstr "Credit Card Payment"
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Crédit Agricole Alipay Crossborder"
@@ -474,7 +474,7 @@ msgid "paybybankapp_desc"
 msgstr "Pay by Bank app transactions via Crédit Agricole Payment Gateway."
 
 msgid "Payment Gateway for WooCommerce"
-msgstr "Payment Processing Gateway for WooCommerce"
+msgstr "Payment Gateway for WooCommerce"
 
 msgid "payment_awaiting"
 msgstr "Awaiting payment from Crédit Agricole."
@@ -662,20 +662,11 @@ msgstr "Crédit Agricole Payment Gateway"
 msgid "transfer_notice"
 msgstr "Prosimy o przelew kwoty na następujące dane: "
 
-msgid "vault_account_number"
-msgstr "Account Number"
-
-msgid "vault_delete_card_text"
-msgstr "Delete card"
-
 msgid "vault_save_text"
 msgstr "Zapisać do późniejszego wykorzystania. "
 
 msgid "vault_use_existing_text"
 msgstr "Użyj zachowaną karte kredytową"
-
-msgid "vault_use_new_text"
-msgstr "Użyj nowej karty kredytowej"
 
 msgid "warning_credit_card_url_mismatch"
 msgstr "Attention: Please check your credentials within the URL setting fields. You might have configured/combined a productive account with a test account."

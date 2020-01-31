@@ -356,7 +356,6 @@ msgstr "Tidak ada operasi pendukung untuk transaksi ini, transaksi belum dapat d
 msgid "error_no_transaction"
 msgstr "Transaksi tidak ditemukan"
 
-
 msgid "error_woocommerce_missing"
 msgstr "Maaf, untuk menjalankan plugin ini, Plugin WooCommerce harus diinstal dan aktif."
 
@@ -369,8 +368,8 @@ msgstr "giropay"
 msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
-msgid "heading_creditcard_form"
-msgstr "Masukkan Rincian Kartu"
+msgid "heading_creditcard_payment_form"
+msgstr "Credit Card Payment"
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Alipay Cross-border Crédit Agricole"
@@ -696,22 +695,12 @@ msgstr "Payment Gateway Crédit Agricole"
 msgid "transfer_notice"
 msgstr "Harap transfer jumlah tersebut menggunakan data berikut ini:"
 
-msgid "vault_account_number"
-msgstr "Nomor rekening"
-
-msgid "vault_delete_card_text"
-msgstr "Hapus Kartu"
-
 msgid "vault_save_text"
 msgstr "Simpan untuk digunakan di kemudian hari."
 
 
 msgid "vault_use_existing_text"
 msgstr "Gunakan Kartu Kredit yang tersimpan"
-
-
-msgid "vault_use_new_text"
-msgstr "Gunakan Kartu Kredit baru"
 
 msgid "warning_credit_card_url_mismatch"
 msgstr "Perhatian: Periksa kredensial Anda dalam kolom pengaturan URL. Anda mungkin telah mengonfigurasi/menggabungkan akun produktif dengan akun pengujian."

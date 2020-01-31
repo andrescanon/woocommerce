@@ -369,8 +369,8 @@ msgstr "giropay"
 msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
-msgid "heading_creditcard_form"
-msgstr "输入卡详细信息"
+msgid "heading_creditcard_payment_form"
+msgstr "Credit Card Payment"
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Crédit Agricole 支付宝跨境"
@@ -493,6 +493,7 @@ msgstr "Pay by Bank app"
 
 msgid "paybybankapp_desc"
 msgstr "通过 Crédit Agricole 支付网关进行 Pay by Bank app 交易。"
+
 
 msgid "Payment Gateway for WooCommerce"
 msgstr "WooCommerce 支付网关"
@@ -696,22 +697,12 @@ msgstr "Crédit Agricole 支付网关"
 msgid "transfer_notice"
 msgstr "请使用以下数据转账："
 
-msgid "vault_account_number"
-msgstr "账号"
-
-msgid "vault_delete_card_text"
-msgstr "删除卡片"
-
 msgid "vault_save_text"
 msgstr "保存以备后用。"
 
 
 msgid "vault_use_existing_text"
 msgstr "使用保存的信用卡"
-
-
-msgid "vault_use_new_text"
-msgstr "使用新信用卡"
 
 msgid "warning_credit_card_url_mismatch"
 msgstr "注意：请在 URL 设置字段中检查您的凭据。您可能已将生产账户配置/组合到测试帐户。"

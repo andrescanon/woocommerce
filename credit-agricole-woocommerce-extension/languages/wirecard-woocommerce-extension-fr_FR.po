@@ -355,8 +355,8 @@ msgstr "giropay"
 msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
-msgid "heading_creditcard_form"
-msgstr "Entrer les détails de la carte"
+msgid "heading_creditcard_payment_form"
+msgstr "Paiement par carte de crédit"
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Crédit Agricole Alipay Cross-border"
@@ -589,7 +589,7 @@ msgid "success_new_transaction"
 msgstr "Le traitement ultérieur a été effectué avec succès. Une nouvelle transaction a été créée."
 
 msgid "test_config"
-msgstr "Configuration de test"
+msgstr "Tester la configuration"
 
 msgid "test_credentials"
 msgstr "Tester les informations d’identification"
@@ -673,20 +673,11 @@ msgstr "Passerelle de paiement Crédit Agricole"
 msgid "transfer_notice"
 msgstr "Veuillez transférer le montant en utilisant les données suivantes :"
 
-msgid "vault_account_number"
-msgstr "Numéro de compte"
-
-msgid "vault_delete_card_text"
-msgstr "Supprimer la carte"
-
 msgid "vault_save_text"
 msgstr "Enregistrer pour une utilisation ultérieure."
 
 msgid "vault_use_existing_text"
 msgstr "Utiliser une carte de crédit enregistrée"
-
-msgid "vault_use_new_text"
-msgstr "Utiliser une nouvelle carte de crédit"
 
 msgid "warning_credit_card_url_mismatch"
 msgstr "Attention: Veuillez vérifier vos données de configuration dans les champs de saisie de l'URL. Vous avez peut-être combiné un compte réel avec un compte d'essai."
