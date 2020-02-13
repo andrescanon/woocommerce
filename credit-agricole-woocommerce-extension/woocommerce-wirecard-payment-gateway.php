@@ -3,7 +3,7 @@
  * Plugin Name: Crédit Agricole WooCommerce Extension
  * Plugin URI: https://github.com/epaiement-up2pay/woocommerce
  * Description: Payment Gateway for WooCommerce
- * Version: 3.1.0
+ * Version: 3.1.1
  * Author: Crédit Agricole
  * Author URI: https://www.credit-agricole.fr/
  * License: GPLv3

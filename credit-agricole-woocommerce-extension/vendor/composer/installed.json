@@ -1091,17 +1091,17 @@
     },
     {
         "name": "whichbrowser/parser",
-        "version": "v2.0.41",
-        "version_normalized": "2.0.41.0",
+        "version": "v2.0.42",
+        "version_normalized": "2.0.42.0",
         "source": {
             "type": "git",
             "url": "https://github.com/WhichBrowser/Parser-PHP.git",
-            "reference": "c7b71a46f5f51b5b7284ed36a5b16c62b6f9dc8c"
+            "reference": "4899110cd2f87b01e04ced62dbb9dec541031dee"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/WhichBrowser/Parser-PHP/zipball/c7b71a46f5f51b5b7284ed36a5b16c62b6f9dc8c",
-            "reference": "c7b71a46f5f51b5b7284ed36a5b16c62b6f9dc8c",
+            "url": "https://api.github.com/repos/WhichBrowser/Parser-PHP/zipball/4899110cd2f87b01e04ced62dbb9dec541031dee",
+            "reference": "4899110cd2f87b01e04ced62dbb9dec541031dee",
             "shasum": ""
         },
         "require": {
@@ -1119,7 +1119,7 @@
         "suggest": {
             "cache/array-adapter": "Allows testing of the caching functionality"
         },
-        "time": "2020-01-02T14:36:46+00:00",
+        "time": "2020-02-12T10:54:23+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
