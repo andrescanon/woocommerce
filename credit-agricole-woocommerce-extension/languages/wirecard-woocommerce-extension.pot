@@ -424,11 +424,6 @@ msgstr ""
 msgid "order_status_authorized_count_plural"
 msgstr ""
 
-msgid "order_status_authorized_count_single"
-msgid_plural "order_status_authorized_count_plural"
-msgstr[0] ""
-msgstr[1] ""
-
 msgid "order_status_gateway_update"
 msgstr ""
 

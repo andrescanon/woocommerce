@@ -440,12 +440,9 @@ msgstr "Kesalahan terjadi saat proses pembayaran. Harap coba lagi."
 msgid "order_status_authorized"
 msgstr "Sah"
 
+
 msgid "order_status_authorized_count_plural"
 msgstr "Sah<span class=\"count\">(%s)</span>"
-
-msgid "order_status_authorized_count_single"
-msgid_plural "order_status_authorized_count_plural"
-msgstr[0] ""
 
 
 msgid "order_status_gateway_update"
