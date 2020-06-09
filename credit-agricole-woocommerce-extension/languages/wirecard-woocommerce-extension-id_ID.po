@@ -1,0 +1,709 @@
+msgid ""
+msgstr ""
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: PhraseApp (phraseapp.com)\n"
+
+msgid "alipay_crossborder"
+msgstr "Alipay Cross-border"
+
+
+msgid "alipay_crossborder_desc"
+msgstr "Alipay Crossborder transactions via Crédit Agricole Payment Processing Gateway"
+
+msgid "amount"
+msgstr "Amount"
+
+msgid "back_button"
+msgstr "Back"
+
+msgid "bic"
+msgstr "BIC:"
+
+msgid "bic_input"
+msgstr "BIC"
+
+
+msgid "birthdate_input"
+msgstr "Tanggal lahir"
+
+msgid "cancel"
+msgstr "Cancel"
+
+msgid "canceled_payment_process"
+msgstr "Anda telah membatalkan proses pembayaran."
+
+
+msgid "config_additional_info"
+msgstr "Kirim informasi tambahan"
+
+msgid "config_additional_info_desc"
+msgstr "Data tambahan akan dikirimkan untuk perlindungan atas penipuan. Data tambahan ini mencakup alamat pengiriman tagihan/barang, keranjang belanja, dan pendeskripsi."
+
+
+msgid "config_allowed_currencies"
+msgstr "Mata uang yang diizinkan"
+
+msgid "config_allowed_currencies_desc"
+msgstr "Metode pembayaran Faktur Bergaransi hanya akan ditampilkan jika mata uang yang aktif termasuk salah satu mata uang negara terpilih."
+
+
+msgid "config_base_url"
+msgstr "URL Dasar"
+
+
+msgid "config_base_url_desc"
+msgstr "URL dasar Crédit Agricole. (misal, https://api.secure.epaiement-up2pay.fr)"
+
+msgid "config_basket_max"
+msgstr "Jumlah Maksimum"
+
+msgid "config_basket_max_desc"
+msgstr "Metode pembayaran Faktur Bergaransi hanya akan ditampilkan jika jumlah pemesanan lebih rendah daripada jumlah yang ditentukan. Jumlah dalam mata uang default toko"
+
+msgid "config_basket_min"
+msgstr "Jumlah Minimum"
+
+msgid "config_basket_min_desc"
+msgstr "Metode pembayaran Faktur Bergaransi hanya akan ditampilkan jika jumlah pemesanan lebih besar daripada jumlah yang ditentukan. Jumlah dalam mata uang default toko"
+
+
+msgid "config_billing_countries"
+msgstr "Negara tujuan yang diizinkan untuk pengiriman tagihan"
+
+msgid "config_billing_countries_desc"
+msgstr "Metode pembayaran Faktur Bergaransi hanya akan ditampilkan jika negara tujuan pengiriman barang pembeli termasuk salah satu negara terpilih.\nNegara-negara yang diizinkan berikut ini telah ditentukan sebelumnya: AT, DE."
+
+
+msgid "config_billing_shipping"
+msgstr "Alamat pengiriman tagihan/barang harus sama"
+
+msgid "config_billing_shipping_desc"
+msgstr "Jika diaktifkan, metode pembayaran Faktur Bergaransi hanya akan ditampilkan jika alamat pengiriman Tagihan/Barang sama"
+
+msgid "config_challenge_challenge_threed"
+msgstr "Pertanyaan tantangan diminta"
+
+msgid "config_challenge_indicator"
+msgstr "Indikator Pertanyaan Tantangan"
+
+msgid "config_challenge_indicator_desc"
+msgstr "Menunjukkan apakah suatu pertanyaan tantangan diminta untuk transaksi ini."
+
+msgid "config_challenge_no_challenge"
+msgstr "Pertanyaan tantangan tidak diminta"
+
+msgid "config_challenge_no_preference"
+msgstr "Tidak ada preferensi"
+
+msgid "config_creditor_city"
+msgstr "Kota Kreditur"
+
+msgid "config_creditor_city_desc"
+msgstr "SEPA membutuhkan Kota Kreditur untuk ditampilkan pada halaman Mandat Debit Langsung SEPA."
+
+msgid "config_creditor_id"
+msgstr "Identitas Kreditur"
+
+msgid "config_creditor_id_desc"
+msgstr "SEPA membutuhkan Identitas Kreditur untuk membuat Mandat Debit Langsung SEPA. Untuk mendapatkan Identitas Kreditur, ajukan di lembaga bank yang bertanggung jawab."
+
+msgid "config_creditor_name"
+msgstr "Nama Kreditur"
+
+msgid "config_creditor_name_desc"
+msgstr "SEPA membutuhkan Nama Kreditur untuk ditampilkan pada halaman Mandat Debit Langsung SEPA."
+
+msgid "config_descriptor"
+msgstr "Pendeskripsi"
+
+msgid "config_descriptor_desc"
+msgstr "Kirim teks yang akan ditampilkan pada laporan bank yang diterbitkan untuk pembeli Anda oleh penyedia jasa keuangan"
+
+
+msgid "config_email"
+msgstr "Alamat e-mail Anda"
+
+msgid "config_enable_bic"
+msgstr "BIC diaktifkan"
+
+msgid "config_enable_bic_desc"
+msgstr "Jika BIC diaktifkan, pelanggan harus memasukkan BIC saat checkout."
+
+msgid "config_http_password"
+msgstr "Kata Sandi HTTP"
+
+msgid "config_http_password_desc"
+msgstr "Kata sandi http yang tercantum dalam kontrak Crédit Agricole Anda"
+
+msgid "config_http_user"
+msgstr "Pengguna HTTP"
+
+msgid "config_http_user_desc"
+msgstr "Pengguna http yang tercantum dalam kontrak Crédit Agricole Anda"
+
+msgid "config_limit_desc"
+msgstr "Jumlah dalam mata uang default toko"
+
+msgid "config_mandate_text"
+msgstr "Teks Tambahan"
+
+msgid "config_mandate_text_desc"
+msgstr "Teks ini ditampilkan pada halaman Mandat Debit Langsung SEPA di akhir paragraf pertama."
+
+
+msgid "config_merchant_account_id"
+msgstr "Identitas Rekening Penjual"
+
+msgid "config_merchant_account_id_desc"
+msgstr "Tanda pengenal unik yang diberikan untuk rekening penjual."
+
+msgid "config_merchant_secret"
+msgstr "Kunci Rahasia"
+
+msgid "config_merchant_secret_desc"
+msgstr "Kunci rahasia wajib digunakan untuk mengkalkulasi Tanda Tangan Digital dalam pembayaran."
+
+msgid "config_message"
+msgstr "Pesan Anda"
+
+msgid "config_payment_action"
+msgstr "Tindakan Pembayaran"
+
+msgid "config_payment_action_desc"
+msgstr "Pilih \"Catat transaksi\" untuk mencatat transaksi/menerbitkan faktur atas pesanan Anda secara otomatis atau \"Otorisasi\" untuk mencata transaksi/menerbitkan faktur secara manual."
+
+msgid "config_payment_type"
+msgstr "Jenis Pembayaran"
+
+msgid "config_payment_type_desc"
+msgstr "Pilih \"Pembayaran di Muka\" untuk menampilkan data bank setelah proses checkout, atau \"Pembayaran Berdasarkan Faktur\" untuk mengirimkan data bank beserta faktur."
+
+
+msgid "config_shipping_countries"
+msgstr "Negara tujuan yang diizinkan untuk pengiriman barang"
+
+msgid "config_shipping_countries_desc"
+msgstr "Metode pembayaran Faktur Bergaransi hanya akan ditampilkan bila negara tujuan pengiriman tagihan pembeli termasuk salah satu negara terpilih.\nBerdasarkan kontrak Crédit Agricole Anda, negara-negara yang diizinkan berikut ini telah ditentukan sebelumnya: AT, DE."
+
+msgid "config_shopping_basket"
+msgstr "Keranjang Belanja"
+
+msgid "config_shopping_basket_desc"
+msgstr "Untuk tujuan konfirmasi, metode pembayaran ini mendukung tampilan keranjang belanja saat checkout. Untuk mengaktifkan fitur ini, aktifkan Keranjang Belanja."
+
+msgid "config_ssl_max_limit"
+msgstr "Batas Maksimum untuk Non 3-D Secure"
+
+msgid "config_status_desc_alipay_crossborder"
+msgstr "Aktifkan metode pembayaran Alipay Cross-border"
+
+msgid "config_status_desc_creditcard"
+msgstr "Aktifkan metode pembayaran Kartu Kredit"
+
+msgid "config_status_desc_eps"
+msgstr "Aktifkan metode pembayaran eps-Überweisung untuk menyediakannya kepada pelanggan Anda."
+
+msgid "config_status_desc_giropay"
+msgstr "Activate payment method giropay to make it available for your consumers."
+
+msgid "config_status_desc_ideal"
+msgstr "Aktifkan metode pembayaran iDEAL"
+
+msgid "config_status_desc_paybybankapp"
+msgstr "Aktifkan metode pembayaran Pay by Bank app untuk menyediakannya kepada pelanggan Anda."
+
+msgid "config_status_desc_paypal"
+msgstr "Aktifkan metode pembayaran PayPal"
+
+msgid "config_status_desc_poi_pia"
+msgstr "Aktifkan metode pembayaran Pembayaran Berdasarkan Faktur atau Pembayaran di Muka"
+
+msgid "config_status_desc_ratepayinvoice"
+msgstr "Aktifkan metode pembayaran Faktur Bergaransi"
+
+msgid "config_status_desc_sepact"
+msgstr "Aktifkan metode pembayaran SEPA Credit Transfer"
+
+msgid "config_status_desc_sepadd"
+msgstr "Aktifkan metode pembayaran Debit Langsung SEPA"
+
+msgid "config_status_desc_sofortbanking"
+msgstr "Aktifkan metode pembayaran Sofort."
+
+
+msgid "config_three_d_merchant_account_id"
+msgstr "ID 3-D Secure Rekening Penjual"
+
+msgid "config_three_d_merchant_account_id_desc"
+msgstr "Tanda pengenal unik yang diberikan untuk Rekening 3D Secure Penjual Anda."
+
+msgid "config_three_d_merchant_secret"
+msgstr "Kunci Rahasia 3-D Secure"
+
+msgid "config_three_d_merchant_secret_desc"
+msgstr "Kunci rahasia wajib digunakan untuk mengkalkulasi Tanda Tangan Digital dalam pembayaran 3D."
+
+msgid "config_three_d_min_limit"
+msgstr "Batas Minimum untuk 3-D Secure"
+
+msgid "config_title"
+msgstr "Judul"
+
+msgid "config_title_desc"
+msgstr "Ini mengendalikan judul yang dilihat pelanggan ketika akan melakukan pembayaran."
+
+msgid "config_vault_desc"
+msgstr "Kartu Kredit dapat disimpan untuk digunakan kembali di kemudian hari tanpa memasukkan perincian kartu kredit"
+
+msgid "config_wpp_url"
+msgstr "Alamat Crédit Agricole Payment Page v2 (URL WPP v2)"
+
+msgid "config_wpp_url_desc"
+msgstr "Alamat Crédit Agricole Payment Page v2  (URL WPP v2) (misalnya https://page.secure.epaiement-up2pay.fr)."
+
+msgid "config_zapp_merchant_return_string"
+msgstr "URL Pengalihan Merchant"
+
+msgid "config_zapp_merchant_return_string_desc"
+msgstr "URL Pengalihan Merchant untuk mengarahkan konsumen dari aplikasi mobile banking ke toko Anda."
+
+msgid "creditcard"
+msgstr "Credit Card"
+
+
+msgid "creditcard_desc"
+msgstr "Credit Card transactions via Crédit Agricole Payment Processing Gateway"
+
+msgid "creditor"
+msgstr "Kreditor"
+
+msgid "creditor_id_input"
+msgstr "Identitas Kreditur:"
+
+msgid "debtor"
+msgstr "Debitur"
+
+msgid "debtor_acc_owner"
+msgstr "Pemilik akun:"
+
+msgid "enable_heading_title_alipay_crossborder"
+msgstr "Aktifkan Alipay Cross-border Crédit Agricole"
+
+msgid "enable_heading_title_creditcard"
+msgstr "Aktifkan Kartu Kredit Crédit Agricole"
+
+msgid "enable_heading_title_eps"
+msgstr "Aktifkan Crédit Agricole eps-Überweisung"
+
+msgid "enable_heading_title_giropay"
+msgstr "Enable Crédit Agricole giropay"
+
+msgid "enable_heading_title_ideal"
+msgstr "Aktifkan iDEAL Crédit Agricole"
+
+msgid "enable_heading_title_paybybankapp"
+msgstr "Aktifkan Crédit Agricole Pay by Bank app"
+
+msgid "enable_heading_title_paypal"
+msgstr "Aktifkan PayPal Crédit Agricole"
+
+msgid "enable_heading_title_poi_pia"
+msgstr "Aktifkan Pembayaran Berdasarkan Faktur / Pembayaran di Muka Crédit Agricole"
+
+msgid "enable_heading_title_ratepayinvoice"
+msgstr "Aktifkan Faktur Bergaransi Crédit Agricole"
+
+msgid "enable_heading_title_sepact"
+msgstr "Aktifkan SEPA Credit Transfer Crédit Agricole"
+
+msgid "enable_heading_title_sepadd"
+msgstr "Aktifkan SEPA Direct Debit Crédit Agricole"
+
+msgid "enable_heading_title_sofortbanking"
+msgstr "Aktifkan Sofort. Crédit Agricole"
+
+
+msgid "enable_vault"
+msgstr "Aktifkan Pembayaran Rutin"
+
+msgid "eps"
+msgstr "eps-Überweisung"
+
+msgid "eps_desc"
+msgstr "Transaksi eps-Überweisung melalui Gerbang Pembayaran Crédit Agricole."
+
+msgid "error_credentials"
+msgstr "Tes gagal, harap cek kredensial Anda."
+
+
+msgid "error_email"
+msgstr "Terjadi kesalahan saat mengirim e-mail"
+
+msgid "error_malformed_creditcard_request"
+msgstr "Ups! Ada yang salah. Periksa data kartu kredit Anda dan coba lagi."
+
+msgid "error_no_post_processing_operations"
+msgstr "Tidak ada operasi pendukung untuk transaksi ini"
+
+msgid "error_no_post_processing_operations_unconfirmed"
+msgstr "Tidak ada operasi pendukung untuk transaksi ini, transaksi belum dapat dikonfirmasi."
+
+
+msgid "error_no_transaction"
+msgstr "Transaksi tidak ditemukan"
+
+msgid "error_woocommerce_missing"
+msgstr "Maaf, untuk menjalankan plugin ini, Plugin WooCommerce harus diinstal dan aktif."
+
+msgid "first-name"
+msgstr "Nama depan"
+
+msgid "giropay"
+msgstr "giropay"
+
+msgid "giropay_desc"
+msgstr "giropay transactions via Crédit Agricole Payment Gateway."
+
+msgid "heading_creditcard_payment_form"
+msgstr "Credit Card Payment"
+
+msgid "heading_title_alipay_crossborder"
+msgstr "Alipay Cross-border Crédit Agricole"
+
+msgid "heading_title_creditcard"
+msgstr "Kartu Kredit Crédit Agricole"
+
+msgid "heading_title_eps"
+msgstr "Crédit Agricole eps-Überweisung"
+
+msgid "heading_title_giropay"
+msgstr "giropay Crédit Agricole"
+
+msgid "heading_title_ideal"
+msgstr "iDEAL Crédit Agricole"
+
+msgid "heading_title_paybybankapp"
+msgstr "Crédit Agricole Pay by Bank app"
+
+msgid "heading_title_paypal"
+msgstr "Crédit Agricole PayPal"
+
+msgid "heading_title_poi_pia"
+msgstr "Pembayaran Berdasarkan Faktur/Pembayaran di Muka Crédit Agricole"
+
+
+msgid "heading_title_ratepayinvoice"
+msgstr "Faktur Bergaransi Crédit Agricole"
+
+msgid "heading_title_sepact"
+msgstr "SEPA Credit Transfer Crédit Agricole"
+
+msgid "heading_title_sepadd"
+msgstr "SEPA Direct Debit Crédit Agricole"
+
+msgid "heading_title_sofortbanking"
+msgstr "Sofort. Crédit Agricole"
+
+
+msgid "heading_title_support"
+msgstr "Dukungan"
+
+msgid "https://github.com/epaiement-up2pay/woocommerce"
+msgstr "https://github.com/epaiement-up2pay/woocommerce"
+
+msgid "https://www.credit-agricole.fr/"
+msgstr "https://www.credit-agricole.fr/"
+
+msgid "iban"
+msgstr "IBAN:"
+
+msgid "iban_input"
+msgstr "IBAN"
+
+msgid "ideal"
+msgstr "iDEAL"
+
+
+msgid "ideal_desc"
+msgstr "Transaksi iDEAL melalui Payment Gateway Crédit Agricole"
+
+msgid "last-name"
+msgstr "Nama belakang"
+
+msgid "order_error"
+msgstr "Kesalahan terjadi saat proses pembayaran. Harap coba lagi."
+
+msgid "order_status_authorized"
+msgstr "Sah"
+
+
+msgid "order_status_authorized_count_plural"
+msgstr "Sah<span class=\"count\">(%s)</span>"
+
+
+msgid "order_status_gateway_update"
+msgstr "Perbarui status pemesanan melalui Payment Gateway Crédit Agricole."
+
+msgid "pagination_back"
+msgstr "< Kembali"
+
+msgid "pagination_next"
+msgstr "Berikutnya >"
+
+msgid "panel_action"
+msgstr "Tindakan"
+
+msgid "panel_amount"
+msgstr "Jumlah"
+
+msgid "panel_currency"
+msgstr "Mata uang"
+
+msgid "panel_order_number"
+msgstr "Order Number"
+
+
+msgid "panel_parent_transaction_id"
+msgstr "ID transaksi-induk"
+
+
+msgid "panel_payment_method"
+msgstr "Metode pembayaran"
+
+msgid "panel_transaction"
+msgstr "Transaksi"
+
+msgid "panel_transaction_state"
+msgstr "Status transaksi"
+
+msgid "panel_transcation_id"
+msgstr "ID Transaksi"
+
+msgid "paybybankapp"
+msgstr "Pay by Bank app"
+
+msgid "paybybankapp_desc"
+msgstr "Transaksi Pay by Bank app melalui Gerbang Pembayaran Crédit Agricole."
+
+msgid "Payment Gateway for WooCommerce"
+msgstr "Payment Gateway for WooCommerce"
+
+msgid "payment_awaiting"
+msgstr "Menunggu pembayaran dari Crédit Agricole"
+
+msgid "payment_suffix"
+msgstr "payment"
+
+msgid "paypal"
+msgstr "PayPal"
+
+
+msgid "paypal_desc"
+msgstr "Transaksi PayPal melalui Gerbang Pemrosesan Pembayaran Crédit Agricole"
+
+msgid "poi_pia"
+msgstr "Pembayaran Berdasarkan Faktur/Pembayaran di Muka"
+
+
+msgid "poi_pia_desc"
+msgstr "Transaksi Pembayaran Berdasarkan Faktur/Pembayaran di Muka melalui Payment Gateway Crédit Agricole"
+
+
+msgid "ptrid"
+msgstr "Identitas referensi transaksi provider"
+
+msgid "ratepayinvoice"
+msgstr "Faktur Bergaransi"
+
+
+msgid "ratepayinvoice_desc"
+msgstr "Transaksi Faktur Bergaransi melalui Payment Gateway Crédit Agricole"
+
+msgid "ratepayinvoice_fields_error"
+msgstr "Anda harus berusia 18 tahun ke atas untuk memesan."
+
+msgid "redirect_text"
+msgstr "Koneksi Anda sedang dialihkan, harap menunggu"
+
+
+msgid "refund_gateway_error"
+msgstr "Pengembalian dana melalui Payment Gateway Crédit Agricole gagal."
+
+msgid "refund_online_error"
+msgstr "Pengembalian dana online saat ini tidak tersedia."
+
+msgid "refund_partial_shipping_error"
+msgstr "Anda hanya bisa mengembalikan biaya pengiriman secara penuh; pengembalian biaya pengiriman secara parsial tidak bisa dilakukan."
+
+msgid "refund_processing_error"
+msgstr "Pemrosesan pengembalian dana gagal."
+
+msgid "sepact"
+msgstr "SEPA Credit Transfer"
+
+
+msgid "sepact_desc"
+msgstr "Transaksi SEPA Credit Transfer melalui Payment Gateway Crédit Agricole"
+
+msgid "sepadd"
+msgstr "SEPA Direct Debit"
+
+
+msgid "sepadd_desc"
+msgstr "Transaksi SEPA melalui Payment Gateway Crédit Agricole"
+
+msgid "sepa_cancel"
+msgstr "Batal"
+
+msgid "sepa_fields_error"
+msgstr "Harap isi kolom SEPA dan coba lagi."
+
+msgid "sepa_text_1"
+msgstr "Saya mengizinkan kreditor"
+
+msgid "sepa_text_2"
+msgstr "untuk mengirimkan instruksi ke bank saya untuk mengumpulkan satu debit langsung dari akun saya. Pada waktu yang sama saya menginstruksikan bank untuk mendebit akun saya sesuai dengan instruksi dari kreditor"
+
+msgid "sepa_text_2b"
+msgstr "."
+
+msgid "sepa_text_3"
+msgstr "Catatan: Sebagai bagian dari hak saya, saya berhak atas pengembalian dana sesuai dengan syarat dan ketentuan perjanjian saya dengan bank. Pengembalian dana harus diklaim dalam waktu 8 minggu dimulai dari tanggal akun saya didebit."
+
+msgid "sepa_text_4"
+msgstr "Saya menyatakan persetujuan yang tidak dapat dibatalkan bahwa jika debit langsung tidak ditanggapi, atau terdapat keberatan atas debit langsung tersebut, bank saya akan mengungkapkan kepada kreditor"
+
+msgid "sepa_text_5"
+msgstr "nama lengkap, alamat, dan tanggal lahir saya."
+
+msgid "sepa_text_6"
+msgstr "Saya telah membaca dan menyetujui informasi mengenai Mandat Debit Langsung SEPA."
+
+msgid "sofortbanking"
+msgstr "Sofort."
+
+
+msgid "sofortbanking_desc"
+msgstr "Transaksi Sofort. melalui Payment Gateway Crédit Agricole"
+
+msgid "submit_button"
+msgstr "Submit"
+
+msgid "success_credentials"
+msgstr "Pengujian konfigurasi penjual berhasil."
+
+
+msgid "success_email"
+msgstr "E-Mail berhasil dikirim"
+
+msgid "success_new_transaction"
+msgstr "Operasi pascapemrosesan berhasil. Transaksi baru dibuat."
+
+msgid "test_config"
+msgstr "Konfigurasi tes"
+
+
+msgid "test_credentials"
+msgstr "Tes"
+
+msgid "text_advanced"
+msgstr "Opsi Lanjutan"
+
+msgid "text_cancel_transaction"
+msgstr "Batalkan transaksi"
+
+msgid "text_capture_transaction"
+msgstr "Catat transaksi"
+
+msgid "text_confirm"
+msgstr "Process"
+
+msgid "text_credentials"
+msgstr "Kredensial"
+
+msgid "text_credentials_desc"
+msgstr "Masukkan kredensial Crédit Agricole Anda."
+
+msgid "text_delete"
+msgstr "Hapus"
+
+msgid "text_enable_disable"
+msgstr "Aktifkan/Nonaktifkan"
+
+msgid "text_go_to_plugins"
+msgstr "Buka Plugin"
+
+msgid "text_payment_action_pay"
+msgstr "Purchase"
+
+msgid "text_payment_action_reserve"
+msgstr "Authorization"
+
+msgid "text_payment_type_pia"
+msgstr "Payment in Advance"
+
+msgid "text_payment_type_poi"
+msgstr "Payment on Invoice"
+
+msgid "text_refund_transaction"
+msgstr "Kembalikan dana transaksi"
+
+
+msgid "text_response_data"
+msgstr "Data respons"
+
+msgid "text_sepadd_config_desc"
+msgstr "Masukkan kredensial SEPA dan pengaturan Mandat Debit Langsung SEPA Anda."
+
+
+msgid "text_sepa_config"
+msgstr "Kredensial SEPA"
+
+msgid "text_support"
+msgstr "Support"
+
+
+msgid "text_terms_accept"
+msgstr "I herewith confirm that I have read the <a href=\"#\" target=\"_blank\">privacy notice</a> and <a target=\"_blank\" href=\"#\">additional terms and conditions</a> for Crédit Agricole payment types and that I accept their validity."
+
+msgid "text_terms_notice"
+msgstr "Anda harus menyetujui pemberitahuan privasi dan persyaratan tambahan dari metode pembayaran Crédit Agricole."
+
+msgid "text_total"
+msgstr "Total"
+
+msgid "text_transaction"
+msgstr "Transaction"
+
+msgid "text_transaction_details_1"
+msgstr "For more transaction information click "
+
+msgid "text_transaction_details_2"
+msgstr "here"
+
+
+msgid "title_payment_gateway"
+msgstr "Payment Gateway Crédit Agricole"
+
+msgid "transfer_notice"
+msgstr "Harap transfer jumlah tersebut menggunakan data berikut ini:"
+
+msgid "vault_save_text"
+msgstr "Simpan untuk digunakan di kemudian hari."
+
+
+msgid "vault_use_existing_text"
+msgstr "Gunakan Kartu Kredit yang tersimpan"
+
+msgid "warning_credit_card_url_mismatch"
+msgstr "Perhatian: Periksa kredensial Anda dalam kolom pengaturan URL. Anda mungkin telah mengonfigurasi/menggabungkan akun produktif dengan akun pengujian."
+
+msgid "Crédit Agricole"
+msgstr "Crédit Agricole"
+
+msgid "Crédit Agricole WooCommerce Extension"
+msgstr "Ekstensi WooCommerce Crédit Agricole"
