@@ -182,6 +182,12 @@ msgstr "付款方式"
 msgid "config_payment_type_desc"
 msgstr "选择“预付货款”，在结账流程后显示银行数据，或选择“交货付款”，发送带有发票的银行数据。"
 
+msgid "config_PSD2_information"
+msgstr "PSD 2"
+
+msgid "config_PSD2_information_desc_woocommerce"
+msgstr "With regard to PSD 2 requirements, you should request certain personal information from your consumers during <a target=\"_blank\" href='https://github.com/epaiement-up2pay/woocommerce/wiki/WooCommerce-Checkout'>checkout</a> to reduce the risk of transactions being rejected."
+
 
 msgid "config_shipping_countries"
 msgstr "可配送国家"
@@ -200,6 +206,7 @@ msgstr "非 3-D 安全最大限制"
 
 msgid "config_status_desc_alipay_crossborder"
 msgstr "激活支付宝跨境付款方式"
+
 
 msgid "config_status_desc_creditcard"
 msgstr "激活信用卡付款方式"
@@ -256,6 +263,7 @@ msgstr "名称"
 msgid "config_title_desc"
 msgstr "这可以控制消费者在结账时看到的名称。"
 
+
 msgid "config_vault_desc"
 msgstr "可以保存信用卡以备后用"
 
@@ -270,6 +278,7 @@ msgstr "商家返回 URL"
 
 msgid "config_zapp_merchant_return_string_desc"
 msgstr "商家返回 URL，用于将客户从其移动银行应用程序重定向到您的商店。"
+
 
 msgid "creditcard"
 msgstr "Credit Card"
@@ -290,38 +299,49 @@ msgstr "借方"
 msgid "debtor_acc_owner"
 msgstr "账户所有人"
 
+
 msgid "enable_heading_title_alipay_crossborder"
 msgstr "启用 Crédit Agricole 支付宝跨境"
 
+
 msgid "enable_heading_title_creditcard"
 msgstr "启用 Crédit Agricole 信用卡"
+
 
 msgid "enable_heading_title_eps"
 msgstr "启用 Crédit Agricole eps-Überweisung"
 
 msgid "enable_heading_title_giropay"
-msgstr "Enable Crédit Agricole giropay"
+msgstr "Enable giropay"
+
 
 msgid "enable_heading_title_ideal"
 msgstr "启用 Crédit Agricole iDEAL"
 
+
 msgid "enable_heading_title_paybybankapp"
 msgstr "启用 Crédit Agricole Pay by Bank app"
+
 
 msgid "enable_heading_title_paypal"
 msgstr "启用 Crédit Agricole PayPal"
 
+
 msgid "enable_heading_title_poi_pia"
 msgstr "启用 Crédit Agricole 发票付款/提前付款"
+
 
 msgid "enable_heading_title_ratepayinvoice"
 msgstr "启用 Crédit Agricole 保证发票"
 
+
 msgid "enable_heading_title_sepact"
 msgstr "启用 Crédit Agricole SEPA Credit Transfer"
 
+
 msgid "enable_heading_title_sepadd"
 msgstr "启用 Crédit Agricole SEPA"
+
 
 msgid "enable_heading_title_sofortbanking"
 msgstr "启用 Crédit Agricole Sofort。"
@@ -342,6 +362,7 @@ msgstr "测试失败，请检查您的凭证。"
 
 msgid "error_email"
 msgstr "电子邮件发送出现错误"
+
 
 msgid "error_malformed_creditcard_request"
 msgstr "哎呀！出现错误。请检查您的信用卡数据，然后重试。"
@@ -370,28 +391,36 @@ msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
 msgid "heading_creditcard_payment_form"
-msgstr "Credit Card Payment"
+msgstr "Card Payments"
+
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Crédit Agricole 支付宝跨境"
 
+
 msgid "heading_title_creditcard"
 msgstr "Crédit Agricole 信用卡"
+
 
 msgid "heading_title_eps"
 msgstr "Crédit Agricole eps-Überweisung"
 
+
 msgid "heading_title_giropay"
 msgstr "Crédit Agricole giropay"
+
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"
 
+
 msgid "heading_title_paybybankapp"
 msgstr "Crédit Agricole Pay by Bank app"
 
+
 msgid "heading_title_paypal"
 msgstr "Crédit Agricole PayPal"
+
 
 msgid "heading_title_poi_pia"
 msgstr "Crédit Agricole 发票付款/提前付款"
@@ -400,11 +429,14 @@ msgstr "Crédit Agricole 发票付款/提前付款"
 msgid "heading_title_ratepayinvoice"
 msgstr "Crédit Agricole 保证发票"
 
+
 msgid "heading_title_sepact"
 msgstr "Crédit Agricole SEPA Credit Transfer"
 
+
 msgid "heading_title_sepadd"
 msgstr "Crédit Agricole SEPA Direct Debit"
+
 
 msgid "heading_title_sofortbanking"
 msgstr "Crédit Agricole Sofort。"
@@ -593,6 +625,18 @@ msgstr "Sofort。"
 msgid "sofortbanking_desc"
 msgstr "通过 Crédit Agricole 支付处理网关进行 Sofort 交易"
 
+msgid "state_awaiting"
+msgstr "等待中"
+
+msgid "state_closed"
+msgstr "已关闭"
+
+msgid "state_open"
+msgstr "open"
+
+msgid "state_success"
+msgstr "成功"
+
 msgid "submit_button"
 msgstr "Submit"
 
@@ -693,6 +737,63 @@ msgstr "Crédit Agricole 支付网关"
 
 msgid "transfer_notice"
 msgstr "请使用以下数据转账："
+
+msgid "tx_type_authorization"
+msgstr "authorization"
+
+msgid "tx_type_capture_authorization"
+msgstr "capture-authorization"
+
+msgid "tx_type_check_enrollment"
+msgstr "check-enrollment"
+
+msgid "tx_type_check_payer_response"
+msgstr "check-payer-response"
+
+msgid "tx_type_credit"
+msgstr "credit"
+
+msgid "tx_type_debit"
+msgstr "debit"
+
+msgid "tx_type_debit_return"
+msgstr "debit-return"
+
+msgid "tx_type_deposit"
+msgstr "deposit"
+
+msgid "tx_type_pending_credit"
+msgstr "pending-credit"
+
+msgid "tx_type_pending_debit"
+msgstr "pending-debit"
+
+msgid "tx_type_purchase"
+msgstr "purchase"
+
+msgid "tx_type_refund_capture"
+msgstr "refund-capture"
+
+msgid "tx_type_refund_debit"
+msgstr "refund-debit"
+
+msgid "tx_type_refund_purchase"
+msgstr "refund-purchase"
+
+msgid "tx_type_void_authorization"
+msgstr "void-authorization"
+
+msgid "tx_type_void_capture"
+msgstr "void-capture"
+
+msgid "tx_type_void_pending_credit"
+msgstr "void-pending-credit"
+
+msgid "tx_type_void_pending_debit"
+msgstr "void-pending-debit"
+
+msgid "tx_type_void_purchase"
+msgstr "void-purchase"
 
 msgid "vault_save_text"
 msgstr "保存以备后用。"

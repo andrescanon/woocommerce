@@ -182,6 +182,12 @@ msgstr "支払いの種類"
 msgid "config_payment_type_desc"
 msgstr "「前払い」を選択して注文処理の後に銀行データを表示する、または「請求書払い」を選択して請求書とともに銀行データを送信します。"
 
+msgid "config_PSD2_information"
+msgstr "PSD 2"
+
+msgid "config_PSD2_information_desc_woocommerce"
+msgstr "With regard to PSD 2 requirements, you should request certain personal information from your consumers during <a target=\"_blank\" href='https://github.com/epaiement-up2pay/woocommerce/wiki/WooCommerce-Checkout'>checkout</a> to reduce the risk of transactions being rejected."
+
 
 msgid "config_shipping_countries"
 msgstr "許可されている発送先国"
@@ -200,6 +206,7 @@ msgstr "3-D セキュアの最大限度ではない"
 
 msgid "config_status_desc_alipay_crossborder"
 msgstr "支払い方法として Alipay Cross-border を有効にします"
+
 
 msgid "config_status_desc_creditcard"
 msgstr "クレジット カードの支払い方法を有効にします"
@@ -256,6 +263,7 @@ msgstr "タイトル"
 msgid "config_title_desc"
 msgstr "ここで、精算時に消費者に表示されるタイトルを管理します。"
 
+
 msgid "config_vault_desc"
 msgstr "クレジット カードを保存しておけば、次回からはクレジット カードの詳細を入力しなくても使用できるようになります。"
 
@@ -270,6 +278,7 @@ msgstr "マーチャントリターンURL"
 
 msgid "config_zapp_merchant_return_string_desc"
 msgstr "モバイルバンキングアプリから自分のショップに購入者をリダイレクトするマーチャントリターンURL。"
+
 
 msgid "creditcard"
 msgstr "Credit Card"
@@ -290,38 +299,49 @@ msgstr "債務者"
 msgid "debtor_acc_owner"
 msgstr "口座名義人"
 
+
 msgid "enable_heading_title_alipay_crossborder"
 msgstr "Crédit Agricole Alipay Cross-border を有効にする"
 
+
 msgid "enable_heading_title_creditcard"
 msgstr "Crédit Agricole クレジットカードを有効にする"
+
 
 msgid "enable_heading_title_eps"
 msgstr "Crédit Agricole eps-Überweisungを有効化する"
 
 msgid "enable_heading_title_giropay"
-msgstr "Enable Crédit Agricole giropay"
+msgstr "Enable giropay"
+
 
 msgid "enable_heading_title_ideal"
 msgstr "Crédit Agricole iDEAL を有効にする"
 
+
 msgid "enable_heading_title_paybybankapp"
 msgstr "Crédit Agricole Pay by Bank appを有効化する"
+
 
 msgid "enable_heading_title_paypal"
 msgstr "Crédit Agricole PayPal を有効にする"
 
+
 msgid "enable_heading_title_poi_pia"
 msgstr "Crédit Agricole のインボイスでの支払い / 事前支払いを有効にする"
+
 
 msgid "enable_heading_title_ratepayinvoice"
 msgstr "Crédit Agricole 保証付きインボイスを有効にする"
 
+
 msgid "enable_heading_title_sepact"
 msgstr "Crédit Agricole SEPA Credit Transfer を有効にする"
 
+
 msgid "enable_heading_title_sepadd"
 msgstr "Crédit Agricole SEPA Direct Debit を有効にする"
+
 
 msgid "enable_heading_title_sofortbanking"
 msgstr "Crédit Agricole Sofort を有効にします。"
@@ -342,6 +362,7 @@ msgstr "テストが失敗しました。信用証明を確認してください
 
 msgid "error_email"
 msgstr "メールの配信中にエラーが発生しました"
+
 
 msgid "error_malformed_creditcard_request"
 msgstr "申し訳ありません。問題があります。クレジットカードのデータを確認して再試行してください。"
@@ -370,28 +391,36 @@ msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
 msgid "heading_creditcard_payment_form"
-msgstr "Credit Card Payment"
+msgstr "Card Payments"
+
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Crédit Agricole Alipay Cross-border"
 
+
 msgid "heading_title_creditcard"
 msgstr "Crédit Agricole クレジット カード"
+
 
 msgid "heading_title_eps"
 msgstr "Crédit Agricole eps-Überweisung"
 
+
 msgid "heading_title_giropay"
 msgstr "Crédit Agricole Giropay"
+
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"
 
+
 msgid "heading_title_paybybankapp"
 msgstr "Crédit Agricole Pay by Bank app"
 
+
 msgid "heading_title_paypal"
 msgstr "Crédit Agricole PayPal"
+
 
 msgid "heading_title_poi_pia"
 msgstr "Crédit Agricole のインボイスでの支払い / 事前支払い"
@@ -400,11 +429,14 @@ msgstr "Crédit Agricole のインボイスでの支払い / 事前支払い"
 msgid "heading_title_ratepayinvoice"
 msgstr "Crédit Agricole 保証付きインボイス"
 
+
 msgid "heading_title_sepact"
 msgstr "Crédit Agricole SEPA Credit Transfer"
 
+
 msgid "heading_title_sepadd"
 msgstr "Crédit Agricole SEPA Direct Debit"
+
 
 msgid "heading_title_sofortbanking"
 msgstr "Crédit Agricole Sofort。"
@@ -592,6 +624,18 @@ msgstr "Sofort."
 msgid "sofortbanking_desc"
 msgstr "Sofort。Crédit Agricole 支払い処理ゲートウェイ経由でのトランザクション"
 
+msgid "state_awaiting"
+msgstr "待機中"
+
+msgid "state_closed"
+msgstr "業務停止"
+
+msgid "state_open"
+msgstr "open"
+
+msgid "state_success"
+msgstr "成功"
+
 msgid "submit_button"
 msgstr "Submit"
 
@@ -692,6 +736,63 @@ msgstr "Crédit Agricole 支払いゲートウェイ"
 
 msgid "transfer_notice"
 msgstr "以下のデータを使用して金額を送金してください:"
+
+msgid "tx_type_authorization"
+msgstr "authorization"
+
+msgid "tx_type_capture_authorization"
+msgstr "capture-authorization"
+
+msgid "tx_type_check_enrollment"
+msgstr "check-enrollment"
+
+msgid "tx_type_check_payer_response"
+msgstr "check-payer-response"
+
+msgid "tx_type_credit"
+msgstr "credit"
+
+msgid "tx_type_debit"
+msgstr "debit"
+
+msgid "tx_type_debit_return"
+msgstr "debit-return"
+
+msgid "tx_type_deposit"
+msgstr "deposit"
+
+msgid "tx_type_pending_credit"
+msgstr "pending-credit"
+
+msgid "tx_type_pending_debit"
+msgstr "pending-debit"
+
+msgid "tx_type_purchase"
+msgstr "purchase"
+
+msgid "tx_type_refund_capture"
+msgstr "refund-capture"
+
+msgid "tx_type_refund_debit"
+msgstr "refund-debit"
+
+msgid "tx_type_refund_purchase"
+msgstr "refund-purchase"
+
+msgid "tx_type_void_authorization"
+msgstr "void-authorization"
+
+msgid "tx_type_void_capture"
+msgstr "void-capture"
+
+msgid "tx_type_void_pending_credit"
+msgstr "void-pending-credit"
+
+msgid "tx_type_void_pending_debit"
+msgstr "void-pending-debit"
+
+msgid "tx_type_void_purchase"
+msgstr "void-purchase"
 
 msgid "vault_save_text"
 msgstr "後で使用するために保存する"

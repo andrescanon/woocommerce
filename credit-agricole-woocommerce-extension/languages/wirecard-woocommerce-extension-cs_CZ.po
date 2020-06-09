@@ -1,0 +1,776 @@
+msgid ""
+msgstr ""
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: PhraseApp (phraseapp.com)\n"
+
+msgid "alipay_crossborder"
+msgstr "Alipay Cross-border"
+
+msgid "alipay_crossborder_desc"
+msgstr "Transakce Alipay Cross-border prostřednictvím platební brány Crédit Agricole."
+
+msgid "amount"
+msgstr "Částka"
+
+msgid "back_button"
+msgstr "Zpět"
+
+msgid "bic"
+msgstr "BIC"
+
+msgid "bic_input"
+msgstr "BIC"
+
+msgid "birthdate_input"
+msgstr "Datum narození"
+
+msgid "cancel"
+msgstr "Storno"
+
+msgid "canceled_payment_process"
+msgstr "Stornovali jste platební proces."
+
+msgid "config_additional_info"
+msgstr "Poslat doplňující informace"
+
+msgid "config_additional_info_desc"
+msgstr "Doplňující informace budou odeslány pro účely ochrany proti podvodu. Tyto doplňující informace zahrnují fakturační/zasílací adresu, nákupní košík a deskriptor."
+
+msgid "config_allowed_currencies"
+msgstr "Přípustné měny"
+
+msgid "config_allowed_currencies_desc"
+msgstr "Způsob platby Zaručená faktura je zobrazen pouze v případě, že aktivovaná měna je jednou ze zde vybraných měn."
+
+msgid "config_base_url"
+msgstr "Adresa serveru Crédit Agricole (URL)"
+
+msgid "config_base_url_desc"
+msgstr "Adresa serveru Crédit Agricole (URL) (např. https://api.secure.epaiement-up2pay.fr)."
+
+msgid "config_basket_max"
+msgstr "Maximální částka"
+
+msgid "config_basket_max_desc"
+msgstr "Způsob platby Zaručená faktura je zobrazen pouze v případě, že částka objednávky je nižší než definovaná částka. Částka ve výchozí měně obchodu."
+
+msgid "config_basket_min"
+msgstr "Minimální částka"
+
+msgid "config_basket_min_desc"
+msgstr "Způsob platby Zaručená faktura je zobrazen pouze v případě, že částka objednávky je vyšší než definovaná částka. Částka ve výchozí měně obchodu."
+
+msgid "config_billing_countries"
+msgstr "Přípustné fakturační země"
+
+msgid "config_billing_countries_desc"
+msgstr "Způsob platby Zaručená faktura je zobrazen v průběhu placení pouze v případě, že fakturační země spotřebitele je jednou ze zde vybraných zemí. Klepnutím na CTRL provedete volbu. Výchozí předběžná volba: Rakousko a Německo."
+
+msgid "config_billing_shipping"
+msgstr "Stejná fakturační/zasílací adresa"
+
+msgid "config_billing_shipping_desc"
+msgstr "Pokud je tato volba aktivována, způsob platby Zaručená faktura je zobrazen pouze v případě, že fakturační/zasílací adresy jsou stejné."
+
+msgid "config_challenge_challenge_threed"
+msgstr "Kontrolní otázka požadována"
+
+msgid "config_challenge_indicator"
+msgstr "Indikátor kontrolní otázky"
+
+msgid "config_challenge_indicator_desc"
+msgstr "Označuje, zda je pro tuto transakci požadována kontrolní otázka."
+
+msgid "config_challenge_no_challenge"
+msgstr "Kontrolní otázka není požadována"
+
+msgid "config_challenge_no_preference"
+msgstr "Žádná preference"
+
+msgid "config_creditor_city"
+msgstr "Město příjemce"
+
+msgid "config_creditor_city_desc"
+msgstr "SEPA Direct Debit vyžaduje město příjemce pro stránku mandátu k SEPA Direct Debit."
+
+msgid "config_creditor_id"
+msgstr "Identifikační kód příjemce"
+
+msgid "config_creditor_id_desc"
+msgstr "SEPA Direct Debit vyžaduje identifikační kód příjemce, aby bylo možné vytvořit mandát k SEPA Direct Debit. U své banky můžete požádat o identifikační kód příjemce."
+
+msgid "config_creditor_name"
+msgstr "Jméno příjemce"
+
+msgid "config_creditor_name_desc"
+msgstr "SEPA Direct Debit vyžaduje jméno příjemce pro stránku mandátu k SEPA Direct Debit."
+
+msgid "config_descriptor"
+msgstr "Deskriptor"
+
+msgid "config_descriptor_desc"
+msgstr "Pošlete text uvedený na bankovním výpisu vydaném pro vašeho spotřebitele poskytovatelem finančních služeb."
+
+msgid "config_email"
+msgstr "Vaše e-mailová adresa"
+
+msgid "config_enable_bic"
+msgstr "BIC aktivován"
+
+msgid "config_enable_bic_desc"
+msgstr "Pokud je BIC aktivován, spotřebitel musí zadat BIC v průběhu placení."
+
+msgid "config_http_password"
+msgstr "Heslo"
+
+msgid "config_http_password_desc"
+msgstr "Heslo je uvedeno ve vaší smlouvě s Crédit Agricole."
+
+msgid "config_http_user"
+msgstr "Uživatelské jméno"
+
+msgid "config_http_user_desc"
+msgstr "Uživatelské jméno je uvedeno ve vaší smlouvě s Crédit Agricole."
+
+msgid "config_limit_desc"
+msgstr "Částka ve výchozí měně obchodu"
+
+msgid "config_mandate_text"
+msgstr "Doplňující text"
+
+msgid "config_mandate_text_desc"
+msgstr "Tento text se objeví na stránce mandátu k SEPA Direct Debit na konci prvního odstavce."
+
+msgid "config_merchant_account_id"
+msgstr "Identifikační kód účtu obchodníka (MAID)"
+
+msgid "config_merchant_account_id_desc"
+msgstr "Jedinečný identifikační kód přiřazený vašemu obchodnímu účtu."
+
+msgid "config_merchant_secret"
+msgstr "Tajný klíč"
+
+msgid "config_merchant_secret_desc"
+msgstr "Tajný klíč je povinný pro výpočet digitálního podpisu pro platby."
+
+msgid "config_message"
+msgstr "Vaše zpráva"
+
+msgid "config_payment_action"
+msgstr "Platební akce"
+
+msgid "config_payment_action_desc"
+msgstr "Zvolte „Nákup\", pokud chcete strhnout částku/fakturovat svou objednávku automaticky, nebo \"Autorizace\", jestliže chcete strhnout částku/fakturovat ručně."
+
+msgid "config_payment_type"
+msgstr "Druh platby"
+
+msgid "config_payment_type_desc"
+msgstr "Zvolte „Platba předem\", chcete-li zobrazit bankovní údaje po zaplacení, nebo „Platba na fakturu\", jestliže chcete odeslat bankovní údaje spolu s fakturou."
+
+msgid "config_PSD2_information"
+msgstr "PSD 2"
+
+msgid "config_PSD2_information_desc_woocommerce"
+msgstr "With regard to PSD 2 requirements, you should request certain personal information from your consumers during <a target=\"_blank\" href='https://github.com/epaiement-up2pay/woocommerce/wiki/WooCommerce-Checkout'>checkout</a> to reduce the risk of transactions being rejected."
+
+msgid "config_shipping_countries"
+msgstr "Přípustné země uvedené v zasílací adrese"
+
+msgid "config_shipping_countries_desc"
+msgstr "Způsob platby Zaručená faktura je zobrazen pouze v případě, že země spotřebitele uvedená v zasílací adrese je jednou ze zde vybraných zemí. Klepnutím na CTRL provedete volbu. Výchozí předběžná volba: Rakousko a Německo."
+
+msgid "config_shopping_basket"
+msgstr "Nákupní košík"
+
+msgid "config_shopping_basket_desc"
+msgstr "Platba podporuje zobrazení nákupního košíku v průběhu placení pro účely potvrzení. Pokud chcete aktivovat tuto funkci, aktivujte Nákupní košík."
+
+msgid "config_ssl_max_limit"
+msgstr "Max. limit pro platby bez 3-D Secure"
+
+msgid "config_status_desc_alipay_crossborder"
+msgstr "Aktivujte způsob platby Alipay Cross-border, aby ho mohli používat vaši spotřebitelé."
+
+
+msgid "config_status_desc_creditcard"
+msgstr "Aktivujte způsob platby Kreditní karta, aby ho mohli používat vaši spotřebitelé."
+
+msgid "config_status_desc_eps"
+msgstr "Aktivujte způsob platby eps-Überweisung, aby ho mohli používat vaši spotřebitelé."
+
+msgid "config_status_desc_giropay"
+msgstr "Activate payment method giropay to make it available for your consumers."
+
+msgid "config_status_desc_ideal"
+msgstr "Aktivujte způsob platby iDEAL, aby ho mohli používat vaši spotřebitelé."
+
+msgid "config_status_desc_paybybankapp"
+msgstr "Aktivujte způsob platby Pay by Bank app, aby ho mohli používat vaši spotřebitelé."
+
+msgid "config_status_desc_paypal"
+msgstr "Aktivujte způsob platby PayPal, aby ho mohli používat vaši spotřebitelé."
+
+msgid "config_status_desc_poi_pia"
+msgstr "Aktivujte způsob platby Platba na fakturu nebo Platba předem, aby ho mohli používat vaši spotřebitelé."
+
+msgid "config_status_desc_ratepayinvoice"
+msgstr "Aktivujte způsob platby Zaručená faktura Crédit Agricole, aby ho mohli používat vaši spotřebitelé."
+
+msgid "config_status_desc_sepact"
+msgstr "Aktivujte způsob platby SEPA Credit Transfer, aby ho mohli používat vaši spotřebitelé."
+
+msgid "config_status_desc_sepadd"
+msgstr "Aktivujte způsob platby SEPA Direct Debit, aby ho mohli používat vaši spotřebitelé."
+
+msgid "config_status_desc_sofortbanking"
+msgstr "Aktivujte způsob platby Sofort., aby ho mohli používat vaši spotřebitelé."
+
+msgid "config_three_d_merchant_account_id"
+msgstr "3-D Secure MAID"
+
+msgid "config_three_d_merchant_account_id_desc"
+msgstr "Jedinečný identifikační kód přiřazený vašemu obchodnímu účtu 3-D Secure. Lze nastavit na „null“, pokud má být aktivován proces SSL."
+
+msgid "config_three_d_merchant_secret"
+msgstr "Tajný klíč 3-D Secure"
+
+msgid "config_three_d_merchant_secret_desc"
+msgstr "Tajný klíč je nutný pro výpočet digitálního podpisu pro platbu 3-D Secure. Lze nastavit na „null“, pokud má být aktivován proces SSL."
+
+msgid "config_three_d_min_limit"
+msgstr "Min. limit pro 3-D Secure"
+
+msgid "config_title"
+msgstr "Název"
+
+msgid "config_title_desc"
+msgstr "Název způsobu platby uvidí spotřebitel v průběhu placení."
+
+
+msgid "config_vault_desc"
+msgstr "Údaje o kreditní kartě jsou uloženy pro pozdější použití."
+
+msgid "config_wpp_url"
+msgstr "Adresa Crédit Agricole Payment Page v2 (URL WPP v2)"
+
+msgid "config_wpp_url_desc"
+msgstr "Adresa Crédit Agricole Payment Page v2 (URL WPP v2) (např. https://page.secure.epaiement-up2pay.fr)."
+
+msgid "config_zapp_merchant_return_string"
+msgstr "Návrat na URL obchodníka"
+
+msgid "config_zapp_merchant_return_string_desc"
+msgstr "Volba Návrat na URL obchodníka je určena pro přesměrování spotřebitelů z aplikace mobilního bankovnictví do vašeho obchodu."
+
+
+msgid "creditcard"
+msgstr "Kreditní karta"
+
+
+msgid "creditcard_desc"
+msgstr "Transakce kreditní kartou prostřednictvím platební brány Crédit Agricole."
+
+msgid "creditor"
+msgstr "Příjemce"
+
+msgid "creditor_id_input"
+msgstr "Identifikační kód příjemce"
+
+msgid "debtor"
+msgstr "Plátce"
+
+msgid "debtor_acc_owner"
+msgstr "Majitel účtu"
+
+
+msgid "enable_heading_title_alipay_crossborder"
+msgstr "Aktivovat Crédit Agricole Alipay Cross-border"
+
+
+msgid "enable_heading_title_creditcard"
+msgstr "Aktivovat Crédit Agricole Credit Card"
+
+
+msgid "enable_heading_title_eps"
+msgstr "Aktivovat Crédit Agricole eps-Überweisung"
+
+msgid "enable_heading_title_giropay"
+msgstr "Enable giropay"
+
+
+msgid "enable_heading_title_ideal"
+msgstr "Aktivovat Crédit Agricole iDEAL"
+
+
+msgid "enable_heading_title_paybybankapp"
+msgstr "Aktivovat Crédit Agricole Pay by Bank app"
+
+
+msgid "enable_heading_title_paypal"
+msgstr "Aktivovat Crédit Agricole PayPal"
+
+
+msgid "enable_heading_title_poi_pia"
+msgstr "Aktivovat Crédit Agricole Platba na fakturu / Platba předem"
+
+
+msgid "enable_heading_title_ratepayinvoice"
+msgstr "Aktivovat Zaručenou fakturu Crédit Agricole"
+
+
+msgid "enable_heading_title_sepact"
+msgstr "Aktivovat Crédit Agricole SEPA Credit Transfer"
+
+
+msgid "enable_heading_title_sepadd"
+msgstr "Aktivovat Crédit Agricole SEPA Direct Debit"
+
+
+msgid "enable_heading_title_sofortbanking"
+msgstr "Aktivovat Crédit Agricole Sofort."
+
+msgid "enable_vault"
+msgstr "Aktivovat Platbu jedním kliknutím"
+
+msgid "eps"
+msgstr "eps-Überweisung"
+
+msgid "eps_desc"
+msgstr "Transakce eps-Überweisung prostřednictvím platební brány Crédit Agricole."
+
+msgid "error_credentials"
+msgstr "Test selhal, laskavě zkontrolujte přihlašovací údaje."
+
+msgid "error_email"
+msgstr "Chyba doručení e-mailu."
+
+
+msgid "error_malformed_creditcard_request"
+msgstr "Jejda! Něco se pokazilo. Zkontrolujte údaje své kreditní karty a zkuste to znovu, prosím."
+
+msgid "error_no_post_processing_operations"
+msgstr "Pro tuto transakci nejsou dostupné žádné operace následného zpracování."
+
+msgid "error_no_post_processing_operations_unconfirmed"
+msgstr "Pro tuto transakci nejsou dostupné žádné operace následného zpracování; transakce ještě nebyla potvrzena."
+
+msgid "error_no_transaction"
+msgstr "Žádná transakce nenalezena."
+
+msgid "error_woocommerce_missing"
+msgstr "Litujeme, ale instalace a aktivace tohoto pluginu vyžaduje rozšíření WooCommerce."
+
+msgid "first-name"
+msgstr "Jméno"
+
+msgid "giropay"
+msgstr "giropay"
+
+msgid "giropay_desc"
+msgstr "giropay transactions via Crédit Agricole Payment Gateway."
+
+msgid "heading_creditcard_payment_form"
+msgstr "Card Payments"
+
+
+msgid "heading_title_alipay_crossborder"
+msgstr "Crédit Agricole Alipay Cross-border"
+
+
+msgid "heading_title_creditcard"
+msgstr "Crédit Agricole Credit Card"
+
+
+msgid "heading_title_eps"
+msgstr "Crédit Agricole eps-Überweisung"
+
+
+msgid "heading_title_giropay"
+msgstr "Crédit Agricole giropay"
+
+
+msgid "heading_title_ideal"
+msgstr "Crédit Agricole iDEAL"
+
+
+msgid "heading_title_paybybankapp"
+msgstr "Crédit Agricole Pay by Bank app"
+
+
+msgid "heading_title_paypal"
+msgstr "Crédit Agricole PayPal"
+
+
+msgid "heading_title_poi_pia"
+msgstr "Platba na fakturu / Platba předem Crédit Agricole"
+
+
+msgid "heading_title_ratepayinvoice"
+msgstr "Zaručená faktura Crédit Agricole společnosti Crédit Agricole"
+
+
+msgid "heading_title_sepact"
+msgstr "Crédit Agricole SEPA Credit Transfer"
+
+
+msgid "heading_title_sepadd"
+msgstr "Crédit Agricole SEPA Direct Debit"
+
+
+msgid "heading_title_sofortbanking"
+msgstr "Crédit Agricole Sofort."
+
+msgid "heading_title_support"
+msgstr "Crédit Agricole Support"
+
+msgid "https://github.com/epaiement-up2pay/woocommerce"
+msgstr "https://github.com/epaiement-up2pay/woocommerce"
+
+msgid "https://www.credit-agricole.fr/"
+msgstr "https://www.credit-agricole.fr/"
+
+msgid "iban"
+msgstr "IBAN"
+
+msgid "iban_input"
+msgstr "IBAN"
+
+msgid "ideal"
+msgstr "iDEAL"
+
+msgid "ideal_desc"
+msgstr "Transakce iDEAL prostřednictvím platební brány Crédit Agricole."
+
+msgid "last-name"
+msgstr "Příjmení"
+
+msgid "order_error"
+msgstr "V průběhu platebního procesu došlo k chybě. Zkuste to znovu, prosím."
+
+msgid "order_status_authorized"
+msgstr "Autorizováno"
+
+
+msgid "order_status_authorized_count_plural"
+msgstr "Autorizováno <span class=\"count\">(%s)</span>"
+
+msgid "order_status_gateway_update"
+msgstr "Aktualizovat stav objednávky prostřednictvím platební brány Crédit Agricole."
+
+msgid "pagination_back"
+msgstr "< Zpět"
+
+msgid "pagination_next"
+msgstr "Další >"
+
+msgid "panel_action"
+msgstr "Akce"
+
+msgid "panel_amount"
+msgstr "Částka"
+
+msgid "panel_currency"
+msgstr "Měna"
+
+msgid "panel_order_number"
+msgstr "Číslo objednávky"
+
+msgid "panel_parent_transaction_id"
+msgstr "Parent Transaction ID"
+
+msgid "panel_payment_method"
+msgstr "Způsob platby"
+
+msgid "panel_transaction"
+msgstr "Transakce"
+
+msgid "panel_transaction_state"
+msgstr "Stav transakce"
+
+msgid "panel_transcation_id"
+msgstr "Identifikační kód transakce"
+
+msgid "paybybankapp"
+msgstr "Pay by Bank app"
+
+msgid "paybybankapp_desc"
+msgstr "Transakce Pay by Bank app prostřednictvím platební brány Crédit Agricole."
+
+msgid "Payment Gateway for WooCommerce"
+msgstr "Platební brána pro WooCommerce"
+
+msgid "payment_awaiting"
+msgstr "Čekání na platbu od Crédit Agricole."
+
+msgid "payment_suffix"
+msgstr "platba"
+
+msgid "paypal"
+msgstr "PayPal"
+
+msgid "paypal_desc"
+msgstr "Transakce PayPal prostřednictvím platební brány Crédit Agricole."
+
+msgid "poi_pia"
+msgstr "Platba na fakturu / Platba předem"
+
+msgid "poi_pia_desc"
+msgstr "Transakce Platba na fakturu / Platba předem prostřednictvím platební brány Crédit Agricole."
+
+msgid "ptrid"
+msgstr "Referenční identifikační kód poskytovatele transakce"
+
+msgid "ratepayinvoice"
+msgstr "Zaručená faktura"
+
+msgid "ratepayinvoice_desc"
+msgstr "Transakce Zaručená faktura prostřednictvím platební brány Crédit Agricole."
+
+msgid "ratepayinvoice_fields_error"
+msgstr "Minimální věk pro placení Zaručenou fakturou: 18."
+
+msgid "redirect_text"
+msgstr "Jste přesměrováváni. Čekejte, prosím."
+
+msgid "refund_gateway_error"
+msgstr "Refundování prostřednictvím platební brány Crédit Agricole proběhlo neúspěšně."
+
+msgid "refund_online_error"
+msgstr "V současné době není možné refundování online."
+
+msgid "refund_partial_shipping_error"
+msgstr "Můžete refundovat zasílací poplatky pouze v plné výši; částečné refundování zasílacích poplatků není možné."
+
+msgid "refund_processing_error"
+msgstr "Zpracování refundování proběhlo neúspěšně."
+
+msgid "sepact"
+msgstr "SEPA Credit Transfer"
+
+msgid "sepact_desc"
+msgstr "Transakce SEPA Credit Transfer prostřednictvím platební brány Crédit Agricole."
+
+msgid "sepadd"
+msgstr "SEPA Direct Debit"
+
+msgid "sepadd_desc"
+msgstr "Transakce SEPA Direct Debit prostřednictvím platební brány Crédit Agricole."
+
+msgid "sepa_cancel"
+msgstr "Storno"
+
+msgid "sepa_fields_error"
+msgstr "Laskavě vyplňte pole v SEPA Direct Debit a zkuste to znovu."
+
+msgid "sepa_text_1"
+msgstr "Zmocňuji příjemce"
+
+msgid "sepa_text_2"
+msgstr "k tomu, aby vydal pokyn mé bance k provedení jednorázového inkasa z mého účtu. Současně vydávám pokyn své bance, aby zatížila můj účet v souladu s pokyny příjemce"
+
+msgid "sepa_text_2b"
+msgstr "."
+
+msgid "sepa_text_3"
+msgstr "Poznámka: Na základě mých práv mám právo na refundování podle podmínek smlouvy s mojí bankou. Nárok na refundování musí být uplatněn do osmi týdnů od data zatížení mého účtu."
+
+msgid "sepa_text_4"
+msgstr "Dávám neodvolatelný souhlas k tomu, aby v případě, že nebude provedeno inkaso nebo bude vznesena námitka proti inkasu, moje banka sdělila příjemci"
+
+msgid "sepa_text_5"
+msgstr "mé celé jméno, adresu a datum narození."
+
+msgid "sepa_text_6"
+msgstr "Přečetl jsem si informace o mandátu k SEPA Direct Debit a souhlasím s nimi."
+
+msgid "sofortbanking"
+msgstr "Sofort."
+
+msgid "sofortbanking_desc"
+msgstr "Transakce Sofort. prostřednictvím platební brány Crédit Agricole."
+
+msgid "state_awaiting"
+msgstr "čekám"
+
+msgid "state_closed"
+msgstr "zavřeno"
+
+msgid "state_open"
+msgstr "open"
+
+msgid "state_success"
+msgstr "úspěch"
+
+msgid "submit_button"
+msgstr "Odeslat"
+
+msgid "success_credentials"
+msgstr "Konfigurace obchodníka byla s úspěchem otestována."
+
+msgid "success_email"
+msgstr "E-mail úspěšně odeslán."
+
+msgid "success_new_transaction"
+msgstr "Operace následného zpracování byla úspěšná. Byla vytvořena nová transakce."
+
+msgid "test_config"
+msgstr "Testovat konfiguraci"
+
+msgid "test_credentials"
+msgstr "Testovat přihlašovací údaje"
+
+msgid "text_advanced"
+msgstr "Pokročilé volby"
+
+msgid "text_cancel_transaction"
+msgstr "Stornovat transakci"
+
+msgid "text_capture_transaction"
+msgstr "Strhnout transakci"
+
+msgid "text_confirm"
+msgstr "Potvrdit"
+
+msgid "text_credentials"
+msgstr "Přihlašovací údaje"
+
+msgid "text_credentials_desc"
+msgstr "Zadejte přihlašovací údaje Crédit Agricole."
+
+msgid "text_delete"
+msgstr "Smazat"
+
+msgid "text_enable_disable"
+msgstr "Aktivovat/deaktivovat"
+
+msgid "text_go_to_plugins"
+msgstr "Přejít na rozšíření"
+
+msgid "text_payment_action_pay"
+msgstr "Nákup"
+
+msgid "text_payment_action_reserve"
+msgstr "Autorizace"
+
+msgid "text_payment_type_pia"
+msgstr "Platba předem"
+
+msgid "text_payment_type_poi"
+msgstr "Platba na fakturu"
+
+msgid "text_refund_transaction"
+msgstr "Refundovat transakci"
+
+msgid "text_response_data"
+msgstr "Data odezvy"
+
+msgid "text_sepadd_config_desc"
+msgstr "Zadejte přihlašovací údaje k SEPA Direct Debit a nastavení mandátu."
+
+msgid "text_sepa_config"
+msgstr "Přihlašovací údaje SEPA"
+
+msgid "text_support"
+msgstr "Podpora"
+
+msgid "text_terms_accept"
+msgstr "Tímto potvrzuji, že jsem si přečetl<a href=\"#\" target=\"_blank\">prohlášení o ochraně osobních údajů</a> a <a target=\"_blank\" href=\"#\">doplňující podmínky</a> pro druhy plateb Crédit Agricole a souhlasím s nimi."
+
+msgid "text_terms_notice"
+msgstr "Musíte souhlasit s prohlášením o ochraně osobních údajů a doplňujícími podmínkami pro druhy plateb Crédit Agricole."
+
+msgid "text_total"
+msgstr "Celkem"
+
+msgid "text_transaction"
+msgstr "Transakce"
+
+msgid "text_transaction_details_1"
+msgstr "Pokud potřebujete další informace o transakci, klikněte "
+
+msgid "text_transaction_details_2"
+msgstr "sem"
+
+msgid "title_payment_gateway"
+msgstr "Platební brána Crédit Agricole"
+
+msgid "transfer_notice"
+msgstr "Laskavě převeďte částku s využitím následujících dat:"
+
+msgid "tx_type_authorization"
+msgstr "authorization"
+
+msgid "tx_type_capture_authorization"
+msgstr "capture-authorization"
+
+msgid "tx_type_check_enrollment"
+msgstr "check-enrollment"
+
+msgid "tx_type_check_payer_response"
+msgstr "check-payer-response"
+
+msgid "tx_type_credit"
+msgstr "credit"
+
+msgid "tx_type_debit"
+msgstr "debit"
+
+msgid "tx_type_debit_return"
+msgstr "debit-return"
+
+msgid "tx_type_deposit"
+msgstr "deposit"
+
+msgid "tx_type_pending_credit"
+msgstr "pending-credit"
+
+msgid "tx_type_pending_debit"
+msgstr "pending-debit"
+
+msgid "tx_type_purchase"
+msgstr "purchase"
+
+msgid "tx_type_refund_capture"
+msgstr "refund-capture"
+
+msgid "tx_type_refund_debit"
+msgstr "refund-debit"
+
+msgid "tx_type_refund_purchase"
+msgstr "refund-purchase"
+
+msgid "tx_type_void_authorization"
+msgstr "void-authorization"
+
+msgid "tx_type_void_capture"
+msgstr "void-capture"
+
+msgid "tx_type_void_pending_credit"
+msgstr "void-pending-credit"
+
+msgid "tx_type_void_pending_debit"
+msgstr "void-pending-debit"
+
+msgid "tx_type_void_purchase"
+msgstr "void-purchase"
+
+msgid "vault_save_text"
+msgstr "Uložit pro pozdější použití."
+
+
+msgid "vault_use_existing_text"
+msgstr "Použít uloženou kreditní kartu"
+
+msgid "warning_credit_card_url_mismatch"
+msgstr "Pozor: Laskavě zkontrolujte své přihlašovací údaje v poli nastavení URL. Možná jste zkonfigurovali/zkombinovali produktivní účet s testovacím účtem."
+
+msgid "Crédit Agricole"
+msgstr "Crédit Agricole"
+
+msgid "Crédit Agricole WooCommerce Extension"
+msgstr "Rozšíření Crédit Agricole WooCommerce"

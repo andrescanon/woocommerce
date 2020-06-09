@@ -182,6 +182,12 @@ msgstr "Jenis Pembayaran"
 msgid "config_payment_type_desc"
 msgstr "Pilih \"Pembayaran di Muka\" untuk menampilkan data bank setelah proses checkout, atau \"Pembayaran Berdasarkan Faktur\" untuk mengirimkan data bank beserta faktur."
 
+msgid "config_PSD2_information"
+msgstr "PSD 2"
+
+msgid "config_PSD2_information_desc_woocommerce"
+msgstr "With regard to PSD 2 requirements, you should request certain personal information from your consumers during <a target=\"_blank\" href='https://github.com/epaiement-up2pay/woocommerce/wiki/WooCommerce-Checkout'>checkout</a> to reduce the risk of transactions being rejected."
+
 
 msgid "config_shipping_countries"
 msgstr "Negara tujuan yang diizinkan untuk pengiriman barang"
@@ -200,6 +206,7 @@ msgstr "Batas Maksimum untuk Non 3-D Secure"
 
 msgid "config_status_desc_alipay_crossborder"
 msgstr "Aktifkan metode pembayaran Alipay Cross-border"
+
 
 msgid "config_status_desc_creditcard"
 msgstr "Aktifkan metode pembayaran Kartu Kredit"
@@ -256,6 +263,7 @@ msgstr "Judul"
 msgid "config_title_desc"
 msgstr "Ini mengendalikan judul yang dilihat pelanggan ketika akan melakukan pembayaran."
 
+
 msgid "config_vault_desc"
 msgstr "Kartu Kredit dapat disimpan untuk digunakan kembali di kemudian hari tanpa memasukkan perincian kartu kredit"
 
@@ -270,6 +278,7 @@ msgstr "URL Pengalihan Merchant"
 
 msgid "config_zapp_merchant_return_string_desc"
 msgstr "URL Pengalihan Merchant untuk mengarahkan konsumen dari aplikasi mobile banking ke toko Anda."
+
 
 msgid "creditcard"
 msgstr "Credit Card"
@@ -290,38 +299,49 @@ msgstr "Debitur"
 msgid "debtor_acc_owner"
 msgstr "Pemilik akun:"
 
+
 msgid "enable_heading_title_alipay_crossborder"
 msgstr "Aktifkan Alipay Cross-border Crédit Agricole"
 
+
 msgid "enable_heading_title_creditcard"
 msgstr "Aktifkan Kartu Kredit Crédit Agricole"
+
 
 msgid "enable_heading_title_eps"
 msgstr "Aktifkan Crédit Agricole eps-Überweisung"
 
 msgid "enable_heading_title_giropay"
-msgstr "Enable Crédit Agricole giropay"
+msgstr "Enable giropay"
+
 
 msgid "enable_heading_title_ideal"
 msgstr "Aktifkan iDEAL Crédit Agricole"
 
+
 msgid "enable_heading_title_paybybankapp"
 msgstr "Aktifkan Crédit Agricole Pay by Bank app"
+
 
 msgid "enable_heading_title_paypal"
 msgstr "Aktifkan PayPal Crédit Agricole"
 
+
 msgid "enable_heading_title_poi_pia"
 msgstr "Aktifkan Pembayaran Berdasarkan Faktur / Pembayaran di Muka Crédit Agricole"
+
 
 msgid "enable_heading_title_ratepayinvoice"
 msgstr "Aktifkan Faktur Bergaransi Crédit Agricole"
 
+
 msgid "enable_heading_title_sepact"
 msgstr "Aktifkan SEPA Credit Transfer Crédit Agricole"
 
+
 msgid "enable_heading_title_sepadd"
 msgstr "Aktifkan SEPA Direct Debit Crédit Agricole"
+
 
 msgid "enable_heading_title_sofortbanking"
 msgstr "Aktifkan Sofort. Crédit Agricole"
@@ -342,6 +362,7 @@ msgstr "Tes gagal, harap cek kredensial Anda."
 
 msgid "error_email"
 msgstr "Terjadi kesalahan saat mengirim e-mail"
+
 
 msgid "error_malformed_creditcard_request"
 msgstr "Ups! Ada yang salah. Periksa data kartu kredit Anda dan coba lagi."
@@ -369,28 +390,36 @@ msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
 msgid "heading_creditcard_payment_form"
-msgstr "Credit Card Payment"
+msgstr "Card Payments"
+
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Alipay Cross-border Crédit Agricole"
 
+
 msgid "heading_title_creditcard"
 msgstr "Kartu Kredit Crédit Agricole"
+
 
 msgid "heading_title_eps"
 msgstr "Crédit Agricole eps-Überweisung"
 
+
 msgid "heading_title_giropay"
 msgstr "giropay Crédit Agricole"
+
 
 msgid "heading_title_ideal"
 msgstr "iDEAL Crédit Agricole"
 
+
 msgid "heading_title_paybybankapp"
 msgstr "Crédit Agricole Pay by Bank app"
 
+
 msgid "heading_title_paypal"
 msgstr "Crédit Agricole PayPal"
+
 
 msgid "heading_title_poi_pia"
 msgstr "Pembayaran Berdasarkan Faktur/Pembayaran di Muka Crédit Agricole"
@@ -399,11 +428,14 @@ msgstr "Pembayaran Berdasarkan Faktur/Pembayaran di Muka Crédit Agricole"
 msgid "heading_title_ratepayinvoice"
 msgstr "Faktur Bergaransi Crédit Agricole"
 
+
 msgid "heading_title_sepact"
 msgstr "SEPA Credit Transfer Crédit Agricole"
 
+
 msgid "heading_title_sepadd"
 msgstr "SEPA Direct Debit Crédit Agricole"
+
 
 msgid "heading_title_sofortbanking"
 msgstr "Sofort. Crédit Agricole"
@@ -590,6 +622,18 @@ msgstr "Sofort."
 msgid "sofortbanking_desc"
 msgstr "Transaksi Sofort. melalui Payment Gateway Crédit Agricole"
 
+msgid "state_awaiting"
+msgstr "menunggu"
+
+msgid "state_closed"
+msgstr "ditutup"
+
+msgid "state_open"
+msgstr "open"
+
+msgid "state_success"
+msgstr "berhasil"
+
 msgid "submit_button"
 msgstr "Submit"
 
@@ -691,6 +735,63 @@ msgstr "Payment Gateway Crédit Agricole"
 
 msgid "transfer_notice"
 msgstr "Harap transfer jumlah tersebut menggunakan data berikut ini:"
+
+msgid "tx_type_authorization"
+msgstr "authorization"
+
+msgid "tx_type_capture_authorization"
+msgstr "capture-authorization"
+
+msgid "tx_type_check_enrollment"
+msgstr "check-enrollment"
+
+msgid "tx_type_check_payer_response"
+msgstr "check-payer-response"
+
+msgid "tx_type_credit"
+msgstr "credit"
+
+msgid "tx_type_debit"
+msgstr "debit"
+
+msgid "tx_type_debit_return"
+msgstr "debit-return"
+
+msgid "tx_type_deposit"
+msgstr "deposit"
+
+msgid "tx_type_pending_credit"
+msgstr "pending-credit"
+
+msgid "tx_type_pending_debit"
+msgstr "pending-debit"
+
+msgid "tx_type_purchase"
+msgstr "purchase"
+
+msgid "tx_type_refund_capture"
+msgstr "refund-capture"
+
+msgid "tx_type_refund_debit"
+msgstr "refund-debit"
+
+msgid "tx_type_refund_purchase"
+msgstr "refund-purchase"
+
+msgid "tx_type_void_authorization"
+msgstr "void-authorization"
+
+msgid "tx_type_void_capture"
+msgstr "void-capture"
+
+msgid "tx_type_void_pending_credit"
+msgstr "void-pending-credit"
+
+msgid "tx_type_void_pending_debit"
+msgstr "void-pending-debit"
+
+msgid "tx_type_void_purchase"
+msgstr "void-purchase"
 
 msgid "vault_save_text"
 msgstr "Simpan untuk digunakan di kemudian hari."

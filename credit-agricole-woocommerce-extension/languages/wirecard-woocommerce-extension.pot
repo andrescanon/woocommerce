@@ -172,6 +172,12 @@ msgstr ""
 msgid "config_payment_type_desc"
 msgstr ""
 
+msgid "config_PSD2_information"
+msgstr ""
+
+msgid "config_PSD2_information_desc_woocommerce"
+msgstr ""
+
 msgid "config_shipping_countries"
 msgstr ""
 
@@ -559,6 +565,18 @@ msgstr ""
 msgid "sofortbanking_desc"
 msgstr ""
 
+msgid "state_awaiting"
+msgstr ""
+
+msgid "state_closed"
+msgstr ""
+
+msgid "state_open"
+msgstr ""
+
+msgid "state_success"
+msgstr ""
+
 msgid "submit_button"
 msgstr ""
 
@@ -653,6 +671,63 @@ msgid "title_payment_gateway"
 msgstr ""
 
 msgid "transfer_notice"
+msgstr ""
+
+msgid "tx_type_authorization"
+msgstr ""
+
+msgid "tx_type_capture_authorization"
+msgstr ""
+
+msgid "tx_type_check_enrollment"
+msgstr ""
+
+msgid "tx_type_check_payer_response"
+msgstr ""
+
+msgid "tx_type_credit"
+msgstr ""
+
+msgid "tx_type_debit"
+msgstr ""
+
+msgid "tx_type_debit_return"
+msgstr ""
+
+msgid "tx_type_deposit"
+msgstr ""
+
+msgid "tx_type_pending_credit"
+msgstr ""
+
+msgid "tx_type_pending_debit"
+msgstr ""
+
+msgid "tx_type_purchase"
+msgstr ""
+
+msgid "tx_type_refund_capture"
+msgstr ""
+
+msgid "tx_type_refund_debit"
+msgstr ""
+
+msgid "tx_type_refund_purchase"
+msgstr ""
+
+msgid "tx_type_void_authorization"
+msgstr ""
+
+msgid "tx_type_void_capture"
+msgstr ""
+
+msgid "tx_type_void_pending_credit"
+msgstr ""
+
+msgid "tx_type_void_pending_debit"
+msgstr ""
+
+msgid "tx_type_void_purchase"
 msgstr ""
 
 msgid "vault_save_text"

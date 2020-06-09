@@ -173,6 +173,12 @@ msgstr "Mode de paiement"
 msgid "config_payment_type_desc"
 msgstr "Sélectionnez « Paiement à l’avance » pour afficher les coordonnées bancaires après le processus de finalisation de la commande ou « Paiement sur facture » pour envoyer les coordonnées bancaires avec la facture."
 
+msgid "config_PSD2_information"
+msgstr "PSD 2"
+
+msgid "config_PSD2_information_desc_woocommerce"
+msgstr "With regard to PSD 2 requirements, you should request certain personal information from your consumers during <a target=\"_blank\" href='https://github.com/epaiement-up2pay/woocommerce/wiki/WooCommerce-Checkout'>checkout</a> to reduce the risk of transactions being rejected."
+
 msgid "config_shipping_countries"
 msgstr "Pays d’expédition autorisés"
 
@@ -192,13 +198,13 @@ msgid "config_status_desc_alipay_crossborder"
 msgstr "Activer le mode de paiement Alipay Cross-border pour qu’il soit disponible pour vos clients."
 
 msgid "config_status_desc_creditcard"
-msgstr "Activer le mode de paiement Carte de crédit pour qu’il soit disponible pour vos clients."
+msgstr "Activer le mode de paiement Carte pour qu’il soit disponible pour vos clients."
 
 msgid "config_status_desc_eps"
-msgstr "Activer le mode de paiement Virement eps pour qu’il soit disponible pour vos clients."
+msgstr "Activer le mode de paiement eps-Überweisung pour qu’il soit disponible pour vos clients."
 
 msgid "config_status_desc_giropay"
-msgstr "Activate payment method giropay to make it available for your consumers."
+msgstr "Activer le mode de paiement giropay pour qu’il soit disponible pour vos clients."
 
 msgid "config_status_desc_ideal"
 msgstr "Activer le mode de paiement iDEAL pour qu’il soit disponible pour vos clients."
@@ -246,7 +252,7 @@ msgid "config_title_desc"
 msgstr "Désignation du mode de paiement affiché pour le client lors du processus de paiement."
 
 msgid "config_vault_desc"
-msgstr "Les données de la carte de crédit sont enregistrées pour une utilisation ultérieure."
+msgstr "Les données de la carte sont enregistrées pour une utilisation ultérieure."
 
 msgid "config_wpp_url"
 msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2)"
@@ -261,11 +267,10 @@ msgid "config_zapp_merchant_return_string_desc"
 msgstr "L’URL de retour du site marchand redirige les consommateurs vers votre boutique à partir de leurs applications de services bancaires mobiles."
 
 msgid "creditcard"
-msgstr "Carte de crédit"
-
+msgstr "Carte"
 
 msgid "creditcard_desc"
-msgstr "Transactions Carte de crédit via la passerelle de paiement Crédit Agricole."
+msgstr "Transactions Carte via la passerelle de paiement Crédit Agricole."
 
 msgid "creditor"
 msgstr "Créancier"
@@ -280,40 +285,40 @@ msgid "debtor_acc_owner"
 msgstr "Titulaire du compte"
 
 msgid "enable_heading_title_alipay_crossborder"
-msgstr "Activer Crédit Agricole Alipay Cross-border"
+msgstr "Activer Alipay Cross-border"
 
 msgid "enable_heading_title_creditcard"
-msgstr "Activer Crédit Agricole Carte de crédit"
+msgstr "Activer Carte"
 
 msgid "enable_heading_title_eps"
-msgstr "Activer Crédit Agricole Virement eps"
+msgstr "Activer eps-Überweisung"
 
 msgid "enable_heading_title_giropay"
-msgstr "Enable Crédit Agricole giropay"
+msgstr "Activer giropay"
 
 msgid "enable_heading_title_ideal"
-msgstr "Activer Crédit Agricole iDEAL"
+msgstr "Activer iDEAL"
 
 msgid "enable_heading_title_paybybankapp"
-msgstr "Activez Crédit Agricole Pay by Bank app"
+msgstr "Activer Pay by Bank app"
 
 msgid "enable_heading_title_paypal"
-msgstr "Activer Crédit Agricole PayPal"
+msgstr "Activer PayPal"
 
 msgid "enable_heading_title_poi_pia"
-msgstr "Activer Crédit Agricole Paiement sur facture / Paiement à l’avance"
+msgstr "Activer Paiement sur facture / Paiement à l’avance"
 
 msgid "enable_heading_title_ratepayinvoice"
-msgstr "Activer Crédit Agricole Facture avec garantie de paiement"
+msgstr "Activer Facture avec garantie de paiement"
 
 msgid "enable_heading_title_sepact"
-msgstr "Activé Crédit Agricole Virement SEPA"
+msgstr "Activer Virement SEPA"
 
 msgid "enable_heading_title_sepadd"
-msgstr "Activer Crédit Agricole Prélèvement SEPA"
+msgstr "Activer Prélèvement SEPA"
 
 msgid "enable_heading_title_sofortbanking"
-msgstr "Activer Crédit Agricole Sofort."
+msgstr "Activer Sofort."
 
 msgid "enable_vault"
 msgstr "Activer Paiement en un clic"
@@ -321,9 +326,8 @@ msgstr "Activer Paiement en un clic"
 msgid "eps"
 msgstr "Virement eps"
 
-
 msgid "eps_desc"
-msgstr "Transactions Virement eps via la passerelle de paiement Crédit Agricole."
+msgstr "Transactions eps-Überweisung via la passerelle de paiement Crédit Agricole."
 
 msgid "error_credentials"
 msgstr "Le test a échoué, vérifiez vos informations d’identification."
@@ -332,7 +336,7 @@ msgid "error_email"
 msgstr "Message d’erreur de distribution de l’e-mail."
 
 msgid "error_malformed_creditcard_request"
-msgstr "Oups ! Une erreur est survenue. Veuillez vérifier vos données de carte de crédit et réessayer."
+msgstr "Oups ! Une erreur est survenue. Veuillez vérifier vos données de carte et réessayer."
 
 msgid "error_no_post_processing_operations"
 msgstr "Aucune opération de traitement ultérieur disponible pour cette transaction."
@@ -356,43 +360,43 @@ msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
 msgid "heading_creditcard_payment_form"
-msgstr "Paiement par carte de crédit"
+msgstr "Paiement par carte"
 
 msgid "heading_title_alipay_crossborder"
-msgstr "Crédit Agricole Alipay Cross-border"
+msgstr "Alipay Cross-border"
 
 msgid "heading_title_creditcard"
-msgstr "Crédit Agricole Carte de crédit"
+msgstr "Carte"
 
 msgid "heading_title_eps"
-msgstr "Crédit Agricole Virement eps"
+msgstr "eps-Überweisung"
 
 msgid "heading_title_giropay"
-msgstr "Crédit Agricole giropay"
+msgstr "giropay"
 
 msgid "heading_title_ideal"
-msgstr "Crédit Agricole iDEAL"
+msgstr "iDEAL"
 
 msgid "heading_title_paybybankapp"
-msgstr "Crédit Agricole Pay by Bank app"
+msgstr "Pay by Bank app"
 
 msgid "heading_title_paypal"
-msgstr "Crédit Agricole PayPal"
+msgstr "PayPal"
 
 msgid "heading_title_poi_pia"
-msgstr "Crédit Agricole Paiement sur facture / Paiement à l’avance"
+msgstr "Paiement sur facture / Paiement à l’avance"
 
 msgid "heading_title_ratepayinvoice"
-msgstr "Crédit Agricole Facture avec garantie de paiement par Crédit Agricole"
+msgstr "Facture avec garantie de paiement par Crédit Agricole"
 
 msgid "heading_title_sepact"
-msgstr "Crédit Agricole Virement SEPA"
+msgstr "Virement SEPA"
 
 msgid "heading_title_sepadd"
-msgstr "Crédit Agricole Prélèvement SEPA"
+msgstr "Prélèvement SEPA"
 
 msgid "heading_title_sofortbanking"
-msgstr "Crédit Agricole Sofort."
+msgstr "Sofort."
 
 msgid "heading_title_support"
 msgstr "Support Crédit Agricole"
@@ -571,6 +575,18 @@ msgstr "Sofort."
 msgid "sofortbanking_desc"
 msgstr "Transactions Sofort. via la passerelle de paiement Crédit Agricole."
 
+msgid "state_awaiting"
+msgstr "en attente"
+
+msgid "state_closed"
+msgstr "fermé"
+
+msgid "state_open"
+msgstr "ouvert"
+
+msgid "state_success"
+msgstr "validé"
+
 msgid "submit_button"
 msgstr "Soumettre"
 
@@ -668,11 +684,68 @@ msgstr "Passerelle de paiement Crédit Agricole"
 msgid "transfer_notice"
 msgstr "Veuillez transférer le montant en utilisant les données suivantes :"
 
+msgid "tx_type_authorization"
+msgstr "Autorisation "
+
+msgid "tx_type_capture_authorization"
+msgstr "Autorisation de capture"
+
+msgid "tx_type_check_enrollment"
+msgstr "Inscription vérification 3D"
+
+msgid "tx_type_check_payer_response"
+msgstr "Réponse payeur vérification 3D"
+
+msgid "tx_type_credit"
+msgstr "Crédit"
+
+msgid "tx_type_debit"
+msgstr "Débit"
+
+msgid "tx_type_debit_return"
+msgstr "Retour de débit"
+
+msgid "tx_type_deposit"
+msgstr "Dépôt"
+
+msgid "tx_type_pending_credit"
+msgstr "Crédit en attente"
+
+msgid "tx_type_pending_debit"
+msgstr "Débit en attente"
+
+msgid "tx_type_purchase"
+msgstr "Achat "
+
+msgid "tx_type_refund_capture"
+msgstr "Capture du remboursement"
+
+msgid "tx_type_refund_debit"
+msgstr "Remboursement de débit"
+
+msgid "tx_type_refund_purchase"
+msgstr "Remboursement achat"
+
+msgid "tx_type_void_authorization"
+msgstr "Annulation autorisation"
+
+msgid "tx_type_void_capture"
+msgstr "Annulation capture "
+
+msgid "tx_type_void_pending_credit"
+msgstr "Annulation crédit en attente"
+
+msgid "tx_type_void_pending_debit"
+msgstr "Annulation débit en attente"
+
+msgid "tx_type_void_purchase"
+msgstr "Annulation achat "
+
 msgid "vault_save_text"
 msgstr "Enregistrer pour une utilisation ultérieure."
 
 msgid "vault_use_existing_text"
-msgstr "Utiliser une carte de crédit enregistrée"
+msgstr "Utiliser une carte enregistrée"
 
 msgid "warning_credit_card_url_mismatch"
 msgstr "Attention: Veuillez vérifier vos données de configuration dans les champs de saisie de l'URL. Vous avez peut-être combiné un compte réel avec un compte d'essai."

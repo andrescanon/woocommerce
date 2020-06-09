@@ -10,9 +10,8 @@ msgstr ""
 msgid "alipay_crossborder"
 msgstr "Alipay Cross-border"
 
-
 msgid "alipay_crossborder_desc"
-msgstr "\"Alipay Cross-border\"-Transaktionen via Crédit Agricole Payment Processing Gateway."
+msgstr "\"Alipay Cross-border\"-Transaktionen via Crédit Agricole Payment Gateway."
 
 msgid "amount"
 msgstr "Betrag"
@@ -78,19 +77,19 @@ msgid "config_billing_shipping_desc"
 msgstr "Bei Aktivierung wird Garantierter Kauf auf Rechnung nur dann beim Bezahlprozess angezeigt, wenn Rechnungs- und Lieferadresse übereinstimmen."
 
 msgid "config_challenge_challenge_threed"
-msgstr "Challenge requested"
+msgstr "Sicherheitsabfrage anfordern"
 
 msgid "config_challenge_indicator"
-msgstr "Challenge Indicator"
+msgstr "Sicherheitsabfrage"
 
 msgid "config_challenge_indicator_desc"
-msgstr "Indicates whether a challenge is  requested for this transaction."
+msgstr "Gibt an, ob für diese Transaktion eine Sicherheitsabfrage angefordert wird."
 
 msgid "config_challenge_no_challenge"
-msgstr "No challenge requested"
+msgstr "Keine Sicherheitsabfrage anfordern"
 
 msgid "config_challenge_no_preference"
-msgstr "No preference"
+msgstr "Keine Präferenz"
 
 msgid "config_creditor_city"
 msgstr "Creditor-Stadt"
@@ -102,7 +101,7 @@ msgid "config_creditor_id"
 msgstr "Creditor ID"
 
 msgid "config_creditor_id_desc"
-msgstr "Die Creditor ID wird benötigt, um das SEPA-Lastschriftmandat zu erstellen. Die Creditor-ID muss beim zuständigen Bankinstitut angefordert werden."
+msgstr "Die Creditor-ID wird benötigt, um das SEPA-Lastschriftmandat zu erstellen. Die Creditor-ID muss beim zuständigen Bankinstitut angefordert werden."
 
 msgid "config_creditor_name"
 msgstr "Creditor-Name"
@@ -165,13 +164,20 @@ msgid "config_payment_action"
 msgstr "Zahlungsaktion"
 
 msgid "config_payment_action_desc"
-msgstr "Wählen Sie \"Buchung\", um automatisch eine Buchung durchzuführen, oder \"Genehmigung\", um eine manuelle Buchung zu ermöglichen."
+msgstr "Wählen Sie \"Buchung\", um automatisch eine Buchung durchzuführen, oder \"Autorisierung\", um eine manuelle Buchung zu ermöglichen."
 
 msgid "config_payment_type"
 msgstr "Zahlungsmittel"
 
 msgid "config_payment_type_desc"
 msgstr "Wählen Sie \"Vorauskasse\", um die Bankdaten nach dem Checkout anzuzeigen oder \"Kauf auf Rechnung\", um die Bankdaten gemeinsam mit der Rechnung zu übermitteln."
+
+msgid "config_PSD2_information"
+msgstr "PSD 2"
+
+
+msgid "config_PSD2_information_desc_woocommerce"
+msgstr "Angesichts der Bestimmungen der PSD 2 sollten Sie beim  <a target=\"_blank\" href='https://github.com/epaiement-up2pay/woocommerce/wiki/WooCommerce-Checkout'>Checkout</a> bestimmte persönliche Daten von Ihren Kunden anfordern, um das Risiko, dass Transaktionen abgelehnt werden, zu reduzieren.  "
 
 msgid "config_shipping_countries"
 msgstr "Erlaubte Lieferländer"
@@ -186,25 +192,25 @@ msgid "config_shopping_basket_desc"
 msgstr "Das Zahlungsmittel unterstützt die Anzeige des Warenkorbs während des Checkouts. Um dieses Feature zu verwenden, aktivieren Sie den Warenkorb."
 
 msgid "config_ssl_max_limit"
-msgstr "Höchstbetrag (nicht 3-D Secure)"
+msgstr "Höchstbetrag ohne 3D Secure"
 
 msgid "config_status_desc_alipay_crossborder"
 msgstr "Alipay Cross-border aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
 
 msgid "config_status_desc_creditcard"
-msgstr "Kreditkarte aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
+msgstr "Kartenzahlungen aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
 
 msgid "config_status_desc_eps"
 msgstr "eps-Überweisung aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
 
 msgid "config_status_desc_giropay"
-msgstr "Activate payment method giropay to make it available for your consumers."
+msgstr "giropay aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
 
 msgid "config_status_desc_ideal"
 msgstr "iDEAL aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
 
 msgid "config_status_desc_paybybankapp"
-msgstr "Activate payment method Pay by Bank app to make it available for your consumers."
+msgstr "Pay by Bank app aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
 
 msgid "config_status_desc_paypal"
 msgstr "PayPal aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
@@ -213,7 +219,7 @@ msgid "config_status_desc_poi_pia"
 msgstr "Kauf auf Rechnung / Vorauskasse aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
 
 msgid "config_status_desc_ratepayinvoice"
-msgstr "Crédit Agricole Garantierter Kauf auf Rechnung aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
+msgstr "Garantierter Kauf auf Rechnung mit Crédit Agricole aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
 
 msgid "config_status_desc_sepact"
 msgstr "SEPA-Überweisung aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
@@ -225,19 +231,19 @@ msgid "config_status_desc_sofortbanking"
 msgstr "Sofort. aktivieren, um dieses Zahlungsmittel beim Checkout anzubieten."
 
 msgid "config_three_d_merchant_account_id"
-msgstr "3-D Secure MAID"
+msgstr "3D Secure MAID"
 
 msgid "config_three_d_merchant_account_id_desc"
-msgstr "Eindeutiger Identifikator, der Ihrem 3-D Secure Händlerkonto zugewiesen ist. Kann auf \"Null\" gesetzt werden, um SSL-Verschlüsselung zu erzwingen. "
+msgstr "Eindeutiger Identifikator, der Ihrem 3D-Secure-Händlerkonto zugewiesen ist. Kann auf \"Null\" gesetzt werden, um SSL-Verschlüsselung zu erzwingen. "
 
 msgid "config_three_d_merchant_secret"
-msgstr "3-D Secure Secret Key"
+msgstr "3D Secure Secret Key"
 
 msgid "config_three_d_merchant_secret_desc"
-msgstr "Der Geheimschlüssel (Secret Key) wird benötigt, um die Digitale Signatur für die 3-D Secure Zahlung zu berechnen. Kann auf \"Null\" gesetzt werden, um SSL-Verschlüsselung zu erzwingen."
+msgstr "Der Geheimschlüssel (Secret Key) wird benötigt, um die Digitale Signatur für die 3D Secure Zahlung zu berechnen. Kann auf \"Null\" gesetzt werden, um SSL-Verschlüsselung zu erzwingen."
 
 msgid "config_three_d_min_limit"
-msgstr "3-D Secure Mindestbetrag"
+msgstr "3D Secure Mindestbetrag"
 
 msgid "config_title"
 msgstr "Titel"
@@ -246,7 +252,7 @@ msgid "config_title_desc"
 msgstr "Name des Zahlungsmittels wie beim Checkout angezeigt."
 
 msgid "config_vault_desc"
-msgstr "Kreditkartendetails werden für die spätere Verwendung gespeichert. "
+msgstr "Kartendaten werden für die spätere Verwendung gespeichert. "
 
 msgid "config_wpp_url"
 msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2)"
@@ -255,17 +261,16 @@ msgid "config_wpp_url_desc"
 msgstr "Crédit Agricole Payment Page v2 Adresse (URL WPP v2) (z.B. https://page.secure.epaiement-up2pay.fr)."
 
 msgid "config_zapp_merchant_return_string"
-msgstr "Merchant Return URL"
+msgstr "Return-URL des Händlers"
 
 msgid "config_zapp_merchant_return_string_desc"
-msgstr "Merchant Return URL to redirect consumers from their mobile banking apps to your shop."
+msgstr "Return-URL um Kunden von ihren mobilen Banking-Apps in den Shop zurückzuleiten."
 
 msgid "creditcard"
-msgstr "Kreditkarte"
-
+msgstr "Kartenzahlungen"
 
 msgid "creditcard_desc"
-msgstr "Kreditkarten-Transaktionen via Crédit Agricole Payment Processing Gateway."
+msgstr "\"Kartenzahlungen\"-Transaktionen via Crédit Agricole Payment Gateway."
 
 msgid "creditor"
 msgstr "Creditor"
@@ -280,40 +285,40 @@ msgid "debtor_acc_owner"
 msgstr "Kontoinhaber"
 
 msgid "enable_heading_title_alipay_crossborder"
-msgstr "Crédit Agricole Alipay Cross-border aktivieren"
+msgstr "Alipay Cross-border aktivieren"
 
 msgid "enable_heading_title_creditcard"
-msgstr "Crédit Agricole Kreditkarte aktivieren"
+msgstr "Kartenzahlungen aktivieren"
 
 msgid "enable_heading_title_eps"
-msgstr "Crédit Agricole eps-Überweisung aktivieren"
+msgstr "eps-Überweisung aktivieren"
 
 msgid "enable_heading_title_giropay"
-msgstr "Enable Crédit Agricole giropay"
+msgstr "giropay aktivieren"
 
 msgid "enable_heading_title_ideal"
-msgstr "Crédit Agricole iDEAL aktivieren"
+msgstr "iDEAL aktivieren"
 
 msgid "enable_heading_title_paybybankapp"
-msgstr "Enable Crédit Agricole Pay by Bank app"
+msgstr "Pay by Bank app aktivieren"
 
 msgid "enable_heading_title_paypal"
-msgstr "Crédit Agricole PayPal aktivieren"
+msgstr "PayPal aktivieren"
 
 msgid "enable_heading_title_poi_pia"
-msgstr "Crédit Agricole Kauf auf Rechnung / Vorauskasse aktivieren"
+msgstr "Kauf auf Rechnung / Vorauskasse aktivieren"
 
 msgid "enable_heading_title_ratepayinvoice"
-msgstr "Crédit Agricole Garantierter Kauf auf Rechnung aktivieren"
+msgstr "Garantierter Kauf auf Rechnung aktivieren"
 
 msgid "enable_heading_title_sepact"
-msgstr "Crédit Agricole SEPA-Überweisung aktivieren"
+msgstr "SEPA-Überweisung aktivieren"
 
 msgid "enable_heading_title_sepadd"
-msgstr "Crédit Agricole SEPA-Lastschrift aktivieren"
+msgstr "SEPA-Lastschrift aktivieren"
 
 msgid "enable_heading_title_sofortbanking"
-msgstr "Crédit Agricole Sofort. aktivieren"
+msgstr "Sofort. aktivieren"
 
 msgid "enable_vault"
 msgstr "One-Click-Checkout aktivieren"
@@ -321,9 +326,8 @@ msgstr "One-Click-Checkout aktivieren"
 msgid "eps"
 msgstr "eps-Überweisung"
 
-
 msgid "eps_desc"
-msgstr "\"eps-Überweisung\"-Transaktionen via Crédit Agricole Payment Processing Gateway."
+msgstr "\"eps-Überweisung\"-Transaktionen via Crédit Agricole Payment Gateway."
 
 msgid "error_credentials"
 msgstr "Test fehlgeschlagen. Überprüfen Sie Ihre Zugangsdaten."
@@ -332,7 +336,7 @@ msgid "error_email"
 msgstr "E-Mail-Versand fehlgeschlagen."
 
 msgid "error_malformed_creditcard_request"
-msgstr "Oops! Something went wrong. Please check your credit card data and try again."
+msgstr "Hoppla! Etwas ist schiefgegangen. Überprüfen Sie Ihre Kartendaten und versuchen Sie es erneut."
 
 msgid "error_no_post_processing_operations"
 msgstr "Für diese Transaktion sind keine Folgeoperationen möglich."
@@ -353,46 +357,46 @@ msgid "giropay"
 msgstr "giropay"
 
 msgid "giropay_desc"
-msgstr "giropay transactions via Crédit Agricole Payment Gateway."
+msgstr "\"giropay\"-Transaktionen via Crédit Agricole Payment Gateway."
 
 msgid "heading_creditcard_payment_form"
-msgstr "Kreditkartenzahlung"
+msgstr "Kartenzahlungen"
 
 msgid "heading_title_alipay_crossborder"
-msgstr "Crédit Agricole Alipay Cross-border"
+msgstr "Alipay Cross-border"
 
 msgid "heading_title_creditcard"
-msgstr "Crédit Agricole Kreditkarte"
+msgstr "Kartenzahlungen"
 
 msgid "heading_title_eps"
-msgstr "Crédit Agricole eps-Überweisung"
+msgstr "eps-Überweisung"
 
 msgid "heading_title_giropay"
-msgstr "Crédit Agricole giropay"
+msgstr "giropay"
 
 msgid "heading_title_ideal"
-msgstr "Crédit Agricole iDEAL"
+msgstr "iDEAL"
 
 msgid "heading_title_paybybankapp"
-msgstr "Crédit Agricole Pay by Bank app"
+msgstr "Pay by Bank app"
 
 msgid "heading_title_paypal"
-msgstr "Crédit Agricole PayPal"
+msgstr "PayPal"
 
 msgid "heading_title_poi_pia"
-msgstr "Crédit Agricole Kauf auf Rechnung / Vorauskasse"
+msgstr "Kauf auf Rechnung / Vorauskasse"
 
 msgid "heading_title_ratepayinvoice"
-msgstr "Crédit Agricole Garantierter Kauf auf Rechnung"
+msgstr "Garantierter Kauf auf Rechnung mit Crédit Agricole"
 
 msgid "heading_title_sepact"
-msgstr "Crédit Agricole SEPA-Überweisung"
+msgstr "SEPA-Überweisung"
 
 msgid "heading_title_sepadd"
-msgstr "Crédit Agricole SEPA-Lastschrift"
+msgstr "SEPA-Lastschrift"
 
 msgid "heading_title_sofortbanking"
-msgstr "Crédit Agricole Sofort."
+msgstr "Sofort."
 
 msgid "heading_title_support"
 msgstr "Crédit Agricole Support"
@@ -412,9 +416,8 @@ msgstr "IBAN"
 msgid "ideal"
 msgstr "iDEAL"
 
-
 msgid "ideal_desc"
-msgstr "\"iDEAL\"-Transaktionen via Crédit Agricole Payment Processing Gateway."
+msgstr "\"iDEAL\"-Transaktionen via Crédit Agricole Payment Gateway."
 
 msgid "last-name"
 msgstr "Nachname"
@@ -423,15 +426,13 @@ msgid "order_error"
 msgstr "Beim Bezahlprozess ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
 
 msgid "order_status_authorized"
-msgstr "Genehmigt"
-
+msgstr "Autorisiert"
 
 msgid "order_status_authorized_count_plural"
-msgstr "Genehmigt <span class=\"count\">(%s)</span>"
-
+msgstr "Autorisiert <span class=\"count\">(%s)</span>"
 
 msgid "order_status_gateway_update"
-msgstr "Bestellstatus via Crédit Agricole Payment Processing Gateway aktualisieren."
+msgstr "Bestellstatus via Crédit Agricole Payment Gateway aktualisieren."
 
 msgid "pagination_back"
 msgstr "< Zurück"
@@ -470,7 +471,7 @@ msgid "paybybankapp"
 msgstr "Pay by Bank app"
 
 msgid "paybybankapp_desc"
-msgstr "Pay by Bank app transactions via Crédit Agricole Payment Gateway."
+msgstr "\"Pay by Bank app\"-Transaktionen via Crédit Agricole Payment Gateway aktivieren."
 
 msgid "Payment Gateway for WooCommerce"
 msgstr "Payment Gateway for WooCommerce"
@@ -484,16 +485,14 @@ msgstr "Zahlung"
 msgid "paypal"
 msgstr "PayPal"
 
-
 msgid "paypal_desc"
-msgstr "\"PayPal\"-Transaktionen via Crédit Agricole Payment Processing Gateway."
+msgstr "\"PayPal\"-Transaktionen via Crédit Agricole Payment Gateway."
 
 msgid "poi_pia"
 msgstr "Kauf auf Rechnung / Vorauskasse"
 
-
 msgid "poi_pia_desc"
-msgstr "\"Kauf auf Rechnung / Vorauskasse\"-Transaktionen via Crédit Agricole Payment Processing Gateway."
+msgstr "\"Kauf auf Rechnung / Vorauskasse\"-Transaktionen via Crédit Agricole Payment Gateway."
 
 msgid "ptrid"
 msgstr "Provider Transaction Reference ID"
@@ -501,9 +500,8 @@ msgstr "Provider Transaction Reference ID"
 msgid "ratepayinvoice"
 msgstr "Garantierter Kauf auf Rechnung"
 
-
 msgid "ratepayinvoice_desc"
-msgstr "\"Garantierter Kauf auf Rechnung\"-Transaktionen via Crédit Agricole Payment Processing Gateway."
+msgstr "\"Garantierter Kauf auf Rechnung\"-Transaktionen via Crédit Agricole Payment Gateway."
 
 msgid "ratepayinvoice_fields_error"
 msgstr "Für die Nutzung dieses Zahlungmittels müssen Sie mindestens 18 Jahre alt sein."
@@ -511,9 +509,8 @@ msgstr "Für die Nutzung dieses Zahlungmittels müssen Sie mindestens 18 Jahre a
 msgid "redirect_text"
 msgstr "Sie werden weitergeleitet. Bitte warten."
 
-
 msgid "refund_gateway_error"
-msgstr "Rückerstattung via Crédit Agricole Payment Processing Gateway fehlgeschlagen."
+msgstr "Rückerstattung via Crédit Agricole Payment Gateway fehlgeschlagen."
 
 msgid "refund_online_error"
 msgstr "Zurzeit ist keine Online-Rückerstattung möglich."
@@ -527,16 +524,14 @@ msgstr "Rückerstattung fehlgeschlagen."
 msgid "sepact"
 msgstr "SEPA-Überweisung"
 
-
 msgid "sepact_desc"
-msgstr "\"SEPA-Überweisung\"-Transaktionen via Crédit Agricole Payment Processing Gateway."
+msgstr "\"SEPA-Überweisung\"-Transaktionen via Crédit Agricole Payment Gateway."
 
 msgid "sepadd"
 msgstr "SEPA-Lastschrift"
 
-
 msgid "sepadd_desc"
-msgstr "\"SEPA-Lastschrift\"-Transaktionen via Crédit Agricole Payment Processing Gateway."
+msgstr "\"SEPA-Lastschrift\"-Transaktionen via Crédit Agricole Payment Gateway."
 
 msgid "sepa_cancel"
 msgstr "Abbrechen"
@@ -568,9 +563,20 @@ msgstr "Ich habe die Informationen zum SEPA-Lastschriftmandat gelesen und versta
 msgid "sofortbanking"
 msgstr "Sofort."
 
-
 msgid "sofortbanking_desc"
-msgstr "\"Sofort.\"-Transaktionen via Crédit Agricole Payment Processing Gateway."
+msgstr "\"Sofort.\"-Transaktionen via Crédit Agricole Payment Gateway."
+
+msgid "state_awaiting"
+msgstr "ausstehend"
+
+msgid "state_closed"
+msgstr "beendet"
+
+msgid "state_open"
+msgstr "offen"
+
+msgid "state_success"
+msgstr "erfolgreich"
 
 msgid "submit_button"
 msgstr "Senden"
@@ -621,7 +627,7 @@ msgid "text_payment_action_pay"
 msgstr "Direktbuchung"
 
 msgid "text_payment_action_reserve"
-msgstr "Genehmigung"
+msgstr "Autorisierung"
 
 msgid "text_payment_type_pia"
 msgstr "Vorauskasse"
@@ -662,18 +668,74 @@ msgstr "Für weitere Informationen zu dieser Transaktion klicken Sie"
 msgid "text_transaction_details_2"
 msgstr "hier"
 
-
 msgid "title_payment_gateway"
-msgstr "Crédit Agricole Payment Processing Gateway"
+msgstr "Crédit Agricole Payment Gateway"
 
 msgid "transfer_notice"
 msgstr "Verwenden Sie für die Überweisung die folgenden Daten:"
+
+msgid "tx_type_authorization"
+msgstr "authorization"
+
+msgid "tx_type_capture_authorization"
+msgstr "capture-authorization"
+
+msgid "tx_type_check_enrollment"
+msgstr "check-enrollment"
+
+msgid "tx_type_check_payer_response"
+msgstr "check-payer-response"
+
+msgid "tx_type_credit"
+msgstr "credit"
+
+msgid "tx_type_debit"
+msgstr "debit"
+
+msgid "tx_type_debit_return"
+msgstr "debit-return"
+
+msgid "tx_type_deposit"
+msgstr "deposit"
+
+msgid "tx_type_pending_credit"
+msgstr "pending-credit"
+
+msgid "tx_type_pending_debit"
+msgstr "pending-debit"
+
+msgid "tx_type_purchase"
+msgstr "purchase"
+
+msgid "tx_type_refund_capture"
+msgstr "refund-capture"
+
+msgid "tx_type_refund_debit"
+msgstr "refund-debit"
+
+msgid "tx_type_refund_purchase"
+msgstr "refund-purchase"
+
+msgid "tx_type_void_authorization"
+msgstr "void-authorization"
+
+msgid "tx_type_void_capture"
+msgstr "void-capture"
+
+msgid "tx_type_void_pending_credit"
+msgstr "void-pending-credit"
+
+msgid "tx_type_void_pending_debit"
+msgstr "void-pending-debit"
+
+msgid "tx_type_void_purchase"
+msgstr "void-purchase"
 
 msgid "vault_save_text"
 msgstr "Für spätere Verwendung speichern."
 
 msgid "vault_use_existing_text"
-msgstr "Gespeicherte Kreditkarte verwenden"
+msgstr "Gespeicherte Karte verwenden"
 
 msgid "warning_credit_card_url_mismatch"
 msgstr "Achtung: Bitte überprüfen Sie Ihre Konfigurationsdaten in den URL-Eingabefeldern. Möglicherweise haben Sie ein Produktivkonto mit einem Testkonto kombiniert."

@@ -182,6 +182,12 @@ msgstr "결제 유형"
 msgid "config_payment_type_desc"
 msgstr "\"사전 결제\"를 선택하여 체크아웃 프로세스 이후 은행 데이터를 표시하거나 \"송장 결제\"를 선택하여 송장과 함께 은행 데이터를 보내십시오."
 
+msgid "config_PSD2_information"
+msgstr "PSD 2"
+
+msgid "config_PSD2_information_desc_woocommerce"
+msgstr "With regard to PSD 2 requirements, you should request certain personal information from your consumers during <a target=\"_blank\" href='https://github.com/epaiement-up2pay/woocommerce/wiki/WooCommerce-Checkout'>checkout</a> to reduce the risk of transactions being rejected."
+
 
 msgid "config_shipping_countries"
 msgstr "허용된 배송지 국가"
@@ -200,6 +206,7 @@ msgstr "비 3-D 보안 최대. 한계"
 
 msgid "config_status_desc_alipay_crossborder"
 msgstr "Alipay Crossborder 결제방법 활성화"
+
 
 msgid "config_status_desc_creditcard"
 msgstr "신용카드 결제방법 활성화"
@@ -256,6 +263,7 @@ msgstr "제목"
 msgid "config_title_desc"
 msgstr "체크아웃 중에 고객이 보게 되는 제목을 제어합니다."
 
+
 msgid "config_vault_desc"
 msgstr "신용카드는 이후 사용을 위해 저장할 수 있습니다"
 
@@ -270,6 +278,7 @@ msgstr "머천트 복귀 URL"
 
 msgid "config_zapp_merchant_return_string_desc"
 msgstr "고객을 휴대전화 은행 앱에서 상점으로 돌려보내는 머천트 복귀 URL"
+
 
 msgid "creditcard"
 msgstr "Credit Card"
@@ -290,38 +299,49 @@ msgstr "채무자"
 msgid "debtor_acc_owner"
 msgstr "계좌 소유자"
 
+
 msgid "enable_heading_title_alipay_crossborder"
 msgstr "Crédit Agricole Alipay Crossborder 사용"
 
+
 msgid "enable_heading_title_creditcard"
 msgstr "Crédit Agricole 신용카드 사용"
+
 
 msgid "enable_heading_title_eps"
 msgstr "Crédit Agricole eps-Überweisung 활성화"
 
 msgid "enable_heading_title_giropay"
-msgstr "Enable Crédit Agricole giropay"
+msgstr "Enable giropay"
+
 
 msgid "enable_heading_title_ideal"
 msgstr "Crédit Agricole iDEAL 사용"
 
+
 msgid "enable_heading_title_paybybankapp"
 msgstr "Crédit Agricole Pay by Bank app 활성화"
+
 
 msgid "enable_heading_title_paypal"
 msgstr "Crédit Agricole PayPal 사용"
 
+
 msgid "enable_heading_title_poi_pia"
 msgstr "Crédit Agricole 송장 결제 / 사전 결제 사용"
+
 
 msgid "enable_heading_title_ratepayinvoice"
 msgstr "Crédit Agricole Guaranteed Invoice 사용"
 
+
 msgid "enable_heading_title_sepact"
 msgstr "Crédit Agricole SEPA Credit Transfer 사용"
 
+
 msgid "enable_heading_title_sepadd"
 msgstr "Crédit Agricole SEPA Direct Debit 사용"
+
 
 msgid "enable_heading_title_sofortbanking"
 msgstr "Crédit Agricole Sofort 사용."
@@ -342,6 +362,7 @@ msgstr "테스트 실패함, 자격증명을 확인하십시오."
 
 msgid "error_email"
 msgstr "이메일 전송 중 오류가 발생했습니다"
+
 
 msgid "error_malformed_creditcard_request"
 msgstr "이런! 문제가 생겼습니다. 신용카드 데이터를 확인하고 다시 시도하십시오."
@@ -370,28 +391,36 @@ msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
 msgid "heading_creditcard_payment_form"
-msgstr "Credit Card Payment"
+msgstr "Card Payments"
+
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Crédit Agricole Alipay Crossborder"
 
+
 msgid "heading_title_creditcard"
 msgstr "Crédit Agricole 신용카드"
+
 
 msgid "heading_title_eps"
 msgstr "Crédit Agricole eps-Überweisung"
 
+
 msgid "heading_title_giropay"
 msgstr "Crédit Agricole Giropay"
+
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"
 
+
 msgid "heading_title_paybybankapp"
 msgstr "Crédit Agricole Pay by Bank app"
 
+
 msgid "heading_title_paypal"
 msgstr "Crédit Agricole PayPal"
+
 
 msgid "heading_title_poi_pia"
 msgstr "Crédit Agricole 송장 결제 / 사전 결제"
@@ -400,11 +429,14 @@ msgstr "Crédit Agricole 송장 결제 / 사전 결제"
 msgid "heading_title_ratepayinvoice"
 msgstr "Crédit Agricole Guaranteed Invoice"
 
+
 msgid "heading_title_sepact"
 msgstr "Crédit Agricole SEPA Credit Transfer"
 
+
 msgid "heading_title_sepadd"
 msgstr "Crédit Agricole SEPA Direct Debit"
+
 
 msgid "heading_title_sofortbanking"
 msgstr "Crédit Agricole Sofort."
@@ -593,6 +625,18 @@ msgstr "Sofort."
 msgid "sofortbanking_desc"
 msgstr "Sofort. Crédit Agricole 결제 처리 게이트웨이를 통한 트랜잭션"
 
+msgid "state_awaiting"
+msgstr "대기 중"
+
+msgid "state_closed"
+msgstr "닫힘"
+
+msgid "state_open"
+msgstr "open"
+
+msgid "state_success"
+msgstr "성공"
+
 msgid "submit_button"
 msgstr "Submit"
 
@@ -694,6 +738,63 @@ msgstr "Crédit Agricole 결제 게이트웨이"
 
 msgid "transfer_notice"
 msgstr "다음 데이터를 이용하여 금액을 이체하십시오:"
+
+msgid "tx_type_authorization"
+msgstr "authorization"
+
+msgid "tx_type_capture_authorization"
+msgstr "capture-authorization"
+
+msgid "tx_type_check_enrollment"
+msgstr "check-enrollment"
+
+msgid "tx_type_check_payer_response"
+msgstr "check-payer-response"
+
+msgid "tx_type_credit"
+msgstr "credit"
+
+msgid "tx_type_debit"
+msgstr "debit"
+
+msgid "tx_type_debit_return"
+msgstr "debit-return"
+
+msgid "tx_type_deposit"
+msgstr "deposit"
+
+msgid "tx_type_pending_credit"
+msgstr "pending-credit"
+
+msgid "tx_type_pending_debit"
+msgstr "pending-debit"
+
+msgid "tx_type_purchase"
+msgstr "purchase"
+
+msgid "tx_type_refund_capture"
+msgstr "refund-capture"
+
+msgid "tx_type_refund_debit"
+msgstr "refund-debit"
+
+msgid "tx_type_refund_purchase"
+msgstr "refund-purchase"
+
+msgid "tx_type_void_authorization"
+msgstr "void-authorization"
+
+msgid "tx_type_void_capture"
+msgstr "void-capture"
+
+msgid "tx_type_void_pending_credit"
+msgstr "void-pending-credit"
+
+msgid "tx_type_void_pending_debit"
+msgstr "void-pending-debit"
+
+msgid "tx_type_void_purchase"
+msgstr "void-purchase"
 
 msgid "vault_save_text"
 msgstr "이후 사용을 위해 저장"

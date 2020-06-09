@@ -172,6 +172,12 @@ msgstr "Payment Type"
 msgid "config_payment_type_desc"
 msgstr "Choose \"Payment In Advance\" to display bank data after the checkout process, or \"Payment On Invoice\" to send bank data with the invoice."
 
+msgid "config_PSD2_information"
+msgstr "PSD 2"
+
+msgid "config_PSD2_information_desc_woocommerce"
+msgstr "With regard to PSD 2 requirements, you should request certain personal information from your consumers during <a target=\"_blank\" href='https://github.com/epaiement-up2pay/woocommerce/wiki/WooCommerce-Checkout'>checkout</a> to reduce the risk of transactions being rejected."
+
 msgid "config_shipping_countries"
 msgstr "Dozwolone kraje wysyłki"
 
@@ -191,7 +197,7 @@ msgid "config_status_desc_alipay_crossborder"
 msgstr "Activate payment method Alipay Cross-border to make it available for your consumers."
 
 msgid "config_status_desc_creditcard"
-msgstr "Activate payment method Credit Card to make it available for your consumers."
+msgstr "Activate payment method Card Payments to make it available for your consumers."
 
 msgid "config_status_desc_eps"
 msgstr "Activate payment method eps-Überweisung to make it available for your consumers."
@@ -245,7 +251,7 @@ msgid "config_title_desc"
 msgstr "Payment method name as displayed for the consumer during checkout."
 
 msgid "config_vault_desc"
-msgstr "Credit Card details are saved for later use."
+msgstr "Card details are saved for later use."
 
 msgid "config_wpp_url"
 msgstr "Crédit Agricole Payment Page v2 Address (URL WPP v2)"
@@ -259,11 +265,12 @@ msgstr "Merchant Return URL"
 msgid "config_zapp_merchant_return_string_desc"
 msgstr "Merchant Return URL to redirect consumers from their mobile banking apps to your shop."
 
+
 msgid "creditcard"
 msgstr "Credit Card"
 
 msgid "creditcard_desc"
-msgstr "Credit Card transactions via Crédit Agricole Payment Gateway."
+msgstr "Card Payments transactions via Crédit Agricole Payment Gateway."
 
 msgid "creditor"
 msgstr "Odbiorca"
@@ -277,38 +284,47 @@ msgstr "Płatnik"
 msgid "debtor_acc_owner"
 msgstr "Właściciel konta:"
 
+
 msgid "enable_heading_title_alipay_crossborder"
 msgstr "Uaktywnić Crédit Agricole Alipay Crossborder"
+
 
 msgid "enable_heading_title_creditcard"
 msgstr "Uaktywnić Crédit Agricole karta kredytowa"
 
 msgid "enable_heading_title_eps"
-msgstr "Enable Crédit Agricole eps-Überweisung"
+msgstr "Enable eps-Überweisung"
 
 msgid "enable_heading_title_giropay"
-msgstr "Enable Crédit Agricole giropay"
+msgstr "Enable giropay"
+
 
 msgid "enable_heading_title_ideal"
 msgstr "Uaktywnić Crédit Agricole iDEAL"
 
 msgid "enable_heading_title_paybybankapp"
-msgstr "Enable Crédit Agricole Pay by Bank app"
+msgstr "Enable Pay by Bank app"
+
 
 msgid "enable_heading_title_paypal"
 msgstr "Uaktywnić Crédit Agricole PayPal"
 
+
 msgid "enable_heading_title_poi_pia"
 msgstr "Uaktywnić Crédit Agricole płatność na fakturę / płatność z góry"
+
 
 msgid "enable_heading_title_ratepayinvoice"
 msgstr "Uaktywnić Crédit Agricole gwarantowany rachunek"
 
+
 msgid "enable_heading_title_sepact"
 msgstr "Enable Crédit Agricole SEPA Credit Transfer"
 
+
 msgid "enable_heading_title_sepadd"
 msgstr "Uaktywnić Crédit Agricole SEPA"
+
 
 msgid "enable_heading_title_sofortbanking"
 msgstr "Uaktywnić Crédit Agricole Sofort."
@@ -329,7 +345,7 @@ msgid "error_email"
 msgstr "Wystąpił problem podczas przesłania wiadomości"
 
 msgid "error_malformed_creditcard_request"
-msgstr "Oops! Something went wrong. Please check your credit card data and try again."
+msgstr "Oops! Something went wrong. Please check your card data and try again."
 
 msgid "error_no_post_processing_operations"
 msgstr "No post-processing operations available for this transaction."
@@ -353,40 +369,48 @@ msgid "giropay_desc"
 msgstr "giropay transactions via Crédit Agricole Payment Gateway."
 
 msgid "heading_creditcard_payment_form"
-msgstr "Credit Card Payment"
+msgstr "Card Payments"
+
 
 msgid "heading_title_alipay_crossborder"
 msgstr "Crédit Agricole Alipay Crossborder"
+
 
 msgid "heading_title_creditcard"
 msgstr "Crédit Agricole karta kredytowa"
 
 msgid "heading_title_eps"
-msgstr "Crédit Agricole eps-Überweisung"
+msgstr "eps-Überweisung"
 
 msgid "heading_title_giropay"
-msgstr "Crédit Agricole giropay"
+msgstr "giropay"
+
 
 msgid "heading_title_ideal"
 msgstr "Crédit Agricole iDEAL"
 
 msgid "heading_title_paybybankapp"
-msgstr "Crédit Agricole Pay by Bank app"
+msgstr "Pay by Bank app"
+
 
 msgid "heading_title_paypal"
 msgstr "Crédit Agricole PayPal"
 
+
 msgid "heading_title_poi_pia"
 msgstr "Crédit Agricole płatność na fakturę / płatność z góry"
+
 
 msgid "heading_title_ratepayinvoice"
 msgstr "Crédit Agricole gwarantowany rachunek"
 
 msgid "heading_title_sepact"
-msgstr "Crédit Agricole SEPA Credit Transfer"
+msgstr "SEPA Credit Transfer"
+
 
 msgid "heading_title_sepadd"
 msgstr "Crédit Agricole SEPA"
+
 
 msgid "heading_title_sofortbanking"
 msgstr "Crédit Agricole Sofort."
@@ -559,6 +583,18 @@ msgstr "Sofort."
 msgid "sofortbanking_desc"
 msgstr "Sofort. transactions via Crédit Agricole Payment Gateway."
 
+msgid "state_awaiting"
+msgstr "awaiting"
+
+msgid "state_closed"
+msgstr "closed"
+
+msgid "state_open"
+msgstr "open"
+
+msgid "state_success"
+msgstr "success"
+
 msgid "submit_button"
 msgstr "Submit"
 
@@ -655,8 +691,66 @@ msgstr "Crédit Agricole Payment Gateway"
 msgid "transfer_notice"
 msgstr "Prosimy o przelew kwoty na następujące dane: "
 
+msgid "tx_type_authorization"
+msgstr "authorization"
+
+msgid "tx_type_capture_authorization"
+msgstr "capture-authorization"
+
+msgid "tx_type_check_enrollment"
+msgstr "check-enrollment"
+
+msgid "tx_type_check_payer_response"
+msgstr "check-payer-response"
+
+msgid "tx_type_credit"
+msgstr "credit"
+
+msgid "tx_type_debit"
+msgstr "debit"
+
+msgid "tx_type_debit_return"
+msgstr "debit-return"
+
+msgid "tx_type_deposit"
+msgstr "deposit"
+
+msgid "tx_type_pending_credit"
+msgstr "pending-credit"
+
+msgid "tx_type_pending_debit"
+msgstr "pending-debit"
+
+msgid "tx_type_purchase"
+msgstr "purchase"
+
+msgid "tx_type_refund_capture"
+msgstr "refund-capture"
+
+msgid "tx_type_refund_debit"
+msgstr "refund-debit"
+
+msgid "tx_type_refund_purchase"
+msgstr "refund-purchase"
+
+msgid "tx_type_void_authorization"
+msgstr "void-authorization"
+
+msgid "tx_type_void_capture"
+msgstr "void-capture"
+
+msgid "tx_type_void_pending_credit"
+msgstr "void-pending-credit"
+
+msgid "tx_type_void_pending_debit"
+msgstr "void-pending-debit"
+
+msgid "tx_type_void_purchase"
+msgstr "void-purchase"
+
 msgid "vault_save_text"
 msgstr "Zapisać do późniejszego wykorzystania. "
+
 
 msgid "vault_use_existing_text"
 msgstr "Użyj zachowaną karte kredytową"

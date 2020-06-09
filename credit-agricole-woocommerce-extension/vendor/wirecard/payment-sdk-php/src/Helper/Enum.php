@@ -4,7 +4,7 @@
  * @license http://www.opensource.org/licenses/mit-license.php MIT (see the LICENSE file)
  */
 
-namespace MyCLabs\Enum;
+namespace Wirecard\PaymentSdk\Helper;
 
 /**
  * Base Enum class
@@ -14,9 +14,11 @@ namespace MyCLabs\Enum;
  * @author Matthieu Napoli <matthieu@mnapoli.fr>
  * @author Daniel Costa <danielcosta@gmail.com>
  * @author Mirosław Filip <mirfilip@gmail.com>
+ * @SuppressWarnings(PHPMD.TooManyMethods)
  */
-abstract class Enum implements \JsonSerializable
+abstract class Enum
 {
+
     /**
      * Enum value
      *
@@ -202,3 +204,5 @@ abstract class Enum implements \JsonSerializable
         return $this->getValue();
     }
 }
+// phpcs:disable
+
