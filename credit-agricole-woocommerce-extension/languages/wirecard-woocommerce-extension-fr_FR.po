@@ -177,7 +177,7 @@ msgid "config_PSD2_information"
 msgstr "PSD 2"
 
 msgid "config_PSD2_information_desc_woocommerce"
-msgstr "With regard to PSD 2 requirements, you should request certain personal information from your consumers during <a target=\"_blank\" href='https://github.com/epaiement-up2pay/woocommerce/wiki/WooCommerce-Checkout'>checkout</a> to reduce the risk of transactions being rejected."
+msgstr "Compte tenu des dispositions de la DSP 2, il vous faut demander certaines informations personnelles à vos clients <a target=\"_blank\" href='https://github.com/epaiement-up2pay/woocommerce/wiki/Checkout-WooCommerce'>lors du paiement</a> afin de réduire le risque de rejet des transactions."
 
 msgid "config_shipping_countries"
 msgstr "Pays d’expédition autorisés"
@@ -502,7 +502,7 @@ msgid "ptrid"
 msgstr "Identifiant de référence du fournisseur de transactions"
 
 msgid "ratepayinvoice"
-msgstr "Facture avec garantie de paiement"
+msgstr "Facture avec garantie de paiement par Crédit Agricole"
 
 
 msgid "ratepayinvoice_desc"

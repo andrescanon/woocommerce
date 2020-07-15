@@ -551,7 +551,7 @@ msgid "ptrid"
 msgstr "プロバイダーのトランザクション参照 ID"
 
 msgid "ratepayinvoice"
-msgstr "保証付きインボイス"
+msgstr "Crédit Agricole 保証付きインボイス"
 
 
 msgid "ratepayinvoice_desc"

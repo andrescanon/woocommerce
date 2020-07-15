@@ -527,7 +527,7 @@ msgid "ptrid"
 msgstr "Transactiereferentie-ID provider"
 
 msgid "ratepayinvoice"
-msgstr "Gegarandeerde betaling"
+msgstr "Crédit Agricole gegarandeerde betaling door Crédit Agricole"
 
 msgid "ratepayinvoice_desc"
 msgstr "Transacties met gegarandeerde betaling via Crédit Agricole Payment Gateway."

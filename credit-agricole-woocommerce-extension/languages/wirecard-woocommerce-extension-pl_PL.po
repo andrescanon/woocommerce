@@ -515,7 +515,7 @@ msgid "ptrid"
 msgstr "Provider transaction reference id"
 
 msgid "ratepayinvoice"
-msgstr "Invoice"
+msgstr "Crédit Agricole gwarantowany rachunek"
 
 msgid "ratepayinvoice_desc"
 msgstr "Guaranteed Invoice transactions via Crédit Agricole Payment Gateway."

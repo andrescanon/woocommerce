@@ -549,7 +549,7 @@ msgid "ptrid"
 msgstr "Identitas referensi transaksi provider"
 
 msgid "ratepayinvoice"
-msgstr "Faktur Bergaransi"
+msgstr "Faktur Bergaransi Crédit Agricole"
 
 
 msgid "ratepayinvoice_desc"

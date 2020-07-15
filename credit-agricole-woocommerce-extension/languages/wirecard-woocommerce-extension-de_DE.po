@@ -498,7 +498,7 @@ msgid "ptrid"
 msgstr "Provider Transaction Reference ID"
 
 msgid "ratepayinvoice"
-msgstr "Garantierter Kauf auf Rechnung"
+msgstr "Garantierter Kauf auf Rechnung mit Crédit Agricole"
 
 msgid "ratepayinvoice_desc"
 msgstr "\"Garantierter Kauf auf Rechnung\"-Transaktionen via Crédit Agricole Payment Gateway."

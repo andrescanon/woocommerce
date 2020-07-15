@@ -704,24 +704,27 @@
     },
     {
         "name": "php-http/promise",
-        "version": "v1.0.0",
-        "version_normalized": "1.0.0.0",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/php-http/promise.git",
-            "reference": "dc494cdc9d7160b9a09bd5573272195242ce7980"
+            "reference": "4c4c1f9b7289a2ec57cde7f1e9762a5789506f88"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/php-http/promise/zipball/dc494cdc9d7160b9a09bd5573272195242ce7980",
-            "reference": "dc494cdc9d7160b9a09bd5573272195242ce7980",
+            "url": "https://api.github.com/repos/php-http/promise/zipball/4c4c1f9b7289a2ec57cde7f1e9762a5789506f88",
+            "reference": "4c4c1f9b7289a2ec57cde7f1e9762a5789506f88",
             "shasum": ""
         },
-        "require-dev": {
-            "henrikbjorn/phpspec-code-coverage": "^1.0",
-            "phpspec/phpspec": "^2.4"
+        "require": {
+            "php": "^7.1 || ^8.0"
         },
-        "time": "2016-01-26T13:27:02+00:00",
+        "require-dev": {
+            "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
+            "phpspec/phpspec": "^5.1.2 || ^6.2"
+        },
+        "time": "2020-07-07T09:29:14+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -740,12 +743,12 @@
         ],
         "authors": [
             {
-                "name": "Márk Sági-Kazár",
-                "email": "mark.sagikazar@gmail.com"
-            },
-            {
                 "name": "Joel Wurtz",
                 "email": "joel.wurtz@gmail.com"
+            },
+            {
+                "name": "Márk Sági-Kazár",
+                "email": "mark.sagikazar@gmail.com"
             }
         ],
         "description": "Promise used for asynchronous HTTP requests",
@@ -1440,17 +1443,17 @@
     },
     {
         "name": "wirecard/payment-sdk-php",
-        "version": "4.0.3",
-        "version_normalized": "4.0.3.0",
+        "version": "4.0.4",
+        "version_normalized": "4.0.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/wirecard/paymentSDK-php.git",
-            "reference": "591409f0900da829a0a97625bae308d43b11c46a"
+            "reference": "369aa5fc5172db78772e31e4347e5b86459b37a5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/wirecard/paymentSDK-php/zipball/591409f0900da829a0a97625bae308d43b11c46a",
-            "reference": "591409f0900da829a0a97625bae308d43b11c46a",
+            "url": "https://api.github.com/repos/wirecard/paymentSDK-php/zipball/369aa5fc5172db78772e31e4347e5b86459b37a5",
+            "reference": "369aa5fc5172db78772e31e4347e5b86459b37a5",
             "shasum": ""
         },
         "require": {
@@ -1463,7 +1466,7 @@
             "ext-openssl": "*",
             "ext-simplexml": "*",
             "monolog/monolog": "^1.16",
-            "php": "5.6.* || 7.0.* || 7.1.* || 7.2.* || 7.3.*",
+            "php": "5.6.* || 7.0.* || 7.1.* || 7.2.* || 7.3.* || 7.4.*",
             "php-http/client-common": "^1.0",
             "php-http/discovery": "^1.0 <= 1.6.1",
             "php-http/message": "~1.6.0 || ~1.7.0",
@@ -1481,7 +1484,7 @@
             "phpunit/phpunit": "^5.7",
             "squizlabs/php_codesniffer": "^3.3"
         },
-        "time": "2020-05-20T13:32:38+00:00",
+        "time": "2020-07-06T13:52:09+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {

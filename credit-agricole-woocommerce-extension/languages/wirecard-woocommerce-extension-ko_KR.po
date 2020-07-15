@@ -552,7 +552,7 @@ msgid "ptrid"
 msgstr "제공자 트랜잭션 참조 ID"
 
 msgid "ratepayinvoice"
-msgstr "Guaranteed Invoice"
+msgstr "Crédit Agricole Guaranteed Invoice"
 
 
 msgid "ratepayinvoice_desc"

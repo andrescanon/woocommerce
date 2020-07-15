@@ -551,7 +551,7 @@ msgid "ptrid"
 msgstr "提供商交易參考 ID"
 
 msgid "ratepayinvoice"
-msgstr "Guaranteed Invoice"
+msgstr "Crédit Agricole Guaranteed Invoice"
 
 
 msgid "ratepayinvoice_desc"
@@ -808,4 +808,4 @@ msgid "Crédit Agricole"
 msgstr "Crédit Agricole"
 
 msgid "Crédit Agricole WooCommerce Extension"
-msgstr "Crédit Agricole WooCommerce 擴充"
+msgstr "Crédit Agricole WooCommerce Extension"

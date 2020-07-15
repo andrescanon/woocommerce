@@ -500,7 +500,7 @@ msgid "ptrid"
 msgstr "Provider Transaction Reference ID"
 
 msgid "ratepayinvoice"
-msgstr "Guaranteed Invoice"
+msgstr "Guaranteed Invoice by Crédit Agricole"
 
 msgid "ratepayinvoice_desc"
 msgstr "Guaranteed Invoice transactions via Crédit Agricole Payment Gateway."

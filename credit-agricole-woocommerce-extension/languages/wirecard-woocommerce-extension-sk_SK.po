@@ -527,7 +527,7 @@ msgid "ptrid"
 msgstr "Referenčné ID transakcie poskytovateľa"
 
 msgid "ratepayinvoice"
-msgstr "Zaručená faktúra"
+msgstr "Crédit Agricole zaručená faktúra cez Crédit Agricole"
 
 msgid "ratepayinvoice_desc"
 msgstr "Transakcie so zaručenou faktúrou cez platobnú bránu Crédit Agricole."
