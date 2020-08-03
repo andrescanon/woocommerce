@@ -33,7 +33,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-require_once( __DIR__ . '../../../woocommerce-wirecard-payment-gateway.php' );
+require_once( __DIR__ . '../../../woocommerce-credit-agricole-payment-gateway.php' );
 require_once( WIRECARD_EXTENSION_BASEDIR . 'vendor/autoload.php' );
 
 use Wirecard\BaseUrlMatcher\BaseUrlMatcherService;
